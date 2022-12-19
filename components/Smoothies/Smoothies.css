@@ -1,0 +1,13 @@
+.smoothies {
+  align-items: flex-end;
+  background-color: var(--cod-gray);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  mix-blend-mode: hard-light;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+

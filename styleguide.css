@@ -1,0 +1,22 @@
+:root { 
+  --black: #000000;
+  --cod-gray: #0a0a0a;
+  --mist-gray: #c4c4c49e;
+  --mist-gray-2: #c4c4c4;
+  --tobacco-brown: #705c3e9e;
+  --white: #ffffff;
+  --white-2: #ffffff9e;
+ 
+  --font-size-l: 27px;
+  --font-size-m: 24px;
+  --font-size-xl: 36px;
+  --font-size-xxl: 45px;
+  --font-size-xxxl: 51px;
+  --font-size-xxxxl: 63px;
+  --font-size-xxxxxl: 72px;
+ 
+  --font-family-bellefair: "Bellefair", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-kurale: "Kurale", Helvetica;
+  --font-family-lao_muang_khong-regular: "Lao Muang Khong-Regular", Helvetica;
+}

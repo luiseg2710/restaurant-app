@@ -1,0 +1,13 @@
+.table-reservation {
+  align-items: flex-start;
+  background-color: var(--cod-gray);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 1080px;
+  mix-blend-mode: hard-light;
+  overflow: hidden;
+  width: 1920px;
+}
+
