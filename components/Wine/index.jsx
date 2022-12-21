@@ -1,18 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
-import {
-  KuraleNormalTobaccoBrown45px,
-  InterNormalWhite27px,
-  BellefairNormalWhite72px,
-  KuraleNormalTobaccoBrown63px,
-  InterNormalWhite24px,
-  LaomuangkhongRegularNormalTobaccoBr,
-  InterBoldWhite24px,
-  InterNormalTobaccoBrown27px,
-  InterSemiBoldWhite36px,
-  ValignTextMiddle,
-} from "../../styledMixins";
 import "./Wine.css";
 
 function Wine(props) {
@@ -41,317 +28,57 @@ function Wine(props) {
   return (
     <div className="container-center-horizontal">
       <div className="wine screen">
-        <Topbar></Topbar>
-        <IlBaglioreNavbar>{ilBaglioreNavbar}</IlBaglioreNavbar>
+        <div className="topbar-8"></div>
+        <div className="il-bagliore-navbar-13 inter-semi-bold-white-36px">{ilBaglioreNavbar}</div>
         <Link to="/table-reservation">
-          <TableReservation>{tableReservation}</TableReservation>
+          <div className="table-reservation-11 inter-normal-white-27px">{tableReservation}</div>
         </Link>
-        <Place>{place1}</Place>
+        <div className="place-22 inter-normal-white-27px">{place1}</div>
         <Link to="/dishes">
-          <Dishes>{dishes}</Dishes>
+          <div className="dishes-14 inter-normal-white-27px">{dishes}</div>
         </Link>
         <Link to="/drinks">
-          <Drinks>{drinks}</Drinks>
+          <div className="drinks-12 inter-normal-tobacco-brown-27px">{drinks}</div>
         </Link>
         <Link to="/landing-page">
-          <Place1>{place2}</Place1>
+          <div className="place-23 inter-normal-white-27px">{place2}</div>
         </Link>
         <Link to="/dishes">
-          <Menu>{menu}</Menu>
+          <div className="menu-10 inter-normal-white-27px">{menu}</div>
         </Link>
-        <OverlapGroup2>
-          <FirstCourse>{firstCourse}</FirstCourse>
-          <OverlapGroup>
-            <Ellipse1 src={ellipse1} alt="Ellipse 1" />
-            <ILBAGLIORE>{ilBagliore}</ILBAGLIORE>
-            <Restaurant>{restaurant}</Restaurant>
-          </OverlapGroup>
-        </OverlapGroup2>
-        <JuiceList>
-          <Drink1>
-            <DescLorem1>{descLorem1}</DescLorem1>
-            <Image1 src={image1} alt="image1" />
-            <Drink11>{drink1}</Drink11>
-          </Drink1>
-          <Drink2>
-            <Img2 src={img2} alt="img2" />
-            <DescLorem2>{descLorem2}</DescLorem2>
-          </Drink2>
-          <Drink3>
-            <Img2 src={img3} alt="Img3" />
-            <DescLorem2>{descLorem3}</DescLorem2>
-          </Drink3>
-        </JuiceList>
-        <FooterContactAboutUs>
-          <OverlapGroup1>
+        <div className="overlap-group2-13">
+          <div className="first-course-10 valign-text-middle kurale-normal-tobacco-brown-63px">{firstCourse}</div>
+          <div className="overlap-group-14">
+            <img className="ellipse-1-14" src={ellipse1} alt="Ellipse 1" />
+            <div className="il-bagliore-13 bellefair-normal-white-72px">{ilBagliore}</div>
+            <div className="restaurant-14 laomuangkhong-regular-normal-tobacco-brown-51px">{restaurant}</div>
+          </div>
+        </div>
+        <div className="juice-list-1">
+          <div className="drink-1-8">
+            <p className="desc-lorem1-4 inter-normal-white-24px">{descLorem1}</p>
+            <img className="image1-9" src={image1} alt="image1" />
+            <div className="drink-1-9 valign-text-middle kurale-normal-tobacco-brown-45px">{drink1}</div>
+          </div>
+          <div className="drink-2-4">
+            <img className="img2-9" src={img2} alt="img2" />
+            <p className="desc-lorem-14 inter-normal-white-24px">{descLorem2}</p>
+          </div>
+          <div className="drink-3-4">
+            <img className="img3-9" src={img3} alt="Img3" />
+            <p className="desc-lorem-14 inter-normal-white-24px">{descLorem3}</p>
+          </div>
+        </div>
+        <div className="footer-contact-about-us-14">
+          <div className="overlap-group1-14">
             <Link to="/about-us">
-              <AboutUs>{aboutUs}</AboutUs>
+              <div className="about-us-15 inter-bold-white-24px">{aboutUs}</div>
             </Link>
-          </OverlapGroup1>
-        </FooterContactAboutUs>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
-
-const Topbar = styled.div`
-  position: fixed;
-  width: 1920px;
-  height: 51px;
-  top: 0;
-  left: 0;
-  z-index: 7;
-  background-color: var(--cod-gray);
-`;
-
-const IlBaglioreNavbar = styled.div`
-  ${InterSemiBoldWhite36px}
-  position: fixed;
-  width: 333px;
-  top: 4px;
-  left: -58px;
-  z-index: 9;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const TableReservation = styled.div`
-  ${InterNormalWhite27px}
-  position: fixed;
-  top: 15px;
-  left: 1664px;
-  z-index: 8;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
-
-const Place = styled.div`
-  ${InterNormalWhite27px}
-  position: fixed;
-  top: 15px;
-  left: 902px;
-  z-index: 10;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const Dishes = styled.div`
-  ${InterNormalWhite27px}
-  position: fixed;
-  top: 47px;
-  left: 1807px;
-  z-index: 6;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
-
-const Drinks = styled.div`
-  ${InterNormalTobaccoBrown27px}
-  position: fixed;
-  width: 81px;
-  top: 79px;
-  left: 1813px;
-  z-index: 5;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
-
-const Place1 = styled.div`
-  ${InterNormalWhite27px}
-  position: fixed;
-  top: 114px;
-  left: 1818px;
-  z-index: 3;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
-
-const Menu = styled.div`
-  ${InterNormalWhite27px}
-  position: fixed;
-  top: 146px;
-  left: 1821px;
-  z-index: 4;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
-
-const OverlapGroup2 = styled.div`
-  width: 788px;
-  height: 391px;
-  z-index: 1;
-  position: relative;
-  align-self: center;
-  margin-top: 171px;
-  margin-right: 6px;
-`;
-
-const FirstCourse = styled.div`
-  ${ValignTextMiddle}
-  ${KuraleNormalTobaccoBrown63px}
-            position: absolute;
-  width: 177px;
-  height: 87px;
-  top: 304px;
-  left: 309px;
-  text-shadow: 0px 4px 4px #00000040;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const OverlapGroup = styled.div`
-  position: absolute;
-  width: 784px;
-  height: 351px;
-  top: 0;
-  left: 0;
-`;
-
-const Ellipse1 = styled.img`
-  position: absolute;
-  width: 353px;
-  height: 351px;
-  top: 0;
-  left: 221px;
-`;
-
-const ILBAGLIORE = styled.div`
-  ${BellefairNormalWhite72px}
-  position: absolute;
-  width: 784px;
-  top: 105px;
-  left: 0;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const Restaurant = styled.div`
-  ${LaomuangkhongRegularNormalTobaccoBr}
-  position: absolute;
-  width: 436px;
-  top: 161px;
-  left: 174px;
-  text-shadow: 0px 4px 4px #00000040;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const JuiceList = styled.div`
-  width: 1170px;
-  height: 1942px;
-  z-index: 2;
-  align-self: flex-start;
-  margin-top: 1px;
-  margin-left: 109px;
-  display: flex;
-  flex-direction: column;
-`;
-
-const Drink1 = styled.div`
-  width: 1174px;
-  height: 625.070556640625px;
-  position: relative;
-`;
-
-const DescLorem1 = styled.p`
-  ${InterNormalWhite24px}
-  position: absolute;
-  width: 896px;
-  top: 283px;
-  left: 274px;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const Image1 = styled.img`
-  position: absolute;
-  width: 215px;
-  height: 476px;
-  top: 149px;
-  left: 0;
-  object-fit: cover;
-`;
-
-const Drink11 = styled.div`
-  ${ValignTextMiddle}
-  ${KuraleNormalTobaccoBrown45px}
-            position: absolute;
-  width: 546px;
-  height: 149px;
-  top: 0;
-  left: 0;
-  text-shadow: 0px 4px 4px #00000040;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const Drink2 = styled.div`
-  width: 1172px;
-  height: 476.08111572265625px;
-  margin-top: 149px;
-  display: flex;
-  gap: 59px;
-`;
-
-const Img2 = styled.img`
-  margin-top: 0;
-  width: 215px;
-  height: 476.0810546875px;
-  object-fit: cover;
-`;
-
-const DescLorem2 = styled.p`
-  ${InterNormalWhite24px}
-  margin-top: 133.6px;
-  width: 896px;
-  height: 208.92767333984375px;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const Drink3 = styled.div`
-  width: 1155px;
-  height: 476.08111572265625px;
-  margin-top: 215.8px;
-  display: flex;
-  gap: 42px;
-`;
-
-const FooterContactAboutUs = styled.div`
-  position: fixed;
-  height: 51px;
-  top: 1035px;
-  left: 0;
-  z-index: 11;
-  display: flex;
-  align-items: flex-start;
-  min-width: 1922px;
-`;
-
-const OverlapGroup1 = styled.div`
-  height: 51px;
-  display: flex;
-  padding: 5px 880px;
-  align-items: flex-start;
-  min-width: 1920px;
-  background-color: var(--cod-gray);
-`;
-
-const AboutUs = styled.div`
-  ${InterBoldWhite24px}
-  width: 160px;
-  min-height: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
 
 export default Wine;

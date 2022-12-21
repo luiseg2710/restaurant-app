@@ -1,17 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CocktailsList from "../CocktailsList";
-import styled from "styled-components";
-import {
-  KuraleNormalTobaccoBrown63px,
-  LaomuangkhongRegularNormalTobaccoBr,
-  InterBoldWhite24px,
-  InterNormalTobaccoBrown27px,
-  InterNormalWhite27px,
-  InterSemiBoldWhite36px,
-  BellefairNormalWhite72px,
-  ValignTextMiddle,
-} from "../../styledMixins";
 import "./Smoothies.css";
 
 function Smoothies(props) {
@@ -34,32 +23,32 @@ function Smoothies(props) {
   return (
     <div className="container-center-horizontal">
       <div className="smoothies screen">
-        <Topbar></Topbar>
-        <IlBaglioreNavbar>{ilBaglioreNavbar}</IlBaglioreNavbar>
+        <div className="topbar-1"></div>
+        <div className="il-bagliore-navbar-2 inter-semi-bold-white-36px">{ilBaglioreNavbar}</div>
         <Link to="/table-reservation">
-          <TableReservation>{tableReservation}</TableReservation>
+          <div className="table-reservation-2 inter-normal-white-27px">{tableReservation}</div>
         </Link>
-        <Place>{place1}</Place>
+        <div className="place-3 inter-normal-white-27px">{place1}</div>
         <Link to="/dishes">
-          <Dishes>{dishes}</Dishes>
+          <div className="dishes-1 inter-normal-white-27px">{dishes}</div>
         </Link>
         <Link to="/drinks">
-          <Drinks>{drinks}</Drinks>
+          <div className="drinks-1 inter-normal-tobacco-brown-27px">{drinks}</div>
         </Link>
         <Link to="/landing-page">
-          <Place1>{place2}</Place1>
+          <div className="place-4 inter-normal-white-27px">{place2}</div>
         </Link>
         <Link to="/dishes">
-          <Menu>{menu}</Menu>
+          <div className="menu-1 inter-normal-white-27px">{menu}</div>
         </Link>
-        <OverlapGroup2>
-          <FirstCourse>{firstCourse}</FirstCourse>
-          <OverlapGroup>
-            <Ellipse1 src={ellipse1} alt="Ellipse 1" />
-            <ILBAGLIORE>{ilBagliore}</ILBAGLIORE>
-            <Restaurant>{restaurant}</Restaurant>
-          </OverlapGroup>
-        </OverlapGroup2>
+        <div className="overlap-group2-3">
+          <div className="first-course-1 valign-text-middle kurale-normal-tobacco-brown-63px">{firstCourse}</div>
+          <div className="overlap-group-2">
+            <img className="ellipse-1-2" src={ellipse1} alt="Ellipse 1" />
+            <div className="il-bagliore-1 bellefair-normal-white-72px">{ilBagliore}</div>
+            <div className="restaurant-2 laomuangkhong-regular-normal-tobacco-brown-51px">{restaurant}</div>
+          </div>
+        </div>
         <CocktailsList
           image1={cocktailsListProps.image1}
           img2={cocktailsListProps.img2}
@@ -68,195 +57,16 @@ function Smoothies(props) {
           drink51Props={cocktailsListProps.drink51Props}
           drink52Props={cocktailsListProps.drink52Props}
         />
-        <FooterContactAboutUs>
-          <OverlapGroup1>
+        <div className="footer-contact-about-us-2">
+          <div className="overlap-group1-2">
             <Link to="/about-us">
-              <AboutUs>{aboutUs}</AboutUs>
+              <div className="about-us-2 inter-bold-white-24px">{aboutUs}</div>
             </Link>
-          </OverlapGroup1>
-        </FooterContactAboutUs>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
-
-const Topbar = styled.div`
-  position: fixed;
-  width: 1920px;
-  height: 51px;
-  top: 0;
-  left: 0;
-  z-index: 7;
-  background-color: var(--cod-gray);
-`;
-
-const IlBaglioreNavbar = styled.div`
-  ${InterSemiBoldWhite36px}
-  position: fixed;
-  width: 333px;
-  top: 4px;
-  left: -58px;
-  z-index: 9;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const TableReservation = styled.div`
-  ${InterNormalWhite27px}
-  position: fixed;
-  top: 15px;
-  left: 1664px;
-  z-index: 8;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
-
-const Place = styled.div`
-  ${InterNormalWhite27px}
-  position: fixed;
-  top: 15px;
-  left: 902px;
-  z-index: 10;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const Dishes = styled.div`
-  ${InterNormalWhite27px}
-  position: fixed;
-  top: 47px;
-  left: 1807px;
-  z-index: 6;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
-
-const Drinks = styled.div`
-  ${InterNormalTobaccoBrown27px}
-  position: fixed;
-  width: 81px;
-  top: 79px;
-  left: 1813px;
-  z-index: 5;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
-
-const Place1 = styled.div`
-  ${InterNormalWhite27px}
-  position: fixed;
-  top: 114px;
-  left: 1818px;
-  z-index: 3;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
-
-const Menu = styled.div`
-  ${InterNormalWhite27px}
-  position: fixed;
-  top: 146px;
-  left: 1821px;
-  z-index: 4;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
-
-const OverlapGroup2 = styled.div`
-  width: 788px;
-  height: 391px;
-  z-index: 1;
-  position: relative;
-  align-self: center;
-  margin-top: 171px;
-  margin-right: 6px;
-`;
-
-const FirstCourse = styled.div`
-  ${ValignTextMiddle}
-  ${KuraleNormalTobaccoBrown63px}
-            position: absolute;
-  width: 293px;
-  height: 87px;
-  top: 304px;
-  left: 251px;
-  text-shadow: 0px 4px 4px #00000040;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const OverlapGroup = styled.div`
-  position: absolute;
-  width: 784px;
-  height: 351px;
-  top: 0;
-  left: 0;
-`;
-
-const Ellipse1 = styled.img`
-  position: absolute;
-  width: 353px;
-  height: 351px;
-  top: 0;
-  left: 221px;
-`;
-
-const ILBAGLIORE = styled.div`
-  ${BellefairNormalWhite72px}
-  position: absolute;
-  width: 784px;
-  top: 105px;
-  left: 0;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const Restaurant = styled.div`
-  ${LaomuangkhongRegularNormalTobaccoBr}
-  position: absolute;
-  width: 436px;
-  top: 161px;
-  left: 174px;
-  text-shadow: 0px 4px 4px #00000040;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-`;
-
-const FooterContactAboutUs = styled.div`
-  position: fixed;
-  height: 51px;
-  top: 1035px;
-  left: 0;
-  z-index: 11;
-  display: flex;
-  align-items: flex-start;
-  min-width: 1922px;
-`;
-
-const OverlapGroup1 = styled.div`
-  height: 51px;
-  display: flex;
-  padding: 5px 880px;
-  align-items: flex-start;
-  min-width: 1920px;
-  background-color: var(--cod-gray);
-`;
-
-const AboutUs = styled.div`
-  ${InterBoldWhite24px}
-  width: 160px;
-  min-height: 31px;
-  letter-spacing: 0;
-  line-height: normal;
-  cursor: pointer;
-`;
 
 export default Smoothies;
