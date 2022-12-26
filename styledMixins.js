@@ -1,17 +1,17 @@
 import { css } from "styled-components";
 
+export const AlignSelfFlexStart = css`
+  align-self: flex-start;
+`;
+
+export const AlignSelfFlexEnd = css`
+  align-self: flex-end;
+`;
+
 export const ValignTextMiddle = css`
   display: flex;
   flex-direction: column;
   justify-content: center;
-`;
-
-export const InterNormalWhite27px = css`
-  color: var(--white-2);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-l);
-  font-weight: 400;
-  font-style: normal;
 `;
 
 export const KuraleNormalTobaccoBrown45px = css`
@@ -22,9 +22,9 @@ export const KuraleNormalTobaccoBrown45px = css`
   font-style: normal;
 `;
 
-export const InterNormalWhite24px = css`
+export const LaomuangkhongRegularNormalWhite24px = css`
   color: var(--white);
-  font-family: var(--font-family-inter);
+  font-family: var(--font-family-lao_muang_khong-regular);
   font-size: var(--font-size-m);
   font-weight: 400;
   font-style: normal;
@@ -46,22 +46,6 @@ export const LaomuangkhongRegularNormalTobaccoBr = css`
   font-style: normal;
 `;
 
-export const InterBoldWhite24px = css`
-  color: var(--white);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-m);
-  font-weight: 700;
-  font-style: normal;
-`;
-
-export const InterSemiBoldWhite36px = css`
-  color: var(--white-2);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xl);
-  font-weight: 600;
-  font-style: normal;
-`;
-
 export const KuraleNormalTobaccoBrown63px = css`
   color: var(--tobacco-brown);
   font-family: var(--font-family-kurale);
@@ -70,19 +54,27 @@ export const KuraleNormalTobaccoBrown63px = css`
   font-style: normal;
 `;
 
-export const InterNormalTobaccoBrown27px = css`
+export const LaomuangkhongRegularNormalTobaccoBr1 = css`
   color: var(--tobacco-brown);
-  font-family: var(--font-family-inter);
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+`;
+
+export const LaomuangkhongRegularNormalWhite27px = css`
+  color: var(--white-2);
+  font-family: var(--font-family-lao_muang_khong-regular);
   font-size: var(--font-size-l);
   font-weight: 400;
   font-style: normal;
 `;
 
-export const InterBoldTobaccoBrown24px = css`
-  color: var(--tobacco-brown);
+export const InterNormalWhite27px = css`
+  color: var(--white-2);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-m);
-  font-weight: 700;
+  font-size: var(--font-size-l);
+  font-weight: 400;
   font-style: normal;
 `;
 
@@ -94,10 +86,18 @@ export const LaomuangkhongRegularNormalMistGray2 = css`
   font-style: normal;
 `;
 
-export const InterMediumWhite27px = css`
+export const KuraleNormalTobaccoBrown60px = css`
+  color: var(--tobacco-brown);
+  font-family: var(--font-family-kurale);
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+`;
+
+export const LaomuangkhongRegularNormalWhite27px1 = css`
   color: var(--white);
-  font-family: var(--font-family-inter);
+  font-family: var(--font-family-lao_muang_khong-regular);
   font-size: var(--font-size-l);
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 `;

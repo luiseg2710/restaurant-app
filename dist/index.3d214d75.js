@@ -27094,553 +27094,399 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _appCss = require("./App.css");
+var _styledComponents = require("styled-components");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-var _juice = require("./components/Juice");
-var _juiceDefault = parcelHelpers.interopDefault(_juice);
+var _appetizers = require("./components/Appetizers");
+var _appetizersDefault = parcelHelpers.interopDefault(_appetizers);
+var _homePage = require("./components/HomePage");
+var _homePageDefault = parcelHelpers.interopDefault(_homePage);
 var _tableReservation = require("./components/TableReservation");
 var _tableReservationDefault = parcelHelpers.interopDefault(_tableReservation);
-var _smoothies = require("./components/Smoothies");
-var _smoothiesDefault = parcelHelpers.interopDefault(_smoothies);
+var _firstCourse = require("./components/FirstCourse");
+var _firstCourseDefault = parcelHelpers.interopDefault(_firstCourse);
 var _menu = require("./components/Menu");
 var _menuDefault = parcelHelpers.interopDefault(_menu);
 var _loginRegistration = require("./components/LoginRegistration");
 var _loginRegistrationDefault = parcelHelpers.interopDefault(_loginRegistration);
 var _aboutUs = require("./components/AboutUs");
 var _aboutUsDefault = parcelHelpers.interopDefault(_aboutUs);
-var _dishes = require("./components/Dishes");
-var _dishesDefault = parcelHelpers.interopDefault(_dishes);
 var _drinks = require("./components/Drinks");
 var _drinksDefault = parcelHelpers.interopDefault(_drinks);
-var _coffee = require("./components/Coffee");
-var _coffeeDefault = parcelHelpers.interopDefault(_coffee);
-var _firstCourse = require("./components/FirstCourse");
-var _firstCourseDefault = parcelHelpers.interopDefault(_firstCourse);
+var _dishes = require("./components/Dishes");
+var _dishesDefault = parcelHelpers.interopDefault(_dishes);
 var _secondCourse = require("./components/SecondCourse");
 var _secondCourseDefault = parcelHelpers.interopDefault(_secondCourse);
-var _appetizers = require("./components/Appetizers");
-var _appetizersDefault = parcelHelpers.interopDefault(_appetizers);
-var _desserts = require("./components/Desserts");
-var _dessertsDefault = parcelHelpers.interopDefault(_desserts);
 var _cocktailsMixedDrinks = require("./components/CocktailsMixedDrinks");
 var _cocktailsMixedDrinksDefault = parcelHelpers.interopDefault(_cocktailsMixedDrinks);
 var _wine = require("./components/Wine");
 var _wineDefault = parcelHelpers.interopDefault(_wine);
+var _coffee = require("./components/Coffee");
+var _coffeeDefault = parcelHelpers.interopDefault(_coffee);
+var _smoothies = require("./components/Smoothies");
+var _smoothiesDefault = parcelHelpers.interopDefault(_smoothies);
+var _juice = require("./components/Juice");
+var _juiceDefault = parcelHelpers.interopDefault(_juice);
+var _desserts = require("./components/Desserts");
+var _dessertsDefault = parcelHelpers.interopDefault(_desserts);
 var _sideDishes = require("./components/SideDishes");
 var _sideDishesDefault = parcelHelpers.interopDefault(_sideDishes);
 var _landingPage = require("./components/LandingPage");
 var _landingPageDefault = parcelHelpers.interopDefault(_landingPage);
-function App() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Switch), {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/juice",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _juiceDefault.default), {
-                        ...juiceData
+class App extends (0, _reactDefault.default).Component {
+    render() {
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Switch), {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/appetizers",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appetizersDefault.default), {
+                            appetizers: "Appetizers",
+                            ellipse1: "/img/ellipse-1-1@2x.png",
+                            title: "IL BAGLIORE",
+                            restaurant: "Restaurant",
+                            gobackbutton: "/img/gobackbutton@2x.png",
+                            dishesListProps: appetizersData.dishesListProps
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 30,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 27,
+                        lineNumber: 29,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 26,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/table-reservation",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _tableReservationDefault.default), {
-                        ...tableReservationData
-                    }, void 0, false, {
-                        fileName: "App.jsx",
-                        lineNumber: 30,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 29,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/smoothies",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _smoothiesDefault.default), {
-                        ...smoothiesData
-                    }, void 0, false, {
-                        fileName: "App.jsx",
-                        lineNumber: 33,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/menu",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuDefault.default), {
-                        ...menuData
-                    }, void 0, false, {
-                        fileName: "App.jsx",
-                        lineNumber: 36,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/login-registration",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loginRegistrationDefault.default), {
-                        ...loginRegistrationData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/home-page",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homePageDefault.default), {
+                            ...homePageData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 40,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 39,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 38,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/about-us",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsDefault.default), {
-                        ...aboutUsData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/table-reservation",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _tableReservationDefault.default), {
+                            ...tableReservationData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 43,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 42,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesDefault.default), {
-                        ...dishesData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/first-course",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _firstCourseDefault.default), {
+                            firstCourse: "First Course",
+                            ellipse1: "/img/ellipse-1-3@2x.png",
+                            ilBagliore: "IL BAGLIORE",
+                            restaurant: "Restaurant",
+                            gobackbutton: "/img/gobackbutton-2@2x.png",
+                            dishesListProps: firstCourseData.dishesListProps
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 46,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 45,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 44,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drinksDefault.default), {
-                        ...drinksData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/menu",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuDefault.default), {
+                            ...menuData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 56,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 48,
+                        lineNumber: 55,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 47,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/coffee",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _coffeeDefault.default), {
-                        ...coffeeData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/login-registration",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loginRegistrationDefault.default), {
+                            ...loginRegistrationData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 59,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 51,
+                        lineNumber: 58,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 50,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/first-course",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _firstCourseDefault.default), {
-                        ...firstCourseData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/about-us",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsDefault.default), {
+                            ...aboutUsData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 62,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 54,
+                        lineNumber: 61,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 53,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/second-course",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _secondCourseDefault.default), {
-                        ...secondCourseData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/drinks",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drinksDefault.default), {
+                            ...drinksData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 65,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 57,
+                        lineNumber: 64,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 56,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/appetizers",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appetizersDefault.default), {
-                        ...appetizersData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/dishes",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesDefault.default), {
+                            ...dishesData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 68,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 60,
+                        lineNumber: 67,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 59,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/desserts",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dessertsDefault.default), {
-                        ...dessertsData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/second-course",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _secondCourseDefault.default), {
+                            secondCourse: "Second Course",
+                            ellipse1: "/img/ellipse-1-9@2x.png",
+                            ilBagliore: "IL BAGLIORE",
+                            restaurant: "Restaurant",
+                            gobackbutton: "/img/gobackbutton-8@2x.png",
+                            dishesListProps: secondCourseData.dishesListProps
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 71,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 63,
+                        lineNumber: 70,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 62,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/cocktails-mixed-drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cocktailsMixedDrinksDefault.default), {
-                        ...cocktailsMixedDrinksData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/cocktails-mixed-drinks",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cocktailsMixedDrinksDefault.default), {
+                            ...cocktailsMixedDrinksData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 81,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 66,
+                        lineNumber: 80,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 65,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/wine",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _wineDefault.default), {
-                        ...wineData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/wine",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _wineDefault.default), {
+                            ...wineData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 84,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 69,
+                        lineNumber: 83,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 68,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/side-dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sideDishesDefault.default), {
-                        ...sideDishesData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/coffee",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _coffeeDefault.default), {
+                            ...coffeeData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 87,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 72,
+                        lineNumber: 86,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 71,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/:path(|landing-page)",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _landingPageDefault.default), {
-                        ...landingPageData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/smoothies",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _smoothiesDefault.default), {
+                            ...smoothiesData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 90,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 75,
+                        lineNumber: 89,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/juice",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _juiceDefault.default), {
+                            ...juiceData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 93,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 92,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/desserts",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dessertsDefault.default), {
+                            desserts: "Desserts",
+                            ellipse1: "/img/ellipse-1-15@2x.png",
+                            ilBagliore: "IL BAGLIORE",
+                            restaurant: "Restaurant",
+                            gobackbutton: "/img/gobackbutton-14@2x.png",
+                            dishesListProps: dessertsData.dishesListProps
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 96,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 95,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/side-dishes",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sideDishesDefault.default), {
+                            sideDishes: "Side Dishes",
+                            ellipse1: "/img/ellipse-1-16@2x.png",
+                            ilBagliore: "IL BAGLIORE",
+                            restaurant: "Restaurant",
+                            gobackbutton: "/img/gobackbutton-15@2x.png",
+                            dishesListProps: sideDishesData.dishesListProps
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 106,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 105,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/:path(|landing-page)",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _landingPageDefault.default), {
+                            ...landingPageData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 116,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 115,
                         columnNumber: 11
                     }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 74,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
+                ]
+            }, void 0, true, {
+                fileName: "App.jsx",
+                lineNumber: 28,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "App.jsx",
-            lineNumber: 25,
+            lineNumber: 27,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "App.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = App;
 exports.default = App;
-const drink51Data = {
-    img5: "/img/img5-9@2x.png"
-};
-const drink52Data = {
-    img5: "/img/img5-10@2x.png",
-    className: "drink-6"
-};
-const cocktailsList1Data = {
-    image1: "/img/image1@2x.png",
-    img2: "/img/img2-8@2x.png",
-    img3: "/img/img3-8@2x.png",
-    img4: "/img/img4-7@2x.png",
-    drink51Props: drink51Data,
-    drink52Props: drink52Data
-};
-const juiceData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    tableReservation: "Table Reservation",
-    place1: "Welcome",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    place2: "Home",
-    menu: "Menu",
-    firstCourse: "Juice",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    title: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    aboutUs: "About Us",
-    cocktailsListProps: cocktailsList1Data
-};
-const footerSocialMedia1Data = {
-    iconTwitter: "/img/ph-twitter-logo@2x.png"
-};
-const tableReservationData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    place: "Home",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    reservationForm: "/img/sign-up-form-1@1x.png",
-    makeReservation: "Make Reservation",
-    clearForm: "Clear Form",
-    aboutUs: "About Us",
-    footerSocialMediaProps: footerSocialMedia1Data
-};
-const drink53Data = {
-    img5: "/img/img5-11@2x.png"
-};
-const drink54Data = {
-    img5: "/img/img5-12@2x.png",
-    className: "drink-6-1"
-};
-const cocktailsList2Data = {
-    image1: "/img/image1-1@2x.png",
-    img2: "/img/img2-1@2x.png",
-    img3: "/img/img3-9@2x.png",
-    img4: "/img/img4-1@2x.png",
-    drink51Props: drink53Data,
-    drink52Props: drink54Data
-};
-const smoothiesData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    tableReservation: "Table Reservation",
-    place1: "Welcome",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    place2: "Home",
-    menu: "Menu",
-    firstCourse: "Smoothies",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    aboutUs: "About Us",
-    cocktailsListProps: cocktailsList2Data
-};
-const footerSocialMedia2Data = {
-    iconTwitter: "/img/ph-twitter-logo-1@2x.png"
-};
-const loginRegistrationData = {
-    place: "Home",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    signUpForm: "/img/sign-up-form@1x.png",
-    joinNow: "Join Now",
-    aboutUs: "About Us",
-    footerSocialMediaProps: footerSocialMedia2Data
-};
-const sloganAndSentence1Data = {
-    children: "Dishes"
-};
-const dishesData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    loginRegistration: "Welcome",
-    place: "Home",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    tableReservation: "Table Reservation",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    appetizers: "Appetizers",
-    firstCourse: "First Course",
-    secondCourse: "Second Course",
-    sideDishes: "Side Dishes",
-    desserts: "Desserts",
-    pexelsMariaOrlova49464421: "/img/pexels-maria-orlova-4946442-1-1@2x.png",
-    pexelsJankoFerlic5904771: "/img/pexels-janko-ferlic-590477-1@2x.png",
-    pexelsSnapwire6759511: "/img/pexels-snapwire-675951-1@2x.png",
-    pexelsValeriaBoltneva8425711: "/img/pexels-valeria-boltneva-842571-1@2x.png",
-    pexelsAlishaMishra13435041: "/img/pexels-alisha-mishra-1343504-1@2x.png",
-    aboutUs: "About Us",
-    sloganAndSentenceProps: sloganAndSentence1Data
-};
-const sloganAndSentence2Data = {
-    children: "Drinks",
-    className: "slogan-and-sentence-1"
-};
-const drinksData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    loginRegistration: "Welcome",
-    place: "Home",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    tableReservation: "Table Reservation",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    appetizers: "Juice",
-    firstCourse: "Smoothies",
-    secondCourse: "Coffee",
-    sideDishes: "Wine",
-    desserts: "Cocktails",
-    pexelsMariaOrlova49464421: "/img/pexels-maria-orlova-4946442-1-2@2x.png",
-    pexelsJankoFerlic5904771: "/img/pexels-janko-ferlic-590477-1-1@2x.png",
-    pexelsSnapwire6759511: "/img/pexels-snapwire-675951-1-1@2x.png",
-    pexelsValeriaBoltneva8425711: "/img/pexels-valeria-boltneva-842571-1-1@2x.png",
-    pexelsAlishaMishra13435041: "/img/pexels-alisha-mishra-1343504-1-1@2x.png",
-    aboutUs: "About Us",
-    sloganAndSentenceProps: sloganAndSentence2Data
-};
-const drink55Data = {
-    img5: "/img/img5-4@2x.png"
-};
-const drink56Data = {
-    img5: "/img/img5-5@2x.png",
-    className: "drink-6-2"
-};
-const cocktailsList3Data = {
-    image1: "/img/image1-2@2x.png",
-    img2: "/img/img2-2@2x.png",
-    img3: "/img/img3-2@2x.png",
-    img4: "/img/img4-1@2x.png",
-    drink51Props: drink55Data,
-    drink52Props: drink56Data
-};
-const coffeeData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    tableReservation: "Table Reservation",
-    place1: "Welcome",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    place2: "Home",
-    menu: "Menu",
-    firstCourse: "Coffee",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    aboutUs: "About Us",
-    cocktailsListProps: cocktailsList3Data
-};
 const dish11Data = {
     dish1: "Lorem ipsum dolor sit",
-    image1: "/img/image1-3@2x.png",
+    image1: "/img/image1-4@2x.png",
     className: ""
 };
 const dish12Data = {
     dish1: "Ipsum lorem sit amet",
-    image1: "/img/img2-3@2x.png",
-    className: "dish"
+    image1: "/img/img2-5@2x.png",
+    className: "dish2"
 };
 const dish31Data = {
     dish3: "Lorem ipsum consectetur sit",
-    img3: "/img/img3-3@2x.png",
-    className: ""
+    img3: "/img/img3-5@2x.png"
 };
 const dish32Data = {
     dish3: "Lorem ipsum dolor sit amet consectetur",
-    img3: "/img/img4-2@2x.png",
-    className: "dish-5"
+    img3: "/img/img4-3@2x.png",
+    className: "dish4"
 };
 const dishesList1Data = {
-    img5: "/img/img5-4@2x.png",
+    img5: "/img/img5-5@2x.png",
     dish11Props: dish11Data,
     dish12Props: dish12Data,
     dish31Props: dish31Data,
     dish32Props: dish32Data
 };
-const firstCourseData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    tableReservation: "Table Reservation",
-    place1: "Welcome",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    place2: "Home",
-    menu: "Menu",
-    firstCourse: "First Course",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    aboutUs: "About Us",
+const appetizersData = {
     dishesListProps: dishesList1Data
 };
 const dish13Data = {
     dish1: "Lorem ipsum dolor sit",
-    image1: "/img/image1-4@2x.png",
-    className: ""
+    image1: "/img/image1-3@2x.png",
+    className: "dish1-2"
 };
 const dish14Data = {
     dish1: "Ipsum lorem sit amet",
-    image1: "/img/img2-4@2x.png",
-    className: "dish-1"
+    image1: "/img/img2-3@2x.png",
+    className: "dish2-1"
 };
 const dish33Data = {
     dish3: "Lorem ipsum consectetur sit",
-    img3: "/img/img3-4@2x.png",
-    className: ""
+    img3: "/img/img3-3@2x.png"
 };
 const dish34Data = {
     dish3: "Lorem ipsum dolor sit amet consectetur",
-    img3: "/img/img4-4@2x.png",
-    className: "dish-6"
+    img3: "/img/img4-2@2x.png",
+    className: "dish4-1"
 };
 const dishesList2Data = {
-    img5: "/img/img5-7@2x.png",
+    img5: "/img/img5-4@2x.png",
+    className: "dishes-list-1",
     dish11Props: dish13Data,
     dish12Props: dish14Data,
     dish31Props: dish33Data,
     dish32Props: dish34Data
 };
-const secondCourseData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    tableReservation: "Table Reservation",
-    place1: "Welcome",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    place2: "Home",
-    menu: "Menu",
-    firstCourse: "Second Course",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    aboutUs: "About Us",
+const firstCourseData = {
     dishesListProps: dishesList2Data
 };
 const dish15Data = {
@@ -27650,235 +27496,375 @@ const dish15Data = {
 };
 const dish16Data = {
     dish1: "Ipsum lorem sit amet",
-    image1: "/img/img2-5@2x.png",
-    className: "dish2"
+    image1: "/img/img2-4@2x.png",
+    className: "dish2-2"
 };
 const dish35Data = {
     dish3: "Lorem ipsum consectetur sit",
-    img3: "/img/img3-5@2x.png",
-    className: "dish-9-1"
+    img3: "/img/img3-4@2x.png"
 };
 const dish36Data = {
     dish3: "Lorem ipsum dolor sit amet consectetur",
-    img3: "/img/img4-3@2x.png",
-    className: "dish-9"
+    img3: "/img/img4-4@2x.png",
+    className: "dish4-2"
 };
 const dishesList3Data = {
-    img5: "/img/img5-5@2x.png",
+    img5: "/img/img5-7@2x.png",
     className: "dishes-list-2",
     dish11Props: dish15Data,
     dish12Props: dish16Data,
     dish31Props: dish35Data,
     dish32Props: dish36Data
 };
-const appetizersData = {
-    ellipse1: "/img/ellipse-1-2@2x.png",
+const secondCourseData = {
+    dishesListProps: dishesList3Data
+};
+const drink11Data = {
+    image1: "/img/image1@2x.png"
+};
+const drink41Data = {
+    img4: "/img/img4-3@2x.png",
+    drink4: "Lorem ipsum dolor sit amet consectetur"
+};
+const drink61Data = {
+    drink6: "Lorem ipsum dolor sit amet consectetur",
+    img6: "/img/img6@2x.png"
+};
+const cocktailsMixedDrinksData = {
+    drink2: "Lorem ipsum dolor sit amet consectetur",
+    img2: "/img/img2-7@2x.png",
+    descLorem2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    drink3: "Lorem ipsum dolor sit amet consectetur",
+    img3: "/img/img3-7@2x.png",
+    descLorem3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    desclorem5: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    img5: "/img/img5-3@2x.png",
+    drink5: "Lorem ipsum dolor sit amet consectetur",
+    cocktailsHeader: "Cocktails & Mixed Drinks",
+    ellipse1: "/img/ellipse-1-10@2x.png",
     ilBagliore: "IL BAGLIORE",
     restaurant: "Restaurant",
-    appetizers: "Appetizers",
-    ilBaglioreNavbar: "Il Bagliore",
-    place1: "Home",
-    drinks: "Drinks",
-    menu: "Menu",
-    dishes: "Dishes",
-    tableReservation: "Table Reservation",
-    place2: "Welcome",
-    aboutUs: "About Us",
-    dishesListProps: dishesList3Data
+    gobackbutton: "/img/gobackbutton-9@2x.png",
+    drink1Props: drink11Data,
+    drink4Props: drink41Data,
+    drink6Props: drink61Data
+};
+const drink121Data = {
+    drink1: "Lorem ipsum dolor sit",
+    image1: "/img/image1-2@2x.png"
+};
+const drink122Data = {
+    drink1: "Lorem ipsum dolor sit amet consectetur",
+    image1: "/img/img2-2@2x.png",
+    className: "drink-2-4"
+};
+const drink31Data = {
+    img3: "/img/img3-2@2x.png"
+};
+const drink32Data = {
+    img3: "/img/img4-4@2x.png",
+    className: "drink-4-4"
+};
+const drink51Data = {
+    img5: "/img/img5-4@2x.png"
+};
+const drink52Data = {
+    img5: "/img/img6-1@2x.png",
+    className: "drink-6-4"
+};
+const coffeeData = {
+    coffeeHeader: "Coffee",
+    ellipse1: "/img/ellipse-1-12@2x.png",
+    ilBagliore: "IL BAGLIORE",
+    restaurant: "Restaurant",
+    gobackbutton: "/img/gobackbutton-11@2x.png",
+    drink121Props: drink121Data,
+    drink122Props: drink122Data,
+    drink31Props: drink31Data,
+    drink32Props: drink32Data,
+    drink51Props: drink51Data,
+    drink52Props: drink52Data
+};
+const drink13Data = {
+    image1: "/img/image1-1@2x.png",
+    className: "drink-1-2"
+};
+const drink42Data = {
+    img4: "/img/img4-5@2x.png",
+    drink4: "Lorem ipsum amet consectetur",
+    className: "drink-4-2"
+};
+const drink62Data = {
+    drink6: "Lorem ipsum dolor sit amet consectetur",
+    img6: "/img/img5-5@2x.png",
+    className: "drink-5-2"
+};
+const drink63Data = {
+    drink6: "Lorem ipsum dolor sit amet consectetur",
+    img6: "/img/img6-2@2x.png",
+    className: "drink-6-2"
+};
+const smoothiesData = {
+    descLorem2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    img2: "/img/img2-1@2x.png",
+    drink2: "Lorem ipsum sit amet consectetur",
+    descLorem3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    img3: "/img/img3-9@2x.png",
+    drink3: "Lorem ipsum dolor sit amet consectetur",
+    smoothies: "Smoothies",
+    ellipse1: "/img/ellipse-1-13@2x.png",
+    ilBagliore: "IL BAGLIORE",
+    restaurant: "Restaurant",
+    gobackbutton: "/img/gobackbutton-12@2x.png",
+    drink1Props: drink13Data,
+    drink4Props: drink42Data,
+    drink61Props: drink62Data,
+    drink62Props: drink63Data
+};
+const drink14Data = {
+    image1: "/img/image1@2x.png"
+};
+const drink43Data = {
+    img4: "/img/img4-6@2x.png",
+    drink4: "Lorem ipsum dolor sit amet consectetur",
+    className: "drink-4-3"
+};
+const drink64Data = {
+    drink6: "Lorem sit amet consectetur",
+    img6: "/img/img6-3@2x.png",
+    className: "drink-6-3"
+};
+const juiceData = {
+    descLorem2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    img2: "/img/img2-8@2x.png",
+    drink2: "Lorem ipsu amet consectetur",
+    descLorem3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    img3: "/img/img3-8@2x.png",
+    drink3: "Lorem ipsum dolor sit amet consectetur",
+    drink5: "Lorem ipsum dolor sit amet consectetur",
+    img5: "/img/img5-6@2x.png",
+    desclorem5: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    juice: "Juice",
+    ellipse1: "/img/ellipse-1-14@2x.png",
+    ilBagliore: "IL BAGLIORE",
+    restaurant: "Restaurant",
+    gobackbutton: "/img/gobackbutton-13@2x.png",
+    drink1Props: drink14Data,
+    drink4Props: drink43Data,
+    drink6Props: drink64Data
 };
 const dish17Data = {
     dish1: "Lorem ipsum dolor sit",
     image1: "/img/image1-6@2x.png",
-    className: ""
+    className: "dish1-2"
 };
 const dish18Data = {
     dish1: "Ipsum lorem sit amet",
     image1: "/img/img2-6@2x.png",
-    className: "dish-2"
+    className: "dish2-3"
 };
 const dish37Data = {
     dish3: "Lorem ipsum consectetur sit",
-    img3: "/img/img3-6@2x.png",
-    className: ""
+    img3: "/img/img3-6@2x.png"
 };
 const dish38Data = {
     dish3: "Lorem ipsum dolor sit amet consectetur",
     img3: "/img/img4-6@2x.png",
-    className: "dish-7"
+    className: "dish4-3"
 };
 const dishesList4Data = {
     img5: "/img/img5-9@2x.png",
+    className: "desserts-list",
     dish11Props: dish17Data,
     dish12Props: dish18Data,
     dish31Props: dish37Data,
     dish32Props: dish38Data
 };
 const dessertsData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    tableReservation: "Table Reservation",
-    place1: "Welcome",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    place2: "Home",
-    menu: "Menu",
-    firstCourse: "Desserts",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    aboutUs: "About Us",
     dishesListProps: dishesList4Data
-};
-const drink57Data = {
-    img5: "/img/img5@2x.png"
-};
-const drink58Data = {
-    img5: "/img/img5-1@2x.png",
-    className: "drink-6-3"
-};
-const cocktailsList4Data = {
-    image1: "/img/image1@2x.png",
-    img2: "/img/img2-7@2x.png",
-    img3: "/img/img3-7@2x.png",
-    img4: "/img/img4-7@2x.png",
-    drink51Props: drink57Data,
-    drink52Props: drink58Data
-};
-const cocktailsMixedDrinksData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    tableReservation: "Table Reservation",
-    place1: "Welcome",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    place2: "Home",
-    menu: "Menu",
-    firstCourse: "Cocktails & Mixed Drinks",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    aboutUs: "About Us",
-    cocktailsListProps: cocktailsList4Data
 };
 const dish19Data = {
     dish1: "Lorem ipsum dolor sit",
     image1: "/img/image1-9@2x.png",
-    className: ""
+    className: "dish1-2"
 };
 const dish110Data = {
     dish1: "Ipsum lorem sit amet",
     image1: "/img/img2-9@2x.png",
-    className: "dish-3"
+    className: "dish2-4"
 };
 const dish39Data = {
     dish3: "Lorem ipsum consectetur sit",
-    img3: "/img/img3-9@2x.png",
-    className: ""
+    img3: "/img/img3-9@2x.png"
 };
 const dish310Data = {
     dish3: "Lorem ipsum dolor sit amet consectetur",
     img3: "/img/img4-5@2x.png",
-    className: "dish-8"
+    className: "dish4-4"
 };
 const dishesList5Data = {
     img5: "/img/img5-7@2x.png",
+    className: "dishes-list-3",
     dish11Props: dish19Data,
     dish12Props: dish110Data,
     dish31Props: dish39Data,
     dish32Props: dish310Data
 };
 const sideDishesData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    tableReservation: "Table Reservation",
-    place1: "Welcome",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    place2: "Home",
-    menu: "Menu",
-    firstCourse: "Side Dishes",
-    ellipse1: "/img/ellipse-1-2@2x.png",
-    ilBagliore: "IL BAGLIORE",
-    restaurant: "Restaurant",
-    aboutUs: "About Us",
     dishesListProps: dishesList5Data
 };
-const menuData = {
+const homePageData = {
     ilBaglioreNavbar: "Il Bagliore",
-    loginRegistration: "Welcome",
-    booktable: "Table Reservation",
+    loginRegistration: "Log In / Registration",
+    tableReservation: "Table Reservation",
     menu: "Menu",
-    place: "Home",
+    ellipse1: "/img/ellipse-1@2x.png",
+    ilBagliore: "IL BAGLIORE",
+    restaurant: "Restaurant",
+    traditionalTaste: "Traditional Taste",
+    text1: "&",
+    fineDinning: "The Art of Fine Dinning",
+    loremSentence: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
+    pexelsLumn6049691: "/img/pexels-lumn-604969-1@1x.png",
+    aboutUs: "About Us"
+};
+const tableReservationData = {
+    gobackbutton: "/img/gobackbutton-1@2x.png",
     ellipse1: "/img/ellipse-1-2@2x.png",
     ilBagliore: "IL BAGLIORE",
     restaurant: "Restaurant",
-    pexelsMariaOrlova49464421: "/img/pexels-maria-orlova-4946442-1@1x.png",
-    pexelsMariaOrlova49464422: "/img/pexels-maria-orlova-4946442-2@1x.png",
-    dishes: "Dishes",
-    drinks: "Drinks",
-    aboutUs: "About Us"
-};
-const aboutUsData = {
-    ilBaglioreNavbar: "Il Bagliore",
+    reservationForm: "/img/reservation-form@1x.png",
+    makeReservation: "Make Reservation",
+    clearForm: "Clear Form",
     place: "Home",
-    ellipse1: "/img/ellipse-1-1@2x.png",
+    aboutUs: "About Us",
+    fbLogo: "/img/fb-logo@2x.png",
+    facebook: "Facebook",
+    twitterIcon: "/img/twitter-icon@2x.png",
+    twitter: "Twitter",
+    instraLogo: "/img/instra-logo@2x.png",
+    instagram: "Instagram"
+};
+const menuData = {
+    gobackbutton: "/img/gobackbutton-3@2x.png",
+    place: "Welcome",
+    dishes: "Dishes",
+    ellipse1: "/img/ellipse-1-4@2x.png",
     ilBagliore: "IL BAGLIORE",
     restaurant: "Restaurant",
+    drinks: "Drinks",
+    pexelsMariaOrlova49464421: "/img/pexels-maria-orlova-4946442-1@1x.png",
+    pexelsMariaOrlova49464422: "/img/pexels-maria-orlova-4946442-2@1x.png",
+    men: "Men\xfa"
+};
+const loginRegistrationData = {
+    gobackbutton: "/img/gobackbutton-4@2x.png",
+    place: "Home",
+    ellipse1: "/img/ellipse-1-5@2x.png",
+    ilBagliore: "IL BAGLIORE",
+    restaurant: "Restaurant",
+    signUpForm: "/img/sign-up-form@1x.png",
+    aboutUs: "About Us",
+    fbLogo: "/img/fb-logo-1@2x.png",
+    facebook: "Facebook",
+    twitterIcon: "/img/twitter-icon-1@2x.png",
+    twitter: "Twitter",
+    instraLogo: "/img/instra-logo-1@2x.png",
+    instagram: "Instagram"
+};
+const aboutUsData = {
+    gobackbutton: "/img/gobackbutton-5@2x.png",
+    place: "Home",
     aboutUs: "About Us",
     loremIpsumDolorSi: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
         children: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 572,
+                lineNumber: 525,
                 columnNumber: 161
             }, undefined),
             " Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac, vestibulum eu nisl."
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 572,
+        lineNumber: 525,
         columnNumber: 24
     }, undefined),
-    iconFacebook: "/img/fb-logo@2x.png",
+    ellipse1: "/img/ellipse-1-6@2x.png",
+    ilBagliore: "IL BAGLIORE",
+    restaurant: "Restaurant",
+    fbLogo: "/img/fb-logo-2@2x.png",
     facebook: "Facebook",
-    iconTwitter: "/img/twitter-icon@2x.png",
-    instraLogo: "/img/instra-logo-1@2x.png",
-    instagram: "Instagram",
+    twitterIcon: "/img/twitter-icon-2@2x.png",
     twitter: "Twitter",
+    instraLogo: "/img/instra-logo-2@2x.png",
+    instagram: "Instagram",
     contact: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).Fragment, {
         children: [
             "Contact: ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 579,
+                lineNumber: 535,
                 columnNumber: 39
             }, undefined),
             "+33 3 6666 9999"
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 579,
+        lineNumber: 535,
         columnNumber: 14
     }, undefined)
 };
-const wineData = {
-    ilBaglioreNavbar: "Il Bagliore",
-    tableReservation: "Table Reservation",
-    place1: "Welcome",
-    dishes: "Dishes",
+const drinksData = {
+    gobackbutton: "/img/gobackbutton-6@2x.png",
     drinks: "Drinks",
-    place2: "Home",
-    menu: "Menu",
-    firstCourse: "Wine",
-    ellipse1: "/img/ellipse-1-2@2x.png",
+    ellipse1: "/img/ellipse-1-7@2x.png",
     ilBagliore: "IL BAGLIORE",
     restaurant: "Restaurant",
-    descLorem1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    image1: "/img/image1-1@2x.png",
+    juice: "Juice",
+    drink1: "/img/pexels-maria-orlova-4946442-1-2@2x.png",
+    smoothies: "Smoothies",
+    drink2: "/img/pexels-janko-ferlic-590477-1-1@2x.png",
+    coffee: "Coffee",
+    drink3: "/img/pexels-snapwire-675951-1-1@2x.png",
+    wine: "Wine",
+    drink4: "/img/pexels-valeria-boltneva-842571-1-1@2x.png",
+    cocktails: "Cocktails",
+    drink5: "/img/drink5@2x.png"
+};
+const dishesData = {
+    gobackbutton: "/img/gobackbutton-7@2x.png",
+    dishesTitle: "Dishes",
+    ellipse1: "/img/ellipse-1-8@2x.png",
+    ilBagliore: "IL BAGLIORE",
+    restaurant: "Restaurant",
+    appetizers: "Appetizers",
+    pexelsMariaOrlova49464421: "/img/pexels-maria-orlova-4946442-1-1@2x.png",
+    firstCourse: "First Course",
+    pexelsJankoFerlic5904771: "/img/pexels-janko-ferlic-590477-1@2x.png",
+    secondCourse: "Second Course",
+    pexelsSnapwire6759511: "/img/pexels-snapwire-675951-1@2x.png",
+    sideDishes: "Side Dishes",
+    pexelsValeriaBoltneva8425711: "/img/pexels-valeria-boltneva-842571-1@2x.png",
+    desserts: "Desserts",
+    pexelsAlishaMishra13435041: "/img/pexels-alisha-mishra-1343504-1@2x.png"
+};
+const wineData = {
     drink1: "Lorem ipsum dolor sit",
-    img2: "/img/img2-1@2x.png",
+    image1: "/img/image1-1@2x.png",
+    descLorem1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    drink2: "Lorem sit amet consectetur",
+    img2: "/img/img2-4@2x.png",
     descLorem2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    img3: "/img/img3-1@2x.png",
+    drink3: "Lorem ipsum amet consectetur",
+    img3: "/img/img3-4@2x.png",
     descLorem3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    aboutUs: "About Us"
+    wineHeader: "Wine",
+    ellipse1: "/img/ellipse-1-11@2x.png",
+    ilBagliore: "IL BAGLIORE",
+    restaurant: "Restaurant",
+    gobackbutton: "/img/gobackbutton-10@2x.png"
 };
 const landingPageData = {
     ilBaglioreNavbar: "Il Bagliore",
@@ -27889,21 +27875,1911 @@ const landingPageData = {
     ilBagliore: "IL BAGLIORE",
     restaurant: "Restaurant",
     traditionalTaste: "Traditional Taste",
-    text1: "&",
+    text2: "&",
     fineDinning: "The Art of Fine Dinning",
     loremSentence: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.",
     pexelsLumn6049691: "/img/pexels-lumn-604969-1@1x.png",
     aboutUs: "About Us"
 };
-var _c;
-$RefreshReg$(_c, "App");
 
   $parcel$ReactRefreshHelpers$53a7.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/Juice":"6Ihzs","./components/TableReservation":"4yB0y","./components/Smoothies":"f5MrQ","./components/Menu":"hroaF","./components/LoginRegistration":"cQNVe","./components/AboutUs":"kUIfg","./components/Dishes":"3pHFz","./components/Drinks":"lt35v","./components/Coffee":"68soG","./components/FirstCourse":"khBHD","./components/SecondCourse":"1raOC","./components/Appetizers":"1xPEE","./components/Desserts":"euWZn","./components/CocktailsMixedDrinks":"59Yo5","./components/Wine":"9gFzF","./components/SideDishes":"3mfFG","./components/LandingPage":"fecnP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","styled-components":"1U3k6","react":"21dqq","react-router-dom":"cHIiW","./components/Appetizers":"1xPEE","./components/HomePage":"iDhAv","./components/TableReservation":"4yB0y","./components/FirstCourse":"khBHD","./components/Menu":"hroaF","./components/LoginRegistration":"cQNVe","./components/AboutUs":"kUIfg","./components/Drinks":"lt35v","./components/Dishes":"3pHFz","./components/SecondCourse":"1raOC","./components/CocktailsMixedDrinks":"59Yo5","./components/Wine":"9gFzF","./components/Coffee":"68soG","./components/Smoothies":"f5MrQ","./components/Juice":"6Ihzs","./components/Desserts":"euWZn","./components/SideDishes":"3mfFG","./components/LandingPage":"fecnP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1U3k6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ServerStyleSheet", ()=>Je);
+parcelHelpers.export(exports, "StyleSheetConsumer", ()=>le);
+parcelHelpers.export(exports, "StyleSheetContext", ()=>ue);
+parcelHelpers.export(exports, "StyleSheetManager", ()=>ye);
+parcelHelpers.export(exports, "ThemeConsumer", ()=>Le);
+parcelHelpers.export(exports, "ThemeContext", ()=>Ge);
+parcelHelpers.export(exports, "ThemeProvider", ()=>Fe);
+parcelHelpers.export(exports, "__PRIVATE__", ()=>Ke);
+parcelHelpers.export(exports, "createGlobalStyle", ()=>We);
+parcelHelpers.export(exports, "css", ()=>Ce);
+parcelHelpers.export(exports, "isStyledComponent", ()=>N);
+parcelHelpers.export(exports, "keyframes", ()=>Ue);
+parcelHelpers.export(exports, "useTheme", ()=>Ze);
+parcelHelpers.export(exports, "version", ()=>C);
+parcelHelpers.export(exports, "withTheme", ()=>Xe);
+var _reactIs = require("react-is");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _shallowequal = require("shallowequal");
+var _shallowequalDefault = parcelHelpers.interopDefault(_shallowequal);
+var _stylis = require("@emotion/stylis");
+var _stylisDefault = parcelHelpers.interopDefault(_stylis);
+var _unitless = require("@emotion/unitless");
+var _unitlessDefault = parcelHelpers.interopDefault(_unitless);
+var _isPropValid = require("@emotion/is-prop-valid");
+var _isPropValidDefault = parcelHelpers.interopDefault(_isPropValid);
+var _hoistNonReactStatics = require("hoist-non-react-statics");
+var _hoistNonReactStaticsDefault = parcelHelpers.interopDefault(_hoistNonReactStatics);
+var process = require("process");
+function v() {
+    return (v = Object.assign || function(e) {
+        for(var t = 1; t < arguments.length; t++){
+            var n = arguments[t];
+            for(var r in n)Object.prototype.hasOwnProperty.call(n, r) && (e[r] = n[r]);
+        }
+        return e;
+    }).apply(this, arguments);
+}
+var g = function(e, t) {
+    for(var n = [
+        e[0]
+    ], r = 0, o = t.length; r < o; r += 1)n.push(t[r], e[r + 1]);
+    return n;
+}, S = function(t) {
+    return null !== t && "object" == typeof t && "[object Object]" === (t.toString ? t.toString() : Object.prototype.toString.call(t)) && !(0, _reactIs.typeOf)(t);
+}, w = Object.freeze([]), E = Object.freeze({});
+function b(e) {
+    return "function" == typeof e;
+}
+function _(e) {
+    return "string" == typeof e && e || e.displayName || e.name || "Component";
+}
+function N(e) {
+    return e && "string" == typeof e.styledComponentId;
+}
+var A = ("undefined" != typeof process && undefined, "data-styled"), C = "5.3.6", I = "undefined" != typeof window && "HTMLElement" in window, P = Boolean("boolean" == typeof SC_DISABLE_SPEEDY ? SC_DISABLE_SPEEDY : (typeof process, typeof process, true)), O = {}, R = {
+    1: "Cannot create styled-component for component: %s.\n\n",
+    2: "Can't collect styles once you've consumed a `ServerStyleSheet`'s styles! `ServerStyleSheet` is a one off instance for each server-side render cycle.\n\n- Are you trying to reuse it across renders?\n- Are you accidentally calling collectStyles twice?\n\n",
+    3: "Streaming SSR is only supported in a Node.js environment; Please do not try to call this method in the browser.\n\n",
+    4: "The `StyleSheetManager` expects a valid target or sheet prop!\n\n- Does this error occur on the client and is your target falsy?\n- Does this error occur on the server and is the sheet falsy?\n\n",
+    5: "The clone method cannot be used on the client!\n\n- Are you running in a client-like environment on the server?\n- Are you trying to run SSR on the client?\n\n",
+    6: "Trying to insert a new style tag, but the given Node is unmounted!\n\n- Are you using a custom target that isn't mounted?\n- Does your document not have a valid head element?\n- Have you accidentally removed a style tag manually?\n\n",
+    7: 'ThemeProvider: Please return an object from your "theme" prop function, e.g.\n\n```js\ntheme={() => ({})}\n```\n\n',
+    8: 'ThemeProvider: Please make your "theme" prop an object.\n\n',
+    9: "Missing document `<head>`\n\n",
+    10: "Cannot find a StyleSheet instance. Usually this happens if there are multiple copies of styled-components loaded at once. Check out this issue for how to troubleshoot and fix the common cases where this situation can happen: https://github.com/styled-components/styled-components/issues/1941#issuecomment-417862021\n\n",
+    11: "_This error was replaced with a dev-time warning, it will be deleted for v4 final._ [createGlobalStyle] received children which will not be rendered. Please use the component without passing children elements.\n\n",
+    12: "It seems you are interpolating a keyframe declaration (%s) into an untagged string. This was supported in styled-components v3, but is not longer supported in v4 as keyframes are now injected on-demand. Please wrap your string in the css\\`\\` helper which ensures the styles are injected correctly. See https://www.styled-components.com/docs/api#css\n\n",
+    13: "%s is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details.\n\n",
+    14: 'ThemeProvider: "theme" prop is required.\n\n',
+    15: "A stylis plugin has been supplied that is not named. We need a name for each plugin to be able to prevent styling collisions between different stylis configurations within the same app. Before you pass your plugin to `<StyleSheetManager stylisPlugins={[]}>`, please make sure each plugin is uniquely-named, e.g.\n\n```js\nObject.defineProperty(importedPlugin, 'name', { value: 'some-unique-name' });\n```\n\n",
+    16: "Reached the limit of how many styled components may be created at group %s.\nYou may only create up to 1,073,741,824 components. If you're creating components dynamically,\nas for instance in your render method then you may be running into this limitation.\n\n",
+    17: "CSSStyleSheet could not be found on HTMLStyleElement.\nHas styled-components' style tag been unmounted or altered by another script?\n"
+};
+function D() {
+    for(var e = arguments.length <= 0 ? void 0 : arguments[0], t = [], n = 1, r = arguments.length; n < r; n += 1)t.push(n < 0 || arguments.length <= n ? void 0 : arguments[n]);
+    return t.forEach(function(t) {
+        e = e.replace(/%[a-z]/, t);
+    }), e;
+}
+function j(e) {
+    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++)n[r - 1] = arguments[r];
+    throw new Error(D.apply(void 0, [
+        R[e]
+    ].concat(n)).trim());
+}
+var T = function() {
+    function e(e) {
+        this.groupSizes = new Uint32Array(512), this.length = 512, this.tag = e;
+    }
+    var t = e.prototype;
+    return t.indexOfGroup = function(e) {
+        for(var t = 0, n = 0; n < e; n++)t += this.groupSizes[n];
+        return t;
+    }, t.insertRules = function(e, t) {
+        if (e >= this.groupSizes.length) {
+            for(var n = this.groupSizes, r = n.length, o = r; e >= o;)(o <<= 1) < 0 && j(16, "" + e);
+            this.groupSizes = new Uint32Array(o), this.groupSizes.set(n), this.length = o;
+            for(var s = r; s < o; s++)this.groupSizes[s] = 0;
+        }
+        for(var i = this.indexOfGroup(e + 1), a = 0, c = t.length; a < c; a++)this.tag.insertRule(i, t[a]) && (this.groupSizes[e]++, i++);
+    }, t.clearGroup = function(e) {
+        if (e < this.length) {
+            var t = this.groupSizes[e], n = this.indexOfGroup(e), r = n + t;
+            this.groupSizes[e] = 0;
+            for(var o = n; o < r; o++)this.tag.deleteRule(n);
+        }
+    }, t.getGroup = function(e) {
+        var t = "";
+        if (e >= this.length || 0 === this.groupSizes[e]) return t;
+        for(var n = this.groupSizes[e], r = this.indexOfGroup(e), o = r + n, s = r; s < o; s++)t += this.tag.getRule(s) + "/*!sc*/\n";
+        return t;
+    }, e;
+}(), x = new Map, k = new Map, V = 1, B = function(e) {
+    if (x.has(e)) return x.get(e);
+    for(; k.has(V);)V++;
+    var t = V++;
+    return ((0 | t) < 0 || t > 1073741824) && j(16, "" + t), x.set(e, t), k.set(t, e), t;
+}, z = function(e) {
+    return k.get(e);
+}, M = function(e, t) {
+    t >= V && (V = t + 1), x.set(e, t), k.set(t, e);
+}, G = "style[" + A + '][data-styled-version="5.3.6"]', L = new RegExp("^" + A + '\\.g(\\d+)\\[id="([\\w\\d-]+)"\\].*?"([^"]*)'), F = function(e, t, n) {
+    for(var r, o = n.split(","), s = 0, i = o.length; s < i; s++)(r = o[s]) && e.registerName(t, r);
+}, Y = function(e, t) {
+    for(var n = (t.textContent || "").split("/*!sc*/\n"), r = [], o = 0, s = n.length; o < s; o++){
+        var i = n[o].trim();
+        if (i) {
+            var a = i.match(L);
+            if (a) {
+                var c = 0 | parseInt(a[1], 10), u = a[2];
+                0 !== c && (M(u, c), F(e, u, a[3]), e.getTag().insertRules(c, r)), r.length = 0;
+            } else r.push(i);
+        }
+    }
+}, q = function() {
+    return "undefined" != typeof __webpack_nonce__ ? __webpack_nonce__ : null;
+}, H = function(e) {
+    var t = document.head, n = e || t, r = document.createElement("style"), o = function(e) {
+        for(var t = e.childNodes, n = t.length; n >= 0; n--){
+            var r = t[n];
+            if (r && 1 === r.nodeType && r.hasAttribute(A)) return r;
+        }
+    }(n), s = void 0 !== o ? o.nextSibling : null;
+    r.setAttribute(A, "active"), r.setAttribute("data-styled-version", "5.3.6");
+    var i = q();
+    return i && r.setAttribute("nonce", i), n.insertBefore(r, s), r;
+}, $ = function() {
+    function e(e) {
+        var t = this.element = H(e);
+        t.appendChild(document.createTextNode("")), this.sheet = function(e) {
+            if (e.sheet) return e.sheet;
+            for(var t = document.styleSheets, n = 0, r = t.length; n < r; n++){
+                var o = t[n];
+                if (o.ownerNode === e) return o;
+            }
+            j(17);
+        }(t), this.length = 0;
+    }
+    var t = e.prototype;
+    return t.insertRule = function(e, t) {
+        try {
+            return this.sheet.insertRule(t, e), this.length++, !0;
+        } catch (e1) {
+            return !1;
+        }
+    }, t.deleteRule = function(e) {
+        this.sheet.deleteRule(e), this.length--;
+    }, t.getRule = function(e) {
+        var t = this.sheet.cssRules[e];
+        return void 0 !== t && "string" == typeof t.cssText ? t.cssText : "";
+    }, e;
+}(), W = function() {
+    function e(e) {
+        var t = this.element = H(e);
+        this.nodes = t.childNodes, this.length = 0;
+    }
+    var t = e.prototype;
+    return t.insertRule = function(e, t) {
+        if (e <= this.length && e >= 0) {
+            var n = document.createTextNode(t), r = this.nodes[e];
+            return this.element.insertBefore(n, r || null), this.length++, !0;
+        }
+        return !1;
+    }, t.deleteRule = function(e) {
+        this.element.removeChild(this.nodes[e]), this.length--;
+    }, t.getRule = function(e) {
+        return e < this.length ? this.nodes[e].textContent : "";
+    }, e;
+}(), U = function() {
+    function e(e) {
+        this.rules = [], this.length = 0;
+    }
+    var t = e.prototype;
+    return t.insertRule = function(e, t) {
+        return e <= this.length && (this.rules.splice(e, 0, t), this.length++, !0);
+    }, t.deleteRule = function(e) {
+        this.rules.splice(e, 1), this.length--;
+    }, t.getRule = function(e) {
+        return e < this.length ? this.rules[e] : "";
+    }, e;
+}(), J = I, X = {
+    isServer: !I,
+    useCSSOMInjection: !P
+}, Z = function() {
+    function e(e, t, n) {
+        void 0 === e && (e = E), void 0 === t && (t = {}), this.options = v({}, X, {}, e), this.gs = t, this.names = new Map(n), this.server = !!e.isServer, !this.server && I && J && (J = !1, function(e) {
+            for(var t = document.querySelectorAll(G), n = 0, r = t.length; n < r; n++){
+                var o = t[n];
+                o && "active" !== o.getAttribute(A) && (Y(e, o), o.parentNode && o.parentNode.removeChild(o));
+            }
+        }(this));
+    }
+    e.registerId = function(e) {
+        return B(e);
+    };
+    var t = e.prototype;
+    return t.reconstructWithOptions = function(t, n) {
+        return void 0 === n && (n = !0), new e(v({}, this.options, {}, t), this.gs, n && this.names || void 0);
+    }, t.allocateGSInstance = function(e) {
+        return this.gs[e] = (this.gs[e] || 0) + 1;
+    }, t.getTag = function() {
+        var e, t, n, r, o;
+        return this.tag || (this.tag = (n = (t = this.options).isServer, r = t.useCSSOMInjection, o = t.target, e = n ? new U(o) : r ? new $(o) : new W(o), new T(e)));
+    }, t.hasNameForId = function(e, t) {
+        return this.names.has(e) && this.names.get(e).has(t);
+    }, t.registerName = function(e, t) {
+        if (B(e), this.names.has(e)) this.names.get(e).add(t);
+        else {
+            var n = new Set;
+            n.add(t), this.names.set(e, n);
+        }
+    }, t.insertRules = function(e, t, n) {
+        this.registerName(e, t), this.getTag().insertRules(B(e), n);
+    }, t.clearNames = function(e) {
+        this.names.has(e) && this.names.get(e).clear();
+    }, t.clearRules = function(e) {
+        this.getTag().clearGroup(B(e)), this.clearNames(e);
+    }, t.clearTag = function() {
+        this.tag = void 0;
+    }, t.toString = function() {
+        return function(e) {
+            for(var t = e.getTag(), n = t.length, r = "", o = 0; o < n; o++){
+                var s = z(o);
+                if (void 0 !== s) {
+                    var i = e.names.get(s), a = t.getGroup(o);
+                    if (i && a && i.size) {
+                        var c = A + ".g" + o + '[id="' + s + '"]', u = "";
+                        void 0 !== i && i.forEach(function(e) {
+                            e.length > 0 && (u += e + ",");
+                        }), r += "" + a + c + '{content:"' + u + '"}/*!sc*/\n';
+                    }
+                }
+            }
+            return r;
+        }(this);
+    }, e;
+}(), K = /(a)(d)/gi, Q = function(e) {
+    return String.fromCharCode(e + (e > 25 ? 39 : 97));
+};
+function ee(e) {
+    var t, n = "";
+    for(t = Math.abs(e); t > 52; t = t / 52 | 0)n = Q(t % 52) + n;
+    return (Q(t % 52) + n).replace(K, "$1-$2");
+}
+var te = function(e, t) {
+    for(var n = t.length; n;)e = 33 * e ^ t.charCodeAt(--n);
+    return e;
+}, ne = function(e) {
+    return te(5381, e);
+};
+function re(e) {
+    for(var t = 0; t < e.length; t += 1){
+        var n = e[t];
+        if (b(n) && !N(n)) return !1;
+    }
+    return !0;
+}
+var oe = ne("5.3.6"), se = function() {
+    function e(e, t, n) {
+        this.rules = e, this.staticRulesId = "", this.isStatic = false, this.componentId = t, this.baseHash = te(oe, t), this.baseStyle = n, Z.registerId(t);
+    }
+    return e.prototype.generateAndInjectStyles = function(e, t, n) {
+        var r = this.componentId, o = [];
+        if (this.baseStyle && o.push(this.baseStyle.generateAndInjectStyles(e, t, n)), this.isStatic && !n.hash) {
+            if (this.staticRulesId && t.hasNameForId(r, this.staticRulesId)) o.push(this.staticRulesId);
+            else {
+                var s = Ne(this.rules, e, t, n).join(""), i = ee(te(this.baseHash, s) >>> 0);
+                if (!t.hasNameForId(r, i)) {
+                    var a = n(s, "." + i, void 0, r);
+                    t.insertRules(r, i, a);
+                }
+                o.push(i), this.staticRulesId = i;
+            }
+        } else {
+            for(var c = this.rules.length, u = te(this.baseHash, n.hash), l = "", d = 0; d < c; d++){
+                var h = this.rules[d];
+                if ("string" == typeof h) l += h, u = te(u, h + d);
+                else if (h) {
+                    var p = Ne(h, e, t, n), f = Array.isArray(p) ? p.join("") : p;
+                    u = te(u, f + d), l += f;
+                }
+            }
+            if (l) {
+                var m = ee(u >>> 0);
+                if (!t.hasNameForId(r, m)) {
+                    var y = n(l, "." + m, void 0, r);
+                    t.insertRules(r, m, y);
+                }
+                o.push(m);
+            }
+        }
+        return o.join(" ");
+    }, e;
+}(), ie = /^\s*\/\/.*$/gm, ae = [
+    ":",
+    "[",
+    ".",
+    "#"
+];
+function ce(e) {
+    var t, n, r, o, s = void 0 === e ? E : e, i = s.options, a = void 0 === i ? E : i, c = s.plugins, u = void 0 === c ? w : c, l = new (0, _stylisDefault.default)(a), d = [], h = function(e) {
+        function t(t) {
+            if (t) try {
+                e(t + "}");
+            } catch (e1) {}
+        }
+        return function(n, r, o, s, i, a, c, u, l, d) {
+            switch(n){
+                case 1:
+                    if (0 === l && 64 === r.charCodeAt(0)) return e(r + ";"), "";
+                    break;
+                case 2:
+                    if (0 === u) return r + "/*|*/";
+                    break;
+                case 3:
+                    switch(u){
+                        case 102:
+                        case 112:
+                            return e(o[0] + r), "";
+                        default:
+                            return r + (0 === d ? "/*|*/" : "");
+                    }
+                case -2:
+                    r.split("/*|*/}").forEach(t);
+            }
+        };
+    }(function(e) {
+        d.push(e);
+    }), f = function(e, r, s) {
+        return 0 === r && -1 !== ae.indexOf(s[n.length]) || s.match(o) ? e : "." + t;
+    };
+    function m(e, s, i, a) {
+        void 0 === a && (a = "&");
+        var c = e.replace(ie, ""), u = s && i ? i + " " + s + " { " + c + " }" : c;
+        return t = a, n = s, r = new RegExp("\\" + n + "\\b", "g"), o = new RegExp("(\\" + n + "\\b){2,}"), l(i || !s ? "" : s, u);
+    }
+    return l.use([].concat(u, [
+        function(e, t, o) {
+            2 === e && o.length && o[0].lastIndexOf(n) > 0 && (o[0] = o[0].replace(r, f));
+        },
+        h,
+        function(e) {
+            if (-2 === e) {
+                var t = d;
+                return d = [], t;
+            }
+        }
+    ])), m.hash = u.length ? u.reduce(function(e, t) {
+        return t.name || j(15), te(e, t.name);
+    }, 5381).toString() : "", m;
+}
+var ue = (0, _reactDefault.default).createContext(), le = ue.Consumer, de = (0, _reactDefault.default).createContext(), he = (de.Consumer, new Z), pe = ce();
+function fe() {
+    return (0, _react.useContext)(ue) || he;
+}
+function me() {
+    return (0, _react.useContext)(de) || pe;
+}
+function ye(e) {
+    var t = (0, _react.useState)(e.stylisPlugins), n = t[0], s = t[1], c = fe(), u = (0, _react.useMemo)(function() {
+        var t = c;
+        return e.sheet ? t = e.sheet : e.target && (t = t.reconstructWithOptions({
+            target: e.target
+        }, !1)), e.disableCSSOMInjection && (t = t.reconstructWithOptions({
+            useCSSOMInjection: !1
+        })), t;
+    }, [
+        e.disableCSSOMInjection,
+        e.sheet,
+        e.target
+    ]), l = (0, _react.useMemo)(function() {
+        return ce({
+            options: {
+                prefix: !e.disableVendorPrefixes
+            },
+            plugins: n
+        });
+    }, [
+        e.disableVendorPrefixes,
+        n
+    ]);
+    return (0, _react.useEffect)(function() {
+        (0, _shallowequalDefault.default)(n, e.stylisPlugins) || s(e.stylisPlugins);
+    }, [
+        e.stylisPlugins
+    ]), (0, _reactDefault.default).createElement(ue.Provider, {
+        value: u
+    }, (0, _reactDefault.default).createElement(de.Provider, {
+        value: l
+    }, (0, _reactDefault.default).Children.only(e.children)));
+}
+var ve = function() {
+    function e(e, t) {
+        var n = this;
+        this.inject = function(e, t) {
+            void 0 === t && (t = pe);
+            var r = n.name + t.hash;
+            e.hasNameForId(n.id, r) || e.insertRules(n.id, r, t(n.rules, r, "@keyframes"));
+        }, this.toString = function() {
+            return j(12, String(n.name));
+        }, this.name = e, this.id = "sc-keyframes-" + e, this.rules = t;
+    }
+    return e.prototype.getName = function(e) {
+        return void 0 === e && (e = pe), this.name + e.hash;
+    }, e;
+}(), ge = /([A-Z])/, Se = /([A-Z])/g, we = /^ms-/, Ee = function(e) {
+    return "-" + e.toLowerCase();
+};
+function be(e) {
+    return ge.test(e) ? e.replace(Se, Ee).replace(we, "-ms-") : e;
+}
+var _e = function(e) {
+    return null == e || !1 === e || "" === e;
+};
+function Ne(e, n, r, o) {
+    if (Array.isArray(e)) {
+        for(var s, i = [], a = 0, c = e.length; a < c; a += 1)"" !== (s = Ne(e[a], n, r, o)) && (Array.isArray(s) ? i.push.apply(i, s) : i.push(s));
+        return i;
+    }
+    if (_e(e)) return "";
+    if (N(e)) return "." + e.styledComponentId;
+    if (b(e)) {
+        if ("function" != typeof (l = e) || l.prototype && l.prototype.isReactComponent || !n) return e;
+        var u = e(n);
+        return (0, _reactIs.isElement)(u) && console.warn(_(e) + " is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details."), Ne(u, n, r, o);
+    }
+    var l;
+    return e instanceof ve ? r ? (e.inject(r, o), e.getName(o)) : e : S(e) ? function e(t, n) {
+        var r, o, s = [];
+        for(var i in t)t.hasOwnProperty(i) && !_e(t[i]) && (Array.isArray(t[i]) && t[i].isCss || b(t[i]) ? s.push(be(i) + ":", t[i], ";") : S(t[i]) ? s.push.apply(s, e(t[i], i)) : s.push(be(i) + ": " + (r = i, null == (o = t[i]) || "boolean" == typeof o || "" === o ? "" : "number" != typeof o || 0 === o || r in (0, _unitlessDefault.default) ? String(o).trim() : o + "px") + ";"));
+        return n ? [
+            n + " {"
+        ].concat(s, [
+            "}"
+        ]) : s;
+    }(e) : e.toString();
+}
+var Ae = function(e) {
+    return Array.isArray(e) && (e.isCss = !0), e;
+};
+function Ce(e) {
+    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++)n[r - 1] = arguments[r];
+    return b(e) || S(e) ? Ae(Ne(g(w, [
+        e
+    ].concat(n)))) : 0 === n.length && 1 === e.length && "string" == typeof e[0] ? e : Ae(Ne(g(e, n)));
+}
+var Ie = /invalid hook call/i, Pe = new Set, Oe = function(e, t) {
+    var n = "The component " + e + (t ? ' with the id of "' + t + '"' : "") + " has been created dynamically.\nYou may see this warning because you've called styled inside another component.\nTo resolve this only create new StyledComponents outside of any render method and function component.", r = console.error;
+    try {
+        var o = !0;
+        console.error = function(e) {
+            if (Ie.test(e)) o = !1, Pe.delete(n);
+            else {
+                for(var t = arguments.length, s = new Array(t > 1 ? t - 1 : 0), i = 1; i < t; i++)s[i - 1] = arguments[i];
+                r.apply(void 0, [
+                    e
+                ].concat(s));
+            }
+        }, (0, _react.useRef)(), o && !Pe.has(n) && (console.warn(n), Pe.add(n));
+    } catch (e1) {
+        Ie.test(e1.message) && Pe.delete(n);
+    } finally{
+        console.error = r;
+    }
+}, Re = function(e, t, n) {
+    return void 0 === n && (n = E), e.theme !== n.theme && e.theme || t || n.theme;
+}, De = /[!"#$%&'()*+,./:;<=>?@[\\\]^`{|}~-]+/g, je = /(^-|-$)/g;
+function Te(e) {
+    return e.replace(De, "-").replace(je, "");
+}
+var xe = function(e) {
+    return ee(ne(e) >>> 0);
+};
+function ke(e) {
+    return "string" == typeof e && e.charAt(0) === e.charAt(0).toLowerCase();
+}
+var Ve = function(e) {
+    return "function" == typeof e || "object" == typeof e && null !== e && !Array.isArray(e);
+}, Be = function(e) {
+    return "__proto__" !== e && "constructor" !== e && "prototype" !== e;
+};
+function ze(e, t, n) {
+    var r = e[n];
+    Ve(t) && Ve(r) ? Me(r, t) : e[n] = t;
+}
+function Me(e) {
+    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++)n[r - 1] = arguments[r];
+    for(var o = 0, s = n; o < s.length; o++){
+        var i = s[o];
+        if (Ve(i)) for(var a in i)Be(a) && ze(e, i[a], a);
+    }
+    return e;
+}
+var Ge = (0, _reactDefault.default).createContext(), Le = Ge.Consumer;
+function Fe(e) {
+    var t = (0, _react.useContext)(Ge), n = (0, _react.useMemo)(function() {
+        return function(e, t) {
+            if (!e) return j(14);
+            if (b(e)) {
+                var n = e(t);
+                return null !== n && !Array.isArray(n) && "object" == typeof n ? n : j(7);
+            }
+            return Array.isArray(e) || "object" != typeof e ? j(8) : t ? v({}, t, {}, e) : e;
+        }(e.theme, t);
+    }, [
+        e.theme,
+        t
+    ]);
+    return e.children ? (0, _reactDefault.default).createElement(Ge.Provider, {
+        value: n
+    }, e.children) : null;
+}
+var Ye = {};
+function qe(e, t, n) {
+    var o = N(e), i = !ke(e), a = t.attrs, c = void 0 === a ? w : a, d = t.componentId, h = void 0 === d ? function(e, t) {
+        var n = "string" != typeof e ? "sc" : Te(e);
+        Ye[n] = (Ye[n] || 0) + 1;
+        var r = n + "-" + xe("5.3.6" + n + Ye[n]);
+        return t ? t + "-" + r : r;
+    }(t.displayName, t.parentComponentId) : d, p = t.displayName, f = void 0 === p ? function(e) {
+        return ke(e) ? "styled." + e : "Styled(" + _(e) + ")";
+    }(e) : p, g = t.displayName && t.componentId ? Te(t.displayName) + "-" + t.componentId : t.componentId || h, S = o && e.attrs ? Array.prototype.concat(e.attrs, c).filter(Boolean) : c, A = t.shouldForwardProp;
+    o && e.shouldForwardProp && (A = t.shouldForwardProp ? function(n, r, o) {
+        return e.shouldForwardProp(n, r, o) && t.shouldForwardProp(n, r, o);
+    } : e.shouldForwardProp);
+    var C, I = new se(n, g, o ? e.componentStyle : void 0), P = I.isStatic && 0 === c.length, O = function(e, t) {
+        return function(e, t, n, r) {
+            var o = e.attrs, i = e.componentStyle, a = e.defaultProps, c = e.foldedComponentIds, d = e.shouldForwardProp, h = e.styledComponentId, p = e.target;
+            (0, _react.useDebugValue)(h);
+            var f = function(e, t, n) {
+                void 0 === e && (e = E);
+                var r = v({}, t, {
+                    theme: e
+                }), o = {};
+                return n.forEach(function(e) {
+                    var t, n, s, i = e;
+                    for(t in b(i) && (i = i(r)), i)r[t] = o[t] = "className" === t ? (n = o[t], s = i[t], n && s ? n + " " + s : n || s) : i[t];
+                }), [
+                    r,
+                    o
+                ];
+            }(Re(t, (0, _react.useContext)(Ge), a) || E, t, o), y = f[0], g = f[1], S = function(e, t, n, r) {
+                var o = fe(), s = me(), i = t ? e.generateAndInjectStyles(E, o, s) : e.generateAndInjectStyles(n, o, s);
+                return (0, _react.useDebugValue)(i), !t && r && r(i), i;
+            }(i, r, y, e.warnTooManyClasses), w = n, _ = g.$as || t.$as || g.as || t.as || p, N = ke(_), A = g !== t ? v({}, t, {}, g) : t, C = {};
+            for(var I in A)"$" !== I[0] && "as" !== I && ("forwardedAs" === I ? C.as = A[I] : (d ? d(I, (0, _isPropValidDefault.default), _) : !N || (0, _isPropValidDefault.default)(I)) && (C[I] = A[I]));
+            return t.style && g.style !== t.style && (C.style = v({}, t.style, {}, g.style)), C.className = Array.prototype.concat(c, h, S !== h ? S : null, t.className, g.className).filter(Boolean).join(" "), C.ref = w, (0, _react.createElement)(_, C);
+        }(C, e, t, P);
+    };
+    return O.displayName = f, (C = (0, _reactDefault.default).forwardRef(O)).attrs = S, C.componentStyle = I, C.displayName = f, C.shouldForwardProp = A, C.foldedComponentIds = o ? Array.prototype.concat(e.foldedComponentIds, e.styledComponentId) : w, C.styledComponentId = g, C.target = o ? e.target : e, C.withComponent = function(e) {
+        var r = t.componentId, o = function(e, t) {
+            if (null == e) return {};
+            var n, r, o = {}, s = Object.keys(e);
+            for(r = 0; r < s.length; r++)n = s[r], t.indexOf(n) >= 0 || (o[n] = e[n]);
+            return o;
+        }(t, [
+            "componentId"
+        ]), s = r && r + "-" + (ke(e) ? e : Te(_(e)));
+        return qe(e, v({}, o, {
+            attrs: S,
+            componentId: s
+        }), n);
+    }, Object.defineProperty(C, "defaultProps", {
+        get: function() {
+            return this._foldedDefaultProps;
+        },
+        set: function(t) {
+            this._foldedDefaultProps = o ? Me({}, e.defaultProps, t) : t;
+        }
+    }), Oe(f, g), C.warnTooManyClasses = function(e, t) {
+        var n = {}, r = !1;
+        return function(o) {
+            if (!r && (n[o] = !0, Object.keys(n).length >= 200)) {
+                var s = t ? ' with the id of "' + t + '"' : "";
+                console.warn("Over 200 classes were generated for component " + e + s + ".\nConsider using the attrs method, together with a style object for frequently changed styles.\nExample:\n  const Component = styled.div.attrs(props => ({\n    style: {\n      background: props.background,\n    },\n  }))`width: 100%;`\n\n  <Component />"), r = !0, n = {};
+            }
+        };
+    }(f, g), C.toString = function() {
+        return "." + C.styledComponentId;
+    }, i && (0, _hoistNonReactStaticsDefault.default)(C, e, {
+        attrs: !0,
+        componentStyle: !0,
+        displayName: !0,
+        foldedComponentIds: !0,
+        shouldForwardProp: !0,
+        styledComponentId: !0,
+        target: !0,
+        withComponent: !0
+    }), C;
+}
+var He = function(e) {
+    return function e(t, r, o) {
+        if (void 0 === o && (o = E), !(0, _reactIs.isValidElementType)(r)) return j(1, String(r));
+        var s = function() {
+            return t(r, o, Ce.apply(void 0, arguments));
+        };
+        return s.withConfig = function(n) {
+            return e(t, r, v({}, o, {}, n));
+        }, s.attrs = function(n) {
+            return e(t, r, v({}, o, {
+                attrs: Array.prototype.concat(o.attrs, n).filter(Boolean)
+            }));
+        }, s;
+    }(qe, e);
+};
+[
+    "a",
+    "abbr",
+    "address",
+    "area",
+    "article",
+    "aside",
+    "audio",
+    "b",
+    "base",
+    "bdi",
+    "bdo",
+    "big",
+    "blockquote",
+    "body",
+    "br",
+    "button",
+    "canvas",
+    "caption",
+    "cite",
+    "code",
+    "col",
+    "colgroup",
+    "data",
+    "datalist",
+    "dd",
+    "del",
+    "details",
+    "dfn",
+    "dialog",
+    "div",
+    "dl",
+    "dt",
+    "em",
+    "embed",
+    "fieldset",
+    "figcaption",
+    "figure",
+    "footer",
+    "form",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "head",
+    "header",
+    "hgroup",
+    "hr",
+    "html",
+    "i",
+    "iframe",
+    "img",
+    "input",
+    "ins",
+    "kbd",
+    "keygen",
+    "label",
+    "legend",
+    "li",
+    "link",
+    "main",
+    "map",
+    "mark",
+    "marquee",
+    "menu",
+    "menuitem",
+    "meta",
+    "meter",
+    "nav",
+    "noscript",
+    "object",
+    "ol",
+    "optgroup",
+    "option",
+    "output",
+    "p",
+    "param",
+    "picture",
+    "pre",
+    "progress",
+    "q",
+    "rp",
+    "rt",
+    "ruby",
+    "s",
+    "samp",
+    "script",
+    "section",
+    "select",
+    "small",
+    "source",
+    "span",
+    "strong",
+    "style",
+    "sub",
+    "summary",
+    "sup",
+    "table",
+    "tbody",
+    "td",
+    "textarea",
+    "tfoot",
+    "th",
+    "thead",
+    "time",
+    "title",
+    "tr",
+    "track",
+    "u",
+    "ul",
+    "var",
+    "video",
+    "wbr",
+    "circle",
+    "clipPath",
+    "defs",
+    "ellipse",
+    "foreignObject",
+    "g",
+    "image",
+    "line",
+    "linearGradient",
+    "marker",
+    "mask",
+    "path",
+    "pattern",
+    "polygon",
+    "polyline",
+    "radialGradient",
+    "rect",
+    "stop",
+    "svg",
+    "text",
+    "textPath",
+    "tspan"
+].forEach(function(e) {
+    He[e] = He(e);
+});
+var $e = function() {
+    function e(e, t) {
+        this.rules = e, this.componentId = t, this.isStatic = re(e), Z.registerId(this.componentId + 1);
+    }
+    var t = e.prototype;
+    return t.createStyles = function(e, t, n, r) {
+        var o = r(Ne(this.rules, t, n, r).join(""), ""), s = this.componentId + e;
+        n.insertRules(s, s, o);
+    }, t.removeStyles = function(e, t) {
+        t.clearRules(this.componentId + e);
+    }, t.renderStyles = function(e, t, n, r) {
+        e > 2 && Z.registerId(this.componentId + e), this.removeStyles(e, n), this.createStyles(e, t, n, r);
+    }, e;
+}();
+function We(e) {
+    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), o = 1; o < t; o++)n[o - 1] = arguments[o];
+    var i = Ce.apply(void 0, [
+        e
+    ].concat(n)), a = "sc-global-" + xe(JSON.stringify(i)), u = new $e(i, a);
+    function l(e) {
+        var t = fe(), n = me(), o = (0, _react.useContext)(Ge), l = (0, _react.useRef)(t.allocateGSInstance(a)).current;
+        return (0, _reactDefault.default).Children.count(e.children) && console.warn("The global style component " + a + " was given child JSX. createGlobalStyle does not render children."), i.some(function(e) {
+            return "string" == typeof e && -1 !== e.indexOf("@import");
+        }) && console.warn("Please do not use @import CSS syntax in createGlobalStyle at this time, as the CSSOM APIs we use in production do not handle it well. Instead, we recommend using a library such as react-helmet to inject a typical <link> meta tag to the stylesheet, or simply embedding it manually in your index.html <head> section for a simpler app."), t.server && h(l, e, t, o, n), (0, _react.useLayoutEffect)(function() {
+            if (!t.server) return h(l, e, t, o, n), function() {
+                return u.removeStyles(l, t);
+            };
+        }, [
+            l,
+            e,
+            t,
+            o,
+            n
+        ]), null;
+    }
+    function h(e, t, n, r, o) {
+        if (u.isStatic) u.renderStyles(e, O, n, o);
+        else {
+            var s = v({}, t, {
+                theme: Re(t, r, l.defaultProps)
+            });
+            u.renderStyles(e, s, n, o);
+        }
+    }
+    return Oe(a), (0, _reactDefault.default).memo(l);
+}
+function Ue(e) {
+    "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("`keyframes` cannot be used on ReactNative, only on the web. To do animation in ReactNative please use Animated.");
+    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++)n[r - 1] = arguments[r];
+    var o = Ce.apply(void 0, [
+        e
+    ].concat(n)).join(""), s = xe(o);
+    return new ve(s, o);
+}
+var Je = function() {
+    function e() {
+        var e = this;
+        this._emitSheetCSS = function() {
+            var t = e.instance.toString();
+            if (!t) return "";
+            var n = q();
+            return "<style " + [
+                n && 'nonce="' + n + '"',
+                A + '="true"',
+                'data-styled-version="5.3.6"'
+            ].filter(Boolean).join(" ") + ">" + t + "</style>";
+        }, this.getStyleTags = function() {
+            return e.sealed ? j(2) : e._emitSheetCSS();
+        }, this.getStyleElement = function() {
+            var t;
+            if (e.sealed) return j(2);
+            var n = ((t = {})[A] = "", t["data-styled-version"] = "5.3.6", t.dangerouslySetInnerHTML = {
+                __html: e.instance.toString()
+            }, t), o = q();
+            return o && (n.nonce = o), [
+                (0, _reactDefault.default).createElement("style", v({}, n, {
+                    key: "sc-0-0"
+                }))
+            ];
+        }, this.seal = function() {
+            e.sealed = !0;
+        }, this.instance = new Z({
+            isServer: !0
+        }), this.sealed = !1;
+    }
+    var t = e.prototype;
+    return t.collectStyles = function(e) {
+        return this.sealed ? j(2) : (0, _reactDefault.default).createElement(ye, {
+            sheet: this.instance
+        }, e);
+    }, t.interleaveWithNodeStream = function(e) {
+        return j(3);
+    }, e;
+}(), Xe = function(e) {
+    var t = (0, _reactDefault.default).forwardRef(function(t, n) {
+        var o = (0, _react.useContext)(Ge), i = e.defaultProps, a = Re(t, o, i);
+        return void 0 === a && console.warn('[withTheme] You are not using a ThemeProvider nor passing a theme prop or a theme in defaultProps in component class "' + _(e) + '"'), (0, _reactDefault.default).createElement(e, v({}, t, {
+            theme: a,
+            ref: n
+        }));
+    });
+    return (0, _hoistNonReactStaticsDefault.default)(t, e), t.displayName = "WithTheme(" + _(e) + ")", t;
+}, Ze = function() {
+    return (0, _react.useContext)(Ge);
+}, Ke = {
+    StyleSheet: Z,
+    masterSheet: he
+};
+"undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), "undefined" != typeof window && (window["__styled-components-init__"] = window["__styled-components-init__"] || 0, 1 === window["__styled-components-init__"] && console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."), window["__styled-components-init__"] += 1);
+exports.default = He;
+
+},{"process":"d5jf4","react-is":"7EuwB","react":"21dqq","shallowequal":"fjwkp","@emotion/stylis":"fGS9o","@emotion/unitless":"pVndT","@emotion/is-prop-valid":"9JzNk","hoist-non-react-statics":"1GfsB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7EuwB":[function(require,module,exports) {
+"use strict";
+module.exports = require("./cjs/react-is.development.js");
+
+},{"./cjs/react-is.development.js":"5DsXl"}],"5DsXl":[function(require,module,exports) {
+/**
+ * @license React
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ "use strict";
+(function() {
+    "use strict";
+    // ATTENTION
+    // When adding new symbols to this file,
+    // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
+    // The Symbol used to tag the ReactElement-like types.
+    var REACT_ELEMENT_TYPE = Symbol.for("react.element");
+    var REACT_PORTAL_TYPE = Symbol.for("react.portal");
+    var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
+    var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
+    var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
+    var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
+    var REACT_CONTEXT_TYPE = Symbol.for("react.context");
+    var REACT_SERVER_CONTEXT_TYPE = Symbol.for("react.server_context");
+    var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
+    var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
+    var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
+    var REACT_MEMO_TYPE = Symbol.for("react.memo");
+    var REACT_LAZY_TYPE = Symbol.for("react.lazy");
+    var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
+    // -----------------------------------------------------------------------------
+    var enableScopeAPI = false; // Experimental Create Event Handle API.
+    var enableCacheElement = false;
+    var enableTransitionTracing = false; // No known bugs, but needs performance testing
+    var enableLegacyHidden = false; // Enables unstable_avoidThisFallback feature in Fiber
+    // stuff. Intended to enable React core members to more easily debug scheduling
+    // issues in DEV builds.
+    var enableDebugTracing = false; // Track which Fiber(s) schedule render work.
+    var REACT_MODULE_REFERENCE;
+    REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
+    function isValidElementType(type) {
+        if (typeof type === "string" || typeof type === "function") return true;
+         // Note: typeof might be other than 'symbol' or 'number' (e.g. if it's a polyfill).
+        if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) return true;
+        if (typeof type === "object" && type !== null) {
+            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || // This needs to include all possible module reference object
+            // types supported by any Flight configuration anywhere since
+            // we don't know which Flight build this will end up being used
+            // with.
+            type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== undefined) return true;
+        }
+        return false;
+    }
+    function typeOf(object) {
+        if (typeof object === "object" && object !== null) {
+            var $$typeof = object.$$typeof;
+            switch($$typeof){
+                case REACT_ELEMENT_TYPE:
+                    var type = object.type;
+                    switch(type){
+                        case REACT_FRAGMENT_TYPE:
+                        case REACT_PROFILER_TYPE:
+                        case REACT_STRICT_MODE_TYPE:
+                        case REACT_SUSPENSE_TYPE:
+                        case REACT_SUSPENSE_LIST_TYPE:
+                            return type;
+                        default:
+                            var $$typeofType = type && type.$$typeof;
+                            switch($$typeofType){
+                                case REACT_SERVER_CONTEXT_TYPE:
+                                case REACT_CONTEXT_TYPE:
+                                case REACT_FORWARD_REF_TYPE:
+                                case REACT_LAZY_TYPE:
+                                case REACT_MEMO_TYPE:
+                                case REACT_PROVIDER_TYPE:
+                                    return $$typeofType;
+                                default:
+                                    return $$typeof;
+                            }
+                    }
+                case REACT_PORTAL_TYPE:
+                    return $$typeof;
+            }
+        }
+        return undefined;
+    }
+    var ContextConsumer = REACT_CONTEXT_TYPE;
+    var ContextProvider = REACT_PROVIDER_TYPE;
+    var Element = REACT_ELEMENT_TYPE;
+    var ForwardRef = REACT_FORWARD_REF_TYPE;
+    var Fragment = REACT_FRAGMENT_TYPE;
+    var Lazy = REACT_LAZY_TYPE;
+    var Memo = REACT_MEMO_TYPE;
+    var Portal = REACT_PORTAL_TYPE;
+    var Profiler = REACT_PROFILER_TYPE;
+    var StrictMode = REACT_STRICT_MODE_TYPE;
+    var Suspense = REACT_SUSPENSE_TYPE;
+    var SuspenseList = REACT_SUSPENSE_LIST_TYPE;
+    var hasWarnedAboutDeprecatedIsAsyncMode = false;
+    var hasWarnedAboutDeprecatedIsConcurrentMode = false; // AsyncMode should be deprecated
+    function isAsyncMode(object) {
+        if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+            hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+            console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 18+.");
+        }
+        return false;
+    }
+    function isConcurrentMode(object) {
+        if (!hasWarnedAboutDeprecatedIsConcurrentMode) {
+            hasWarnedAboutDeprecatedIsConcurrentMode = true; // Using console['warn'] to evade Babel and ESLint
+            console["warn"]("The ReactIs.isConcurrentMode() alias has been deprecated, and will be removed in React 18+.");
+        }
+        return false;
+    }
+    function isContextConsumer(object) {
+        return typeOf(object) === REACT_CONTEXT_TYPE;
+    }
+    function isContextProvider(object) {
+        return typeOf(object) === REACT_PROVIDER_TYPE;
+    }
+    function isElement(object) {
+        return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+    }
+    function isForwardRef(object) {
+        return typeOf(object) === REACT_FORWARD_REF_TYPE;
+    }
+    function isFragment(object) {
+        return typeOf(object) === REACT_FRAGMENT_TYPE;
+    }
+    function isLazy(object) {
+        return typeOf(object) === REACT_LAZY_TYPE;
+    }
+    function isMemo(object) {
+        return typeOf(object) === REACT_MEMO_TYPE;
+    }
+    function isPortal(object) {
+        return typeOf(object) === REACT_PORTAL_TYPE;
+    }
+    function isProfiler(object) {
+        return typeOf(object) === REACT_PROFILER_TYPE;
+    }
+    function isStrictMode(object) {
+        return typeOf(object) === REACT_STRICT_MODE_TYPE;
+    }
+    function isSuspense(object) {
+        return typeOf(object) === REACT_SUSPENSE_TYPE;
+    }
+    function isSuspenseList(object) {
+        return typeOf(object) === REACT_SUSPENSE_LIST_TYPE;
+    }
+    exports.ContextConsumer = ContextConsumer;
+    exports.ContextProvider = ContextProvider;
+    exports.Element = Element;
+    exports.ForwardRef = ForwardRef;
+    exports.Fragment = Fragment;
+    exports.Lazy = Lazy;
+    exports.Memo = Memo;
+    exports.Portal = Portal;
+    exports.Profiler = Profiler;
+    exports.StrictMode = StrictMode;
+    exports.Suspense = Suspense;
+    exports.SuspenseList = SuspenseList;
+    exports.isAsyncMode = isAsyncMode;
+    exports.isConcurrentMode = isConcurrentMode;
+    exports.isContextConsumer = isContextConsumer;
+    exports.isContextProvider = isContextProvider;
+    exports.isElement = isElement;
+    exports.isForwardRef = isForwardRef;
+    exports.isFragment = isFragment;
+    exports.isLazy = isLazy;
+    exports.isMemo = isMemo;
+    exports.isPortal = isPortal;
+    exports.isProfiler = isProfiler;
+    exports.isStrictMode = isStrictMode;
+    exports.isSuspense = isSuspense;
+    exports.isSuspenseList = isSuspenseList;
+    exports.isValidElementType = isValidElementType;
+    exports.typeOf = typeOf;
+})();
+
+},{}],"fjwkp":[function(require,module,exports) {
+//
+module.exports = function shallowEqual(objA, objB, compare, compareContext) {
+    var ret = compare ? compare.call(compareContext, objA, objB) : void 0;
+    if (ret !== void 0) return !!ret;
+    if (objA === objB) return true;
+    if (typeof objA !== "object" || !objA || typeof objB !== "object" || !objB) return false;
+    var keysA = Object.keys(objA);
+    var keysB = Object.keys(objB);
+    if (keysA.length !== keysB.length) return false;
+    var bHasOwnProperty = Object.prototype.hasOwnProperty.bind(objB);
+    // Test for A's keys different from B.
+    for(var idx = 0; idx < keysA.length; idx++){
+        var key = keysA[idx];
+        if (!bHasOwnProperty(key)) return false;
+        var valueA = objA[key];
+        var valueB = objB[key];
+        ret = compare ? compare.call(compareContext, valueA, valueB, key) : void 0;
+        if (ret === false || ret === void 0 && valueA !== valueB) return false;
+    }
+    return true;
+};
+
+},{}],"fGS9o":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+function stylis_min(W) {
+    function M(d, c, e, h, a) {
+        for(var m = 0, b = 0, v = 0, n = 0, q, g, x = 0, K = 0, k, u = k = q = 0, l = 0, r = 0, I = 0, t = 0, B = e.length, J = B - 1, y, f = "", p = "", F = "", G = "", C; l < B;){
+            g = e.charCodeAt(l);
+            l === J && 0 !== b + n + v + m && (0 !== b && (g = 47 === b ? 10 : 47), n = v = m = 0, B++, J++);
+            if (0 === b + n + v + m) {
+                if (l === J && (0 < r && (f = f.replace(N, "")), 0 < f.trim().length)) {
+                    switch(g){
+                        case 32:
+                        case 9:
+                        case 59:
+                        case 13:
+                        case 10:
+                            break;
+                        default:
+                            f += e.charAt(l);
+                    }
+                    g = 59;
+                }
+                switch(g){
+                    case 123:
+                        f = f.trim();
+                        q = f.charCodeAt(0);
+                        k = 1;
+                        for(t = ++l; l < B;){
+                            switch(g = e.charCodeAt(l)){
+                                case 123:
+                                    k++;
+                                    break;
+                                case 125:
+                                    k--;
+                                    break;
+                                case 47:
+                                    switch(g = e.charCodeAt(l + 1)){
+                                        case 42:
+                                        case 47:
+                                            a: {
+                                                for(u = l + 1; u < J; ++u)switch(e.charCodeAt(u)){
+                                                    case 47:
+                                                        if (42 === g && 42 === e.charCodeAt(u - 1) && l + 2 !== u) {
+                                                            l = u + 1;
+                                                            break a;
+                                                        }
+                                                        break;
+                                                    case 10:
+                                                        if (47 === g) {
+                                                            l = u + 1;
+                                                            break a;
+                                                        }
+                                                }
+                                                l = u;
+                                            }
+                                    }
+                                    break;
+                                case 91:
+                                    g++;
+                                case 40:
+                                    g++;
+                                case 34:
+                                case 39:
+                                    for(; l++ < J && e.charCodeAt(l) !== g;);
+                            }
+                            if (0 === k) break;
+                            l++;
+                        }
+                        k = e.substring(t, l);
+                        0 === q && (q = (f = f.replace(ca, "").trim()).charCodeAt(0));
+                        switch(q){
+                            case 64:
+                                0 < r && (f = f.replace(N, ""));
+                                g = f.charCodeAt(1);
+                                switch(g){
+                                    case 100:
+                                    case 109:
+                                    case 115:
+                                    case 45:
+                                        r = c;
+                                        break;
+                                    default:
+                                        r = O;
+                                }
+                                k = M(c, r, k, g, a + 1);
+                                t = k.length;
+                                0 < A && (r = X(O, f, I), C = H(3, k, r, c, D, z, t, g, a, h), f = r.join(""), void 0 !== C && 0 === (t = (k = C.trim()).length) && (g = 0, k = ""));
+                                if (0 < t) switch(g){
+                                    case 115:
+                                        f = f.replace(da, ea);
+                                    case 100:
+                                    case 109:
+                                    case 45:
+                                        k = f + "{" + k + "}";
+                                        break;
+                                    case 107:
+                                        f = f.replace(fa, "$1 $2");
+                                        k = f + "{" + k + "}";
+                                        k = 1 === w || 2 === w && L("@" + k, 3) ? "@-webkit-" + k + "@" + k : "@" + k;
+                                        break;
+                                    default:
+                                        k = f + k, 112 === h && (k = (p += k, ""));
+                                }
+                                else k = "";
+                                break;
+                            default:
+                                k = M(c, X(c, f, I), k, h, a + 1);
+                        }
+                        F += k;
+                        k = I = r = u = q = 0;
+                        f = "";
+                        g = e.charCodeAt(++l);
+                        break;
+                    case 125:
+                    case 59:
+                        f = (0 < r ? f.replace(N, "") : f).trim();
+                        if (1 < (t = f.length)) switch(0 === u && (q = f.charCodeAt(0), 45 === q || 96 < q && 123 > q) && (t = (f = f.replace(" ", ":")).length), 0 < A && void 0 !== (C = H(1, f, c, d, D, z, p.length, h, a, h)) && 0 === (t = (f = C.trim()).length) && (f = "\0\0"), q = f.charCodeAt(0), g = f.charCodeAt(1), q){
+                            case 0:
+                                break;
+                            case 64:
+                                if (105 === g || 99 === g) {
+                                    G += f + e.charAt(l);
+                                    break;
+                                }
+                            default:
+                                58 !== f.charCodeAt(t - 1) && (p += P(f, q, g, f.charCodeAt(2)));
+                        }
+                        I = r = u = q = 0;
+                        f = "";
+                        g = e.charCodeAt(++l);
+                }
+            }
+            switch(g){
+                case 13:
+                case 10:
+                    47 === b ? b = 0 : 0 === 1 + q && 107 !== h && 0 < f.length && (r = 1, f += "\0");
+                    0 < A * Y && H(0, f, c, d, D, z, p.length, h, a, h);
+                    z = 1;
+                    D++;
+                    break;
+                case 59:
+                case 125:
+                    if (0 === b + n + v + m) {
+                        z++;
+                        break;
+                    }
+                default:
+                    z++;
+                    y = e.charAt(l);
+                    switch(g){
+                        case 9:
+                        case 32:
+                            if (0 === n + m + b) switch(x){
+                                case 44:
+                                case 58:
+                                case 9:
+                                case 32:
+                                    y = "";
+                                    break;
+                                default:
+                                    32 !== g && (y = " ");
+                            }
+                            break;
+                        case 0:
+                            y = "\\0";
+                            break;
+                        case 12:
+                            y = "\\f";
+                            break;
+                        case 11:
+                            y = "\\v";
+                            break;
+                        case 38:
+                            0 === n + b + m && (r = I = 1, y = "\f" + y);
+                            break;
+                        case 108:
+                            if (0 === n + b + m + E && 0 < u) switch(l - u){
+                                case 2:
+                                    112 === x && 58 === e.charCodeAt(l - 3) && (E = x);
+                                case 8:
+                                    111 === K && (E = K);
+                            }
+                            break;
+                        case 58:
+                            0 === n + b + m && (u = l);
+                            break;
+                        case 44:
+                            0 === b + v + n + m && (r = 1, y += "\r");
+                            break;
+                        case 34:
+                        case 39:
+                            0 === b && (n = n === g ? 0 : 0 === n ? g : n);
+                            break;
+                        case 91:
+                            0 === n + b + v && m++;
+                            break;
+                        case 93:
+                            0 === n + b + v && m--;
+                            break;
+                        case 41:
+                            0 === n + b + m && v--;
+                            break;
+                        case 40:
+                            if (0 === n + b + m) {
+                                if (0 === q) switch(2 * x + 3 * K){
+                                    case 533:
+                                        break;
+                                    default:
+                                        q = 1;
+                                }
+                                v++;
+                            }
+                            break;
+                        case 64:
+                            0 === b + v + n + m + u + k && (k = 1);
+                            break;
+                        case 42:
+                        case 47:
+                            if (!(0 < n + m + v)) switch(b){
+                                case 0:
+                                    switch(2 * g + 3 * e.charCodeAt(l + 1)){
+                                        case 235:
+                                            b = 47;
+                                            break;
+                                        case 220:
+                                            t = l, b = 42;
+                                    }
+                                    break;
+                                case 42:
+                                    47 === g && 42 === x && t + 2 !== l && (33 === e.charCodeAt(t + 2) && (p += e.substring(t, l + 1)), y = "", b = 0);
+                            }
+                    }
+                    0 === b && (f += y);
+            }
+            K = x;
+            x = g;
+            l++;
+        }
+        t = p.length;
+        if (0 < t) {
+            r = c;
+            if (0 < A && (C = H(2, p, r, d, D, z, t, h, a, h), void 0 !== C && 0 === (p = C).length)) return G + p + F;
+            p = r.join(",") + "{" + p + "}";
+            if (0 !== w * E) {
+                2 !== w || L(p, 2) || (E = 0);
+                switch(E){
+                    case 111:
+                        p = p.replace(ha, ":-moz-$1") + p;
+                        break;
+                    case 112:
+                        p = p.replace(Q, "::-webkit-input-$1") + p.replace(Q, "::-moz-$1") + p.replace(Q, ":-ms-input-$1") + p;
+                }
+                E = 0;
+            }
+        }
+        return G + p + F;
+    }
+    function X(d, c, e) {
+        var h = c.trim().split(ia);
+        c = h;
+        var a = h.length, m = d.length;
+        switch(m){
+            case 0:
+            case 1:
+                var b = 0;
+                for(d = 0 === m ? "" : d[0] + " "; b < a; ++b)c[b] = Z(d, c[b], e).trim();
+                break;
+            default:
+                var v = b = 0;
+                for(c = []; b < a; ++b)for(var n = 0; n < m; ++n)c[v++] = Z(d[n] + " ", h[b], e).trim();
+        }
+        return c;
+    }
+    function Z(d, c, e) {
+        var h = c.charCodeAt(0);
+        33 > h && (h = (c = c.trim()).charCodeAt(0));
+        switch(h){
+            case 38:
+                return c.replace(F, "$1" + d.trim());
+            case 58:
+                return d.trim() + c.replace(F, "$1" + d.trim());
+            default:
+                if (0 < 1 * e && 0 < c.indexOf("\f")) return c.replace(F, (58 === d.charCodeAt(0) ? "" : "$1") + d.trim());
+        }
+        return d + c;
+    }
+    function P(d, c, e, h) {
+        var a = d + ";", m = 2 * c + 3 * e + 4 * h;
+        if (944 === m) {
+            d = a.indexOf(":", 9) + 1;
+            var b = a.substring(d, a.length - 1).trim();
+            b = a.substring(0, d).trim() + b + ";";
+            return 1 === w || 2 === w && L(b, 1) ? "-webkit-" + b + b : b;
+        }
+        if (0 === w || 2 === w && !L(a, 1)) return a;
+        switch(m){
+            case 1015:
+                return 97 === a.charCodeAt(10) ? "-webkit-" + a + a : a;
+            case 951:
+                return 116 === a.charCodeAt(3) ? "-webkit-" + a + a : a;
+            case 963:
+                return 110 === a.charCodeAt(5) ? "-webkit-" + a + a : a;
+            case 1009:
+                if (100 !== a.charCodeAt(4)) break;
+            case 969:
+            case 942:
+                return "-webkit-" + a + a;
+            case 978:
+                return "-webkit-" + a + "-moz-" + a + a;
+            case 1019:
+            case 983:
+                return "-webkit-" + a + "-moz-" + a + "-ms-" + a + a;
+            case 883:
+                if (45 === a.charCodeAt(8)) return "-webkit-" + a + a;
+                if (0 < a.indexOf("image-set(", 11)) return a.replace(ja, "$1-webkit-$2") + a;
+                break;
+            case 932:
+                if (45 === a.charCodeAt(4)) switch(a.charCodeAt(5)){
+                    case 103:
+                        return "-webkit-box-" + a.replace("-grow", "") + "-webkit-" + a + "-ms-" + a.replace("grow", "positive") + a;
+                    case 115:
+                        return "-webkit-" + a + "-ms-" + a.replace("shrink", "negative") + a;
+                    case 98:
+                        return "-webkit-" + a + "-ms-" + a.replace("basis", "preferred-size") + a;
+                }
+                return "-webkit-" + a + "-ms-" + a + a;
+            case 964:
+                return "-webkit-" + a + "-ms-flex-" + a + a;
+            case 1023:
+                if (99 !== a.charCodeAt(8)) break;
+                b = a.substring(a.indexOf(":", 15)).replace("flex-", "").replace("space-between", "justify");
+                return "-webkit-box-pack" + b + "-webkit-" + a + "-ms-flex-pack" + b + a;
+            case 1005:
+                return ka.test(a) ? a.replace(aa, ":-webkit-") + a.replace(aa, ":-moz-") + a : a;
+            case 1e3:
+                b = a.substring(13).trim();
+                c = b.indexOf("-") + 1;
+                switch(b.charCodeAt(0) + b.charCodeAt(c)){
+                    case 226:
+                        b = a.replace(G, "tb");
+                        break;
+                    case 232:
+                        b = a.replace(G, "tb-rl");
+                        break;
+                    case 220:
+                        b = a.replace(G, "lr");
+                        break;
+                    default:
+                        return a;
+                }
+                return "-webkit-" + a + "-ms-" + b + a;
+            case 1017:
+                if (-1 === a.indexOf("sticky", 9)) break;
+            case 975:
+                c = (a = d).length - 10;
+                b = (33 === a.charCodeAt(c) ? a.substring(0, c) : a).substring(d.indexOf(":", 7) + 1).trim();
+                switch(m = b.charCodeAt(0) + (b.charCodeAt(7) | 0)){
+                    case 203:
+                        if (111 > b.charCodeAt(8)) break;
+                    case 115:
+                        a = a.replace(b, "-webkit-" + b) + ";" + a;
+                        break;
+                    case 207:
+                    case 102:
+                        a = a.replace(b, "-webkit-" + (102 < m ? "inline-" : "") + "box") + ";" + a.replace(b, "-webkit-" + b) + ";" + a.replace(b, "-ms-" + b + "box") + ";" + a;
+                }
+                return a + ";";
+            case 938:
+                if (45 === a.charCodeAt(5)) switch(a.charCodeAt(6)){
+                    case 105:
+                        return b = a.replace("-items", ""), "-webkit-" + a + "-webkit-box-" + b + "-ms-flex-" + b + a;
+                    case 115:
+                        return "-webkit-" + a + "-ms-flex-item-" + a.replace(ba, "") + a;
+                    default:
+                        return "-webkit-" + a + "-ms-flex-line-pack" + a.replace("align-content", "").replace(ba, "") + a;
+                }
+                break;
+            case 973:
+            case 989:
+                if (45 !== a.charCodeAt(3) || 122 === a.charCodeAt(4)) break;
+            case 931:
+            case 953:
+                if (!0 === la.test(d)) return 115 === (b = d.substring(d.indexOf(":") + 1)).charCodeAt(0) ? P(d.replace("stretch", "fill-available"), c, e, h).replace(":fill-available", ":stretch") : a.replace(b, "-webkit-" + b) + a.replace(b, "-moz-" + b.replace("fill-", "")) + a;
+                break;
+            case 962:
+                if (a = "-webkit-" + a + (102 === a.charCodeAt(5) ? "-ms-" + a : "") + a, 211 === e + h && 105 === a.charCodeAt(13) && 0 < a.indexOf("transform", 10)) return a.substring(0, a.indexOf(";", 27) + 1).replace(ma, "$1-webkit-$2") + a;
+        }
+        return a;
+    }
+    function L(d, c) {
+        var e = d.indexOf(1 === c ? ":" : "{"), h = d.substring(0, 3 !== c ? e : 10);
+        e = d.substring(e + 1, d.length - 1);
+        return R(2 !== c ? h : h.replace(na, "$1"), e, c);
+    }
+    function ea(d, c) {
+        var e = P(c, c.charCodeAt(0), c.charCodeAt(1), c.charCodeAt(2));
+        return e !== c + ";" ? e.replace(oa, " or ($1)").substring(4) : "(" + c + ")";
+    }
+    function H(d, c, e, h, a, m, b, v, n, q) {
+        for(var g = 0, x = c, w; g < A; ++g)switch(w = S[g].call(B, d, x, e, h, a, m, b, v, n, q)){
+            case void 0:
+            case !1:
+            case !0:
+            case null:
+                break;
+            default:
+                x = w;
+        }
+        if (x !== c) return x;
+    }
+    function T(d) {
+        switch(d){
+            case void 0:
+            case null:
+                A = S.length = 0;
+                break;
+            default:
+                if ("function" === typeof d) S[A++] = d;
+                else if ("object" === typeof d) for(var c = 0, e = d.length; c < e; ++c)T(d[c]);
+                else Y = !!d | 0;
+        }
+        return T;
+    }
+    function U(d) {
+        d = d.prefix;
+        void 0 !== d && (R = null, d ? "function" !== typeof d ? w = 1 : (w = 2, R = d) : w = 0);
+        return U;
+    }
+    function B(d, c) {
+        var e = d;
+        33 > e.charCodeAt(0) && (e = e.trim());
+        V = e;
+        e = [
+            V
+        ];
+        if (0 < A) {
+            var h = H(-1, c, e, e, D, z, 0, 0, 0, 0);
+            void 0 !== h && "string" === typeof h && (c = h);
+        }
+        var a = M(O, e, c, 0, 0);
+        0 < A && (h = H(-2, a, e, e, D, z, a.length, 0, 0, 0), void 0 !== h && (a = h));
+        V = "";
+        E = 0;
+        z = D = 1;
+        return a;
+    }
+    var ca = /^\0+/g, N = /[\0\r\f]/g, aa = /: */g, ka = /zoo|gra/, ma = /([,: ])(transform)/g, ia = /,\r+?/g, F = /([\t\r\n ])*\f?&/g, fa = /@(k\w+)\s*(\S*)\s*/, Q = /::(place)/g, ha = /:(read-only)/g, G = /[svh]\w+-[tblr]{2}/, da = /\(\s*(.*)\s*\)/g, oa = /([\s\S]*?);/g, ba = /-self|flex-/g, na = /[^]*?(:[rp][el]a[\w-]+)[^]*/, la = /stretch|:\s*\w+\-(?:conte|avail)/, ja = /([^-])(image-set\()/, z = 1, D = 1, E = 0, w = 1, O = [], S = [], A = 0, R = null, Y = 0, V = "";
+    B.use = T;
+    B.set = U;
+    void 0 !== W && U(W);
+    return B;
+}
+exports.default = stylis_min;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"pVndT":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var unitlessKeys = {
+    animationIterationCount: 1,
+    borderImageOutset: 1,
+    borderImageSlice: 1,
+    borderImageWidth: 1,
+    boxFlex: 1,
+    boxFlexGroup: 1,
+    boxOrdinalGroup: 1,
+    columnCount: 1,
+    columns: 1,
+    flex: 1,
+    flexGrow: 1,
+    flexPositive: 1,
+    flexShrink: 1,
+    flexNegative: 1,
+    flexOrder: 1,
+    gridRow: 1,
+    gridRowEnd: 1,
+    gridRowSpan: 1,
+    gridRowStart: 1,
+    gridColumn: 1,
+    gridColumnEnd: 1,
+    gridColumnSpan: 1,
+    gridColumnStart: 1,
+    msGridRow: 1,
+    msGridRowSpan: 1,
+    msGridColumn: 1,
+    msGridColumnSpan: 1,
+    fontWeight: 1,
+    lineHeight: 1,
+    opacity: 1,
+    order: 1,
+    orphans: 1,
+    tabSize: 1,
+    widows: 1,
+    zIndex: 1,
+    zoom: 1,
+    WebkitLineClamp: 1,
+    // SVG-related properties
+    fillOpacity: 1,
+    floodOpacity: 1,
+    stopOpacity: 1,
+    strokeDasharray: 1,
+    strokeDashoffset: 1,
+    strokeMiterlimit: 1,
+    strokeOpacity: 1,
+    strokeWidth: 1
+};
+exports.default = unitlessKeys;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9JzNk":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _memoize = require("@emotion/memoize");
+var _memoizeDefault = parcelHelpers.interopDefault(_memoize);
+var reactPropsRegex = /^((children|dangerouslySetInnerHTML|key|ref|autoFocus|defaultValue|defaultChecked|innerHTML|suppressContentEditableWarning|suppressHydrationWarning|valueLink|abbr|accept|acceptCharset|accessKey|action|allow|allowUserMedia|allowPaymentRequest|allowFullScreen|allowTransparency|alt|async|autoComplete|autoPlay|capture|cellPadding|cellSpacing|challenge|charSet|checked|cite|classID|className|cols|colSpan|content|contentEditable|contextMenu|controls|controlsList|coords|crossOrigin|data|dateTime|decoding|default|defer|dir|disabled|disablePictureInPicture|download|draggable|encType|enterKeyHint|form|formAction|formEncType|formMethod|formNoValidate|formTarget|frameBorder|headers|height|hidden|high|href|hrefLang|htmlFor|httpEquiv|id|inputMode|integrity|is|keyParams|keyType|kind|label|lang|list|loading|loop|low|marginHeight|marginWidth|max|maxLength|media|mediaGroup|method|min|minLength|multiple|muted|name|nonce|noValidate|open|optimum|pattern|placeholder|playsInline|poster|preload|profile|radioGroup|readOnly|referrerPolicy|rel|required|reversed|role|rows|rowSpan|sandbox|scope|scoped|scrolling|seamless|selected|shape|size|sizes|slot|span|spellCheck|src|srcDoc|srcLang|srcSet|start|step|style|summary|tabIndex|target|title|translate|type|useMap|value|width|wmode|wrap|about|datatype|inlist|prefix|property|resource|typeof|vocab|autoCapitalize|autoCorrect|autoSave|color|incremental|fallback|inert|itemProp|itemScope|itemType|itemID|itemRef|on|option|results|security|unselectable|accentHeight|accumulate|additive|alignmentBaseline|allowReorder|alphabetic|amplitude|arabicForm|ascent|attributeName|attributeType|autoReverse|azimuth|baseFrequency|baselineShift|baseProfile|bbox|begin|bias|by|calcMode|capHeight|clip|clipPathUnits|clipPath|clipRule|colorInterpolation|colorInterpolationFilters|colorProfile|colorRendering|contentScriptType|contentStyleType|cursor|cx|cy|d|decelerate|descent|diffuseConstant|direction|display|divisor|dominantBaseline|dur|dx|dy|edgeMode|elevation|enableBackground|end|exponent|externalResourcesRequired|fill|fillOpacity|fillRule|filter|filterRes|filterUnits|floodColor|floodOpacity|focusable|fontFamily|fontSize|fontSizeAdjust|fontStretch|fontStyle|fontVariant|fontWeight|format|from|fr|fx|fy|g1|g2|glyphName|glyphOrientationHorizontal|glyphOrientationVertical|glyphRef|gradientTransform|gradientUnits|hanging|horizAdvX|horizOriginX|ideographic|imageRendering|in|in2|intercept|k|k1|k2|k3|k4|kernelMatrix|kernelUnitLength|kerning|keyPoints|keySplines|keyTimes|lengthAdjust|letterSpacing|lightingColor|limitingConeAngle|local|markerEnd|markerMid|markerStart|markerHeight|markerUnits|markerWidth|mask|maskContentUnits|maskUnits|mathematical|mode|numOctaves|offset|opacity|operator|order|orient|orientation|origin|overflow|overlinePosition|overlineThickness|panose1|paintOrder|pathLength|patternContentUnits|patternTransform|patternUnits|pointerEvents|points|pointsAtX|pointsAtY|pointsAtZ|preserveAlpha|preserveAspectRatio|primitiveUnits|r|radius|refX|refY|renderingIntent|repeatCount|repeatDur|requiredExtensions|requiredFeatures|restart|result|rotate|rx|ry|scale|seed|shapeRendering|slope|spacing|specularConstant|specularExponent|speed|spreadMethod|startOffset|stdDeviation|stemh|stemv|stitchTiles|stopColor|stopOpacity|strikethroughPosition|strikethroughThickness|string|stroke|strokeDasharray|strokeDashoffset|strokeLinecap|strokeLinejoin|strokeMiterlimit|strokeOpacity|strokeWidth|surfaceScale|systemLanguage|tableValues|targetX|targetY|textAnchor|textDecoration|textRendering|textLength|to|transform|u1|u2|underlinePosition|underlineThickness|unicode|unicodeBidi|unicodeRange|unitsPerEm|vAlphabetic|vHanging|vIdeographic|vMathematical|values|vectorEffect|version|vertAdvY|vertOriginX|vertOriginY|viewBox|viewTarget|visibility|widths|wordSpacing|writingMode|x|xHeight|x1|x2|xChannelSelector|xlinkActuate|xlinkArcrole|xlinkHref|xlinkRole|xlinkShow|xlinkTitle|xlinkType|xmlBase|xmlns|xmlnsXlink|xmlLang|xmlSpace|y|y1|y2|yChannelSelector|z|zoomAndPan|for|class|autofocus)|(([Dd][Aa][Tt][Aa]|[Aa][Rr][Ii][Aa]|x)-.*))$/; // https://esbench.com/bench/5bfee68a4cd7e6009ef61d23
+var isPropValid = /* #__PURE__ */ (0, _memoizeDefault.default)(function(prop) {
+    return reactPropsRegex.test(prop) || prop.charCodeAt(0) === 111 && prop.charCodeAt(1) === 110 && prop.charCodeAt(2) < 91;
+});
+exports.default = isPropValid;
+
+},{"@emotion/memoize":"2vzJd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2vzJd":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+function memoize(fn) {
+    var cache = Object.create(null);
+    return function(arg) {
+        if (cache[arg] === undefined) cache[arg] = fn(arg);
+        return cache[arg];
+    };
+}
+exports.default = memoize;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1GfsB":[function(require,module,exports) {
+"use strict";
+var reactIs = require("react-is");
+/**
+ * Copyright 2015, Yahoo! Inc.
+ * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+ */ var REACT_STATICS = {
+    childContextTypes: true,
+    contextType: true,
+    contextTypes: true,
+    defaultProps: true,
+    displayName: true,
+    getDefaultProps: true,
+    getDerivedStateFromError: true,
+    getDerivedStateFromProps: true,
+    mixins: true,
+    propTypes: true,
+    type: true
+};
+var KNOWN_STATICS = {
+    name: true,
+    length: true,
+    prototype: true,
+    caller: true,
+    callee: true,
+    arguments: true,
+    arity: true
+};
+var FORWARD_REF_STATICS = {
+    "$$typeof": true,
+    render: true,
+    defaultProps: true,
+    displayName: true,
+    propTypes: true
+};
+var MEMO_STATICS = {
+    "$$typeof": true,
+    compare: true,
+    defaultProps: true,
+    displayName: true,
+    propTypes: true,
+    type: true
+};
+var TYPE_STATICS = {};
+TYPE_STATICS[reactIs.ForwardRef] = FORWARD_REF_STATICS;
+TYPE_STATICS[reactIs.Memo] = MEMO_STATICS;
+function getStatics(component) {
+    // React v16.11 and below
+    if (reactIs.isMemo(component)) return MEMO_STATICS;
+     // React v16.12 and above
+    return TYPE_STATICS[component["$$typeof"]] || REACT_STATICS;
+}
+var defineProperty = Object.defineProperty;
+var getOwnPropertyNames = Object.getOwnPropertyNames;
+var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+var getPrototypeOf = Object.getPrototypeOf;
+var objectPrototype = Object.prototype;
+function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
+    if (typeof sourceComponent !== "string") {
+        // don't hoist over string (html) components
+        if (objectPrototype) {
+            var inheritedComponent = getPrototypeOf(sourceComponent);
+            if (inheritedComponent && inheritedComponent !== objectPrototype) hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
+        }
+        var keys = getOwnPropertyNames(sourceComponent);
+        if (getOwnPropertySymbols) keys = keys.concat(getOwnPropertySymbols(sourceComponent));
+        var targetStatics = getStatics(targetComponent);
+        var sourceStatics = getStatics(sourceComponent);
+        for(var i = 0; i < keys.length; ++i){
+            var key = keys[i];
+            if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
+                var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
+                try {
+                    // Avoid failures from read-only properties
+                    defineProperty(targetComponent, key, descriptor);
+                } catch (e) {}
+            }
+        }
+    }
+    return targetComponent;
+}
+module.exports = hoistNonReactStatics;
+
+},{"react-is":"8V70c"}],"8V70c":[function(require,module,exports) {
+"use strict";
+module.exports = require("./cjs/react-is.development.js");
+
+},{"./cjs/react-is.development.js":"drjfK"}],"drjfK":[function(require,module,exports) {
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ "use strict";
+(function() {
+    "use strict";
+    // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+    // nor polyfill, then a plain number is used for performance.
+    var hasSymbol = typeof Symbol === "function" && Symbol.for;
+    var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for("react.element") : 0xeac7;
+    var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for("react.portal") : 0xeaca;
+    var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for("react.fragment") : 0xeacb;
+    var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for("react.strict_mode") : 0xeacc;
+    var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for("react.profiler") : 0xead2;
+    var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for("react.provider") : 0xeacd;
+    var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for("react.context") : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+    // (unstable) APIs that have been removed. Can we remove the symbols?
+    var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for("react.async_mode") : 0xeacf;
+    var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for("react.concurrent_mode") : 0xeacf;
+    var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for("react.forward_ref") : 0xead0;
+    var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for("react.suspense") : 0xead1;
+    var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for("react.suspense_list") : 0xead8;
+    var REACT_MEMO_TYPE = hasSymbol ? Symbol.for("react.memo") : 0xead3;
+    var REACT_LAZY_TYPE = hasSymbol ? Symbol.for("react.lazy") : 0xead4;
+    var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for("react.block") : 0xead9;
+    var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for("react.fundamental") : 0xead5;
+    var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for("react.responder") : 0xead6;
+    var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for("react.scope") : 0xead7;
+    function isValidElementType(type) {
+        return typeof type === "string" || typeof type === "function" || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+        type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === "object" && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+    }
+    function typeOf(object) {
+        if (typeof object === "object" && object !== null) {
+            var $$typeof = object.$$typeof;
+            switch($$typeof){
+                case REACT_ELEMENT_TYPE:
+                    var type = object.type;
+                    switch(type){
+                        case REACT_ASYNC_MODE_TYPE:
+                        case REACT_CONCURRENT_MODE_TYPE:
+                        case REACT_FRAGMENT_TYPE:
+                        case REACT_PROFILER_TYPE:
+                        case REACT_STRICT_MODE_TYPE:
+                        case REACT_SUSPENSE_TYPE:
+                            return type;
+                        default:
+                            var $$typeofType = type && type.$$typeof;
+                            switch($$typeofType){
+                                case REACT_CONTEXT_TYPE:
+                                case REACT_FORWARD_REF_TYPE:
+                                case REACT_LAZY_TYPE:
+                                case REACT_MEMO_TYPE:
+                                case REACT_PROVIDER_TYPE:
+                                    return $$typeofType;
+                                default:
+                                    return $$typeof;
+                            }
+                    }
+                case REACT_PORTAL_TYPE:
+                    return $$typeof;
+            }
+        }
+        return undefined;
+    } // AsyncMode is deprecated along with isAsyncMode
+    var AsyncMode = REACT_ASYNC_MODE_TYPE;
+    var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+    var ContextConsumer = REACT_CONTEXT_TYPE;
+    var ContextProvider = REACT_PROVIDER_TYPE;
+    var Element = REACT_ELEMENT_TYPE;
+    var ForwardRef = REACT_FORWARD_REF_TYPE;
+    var Fragment = REACT_FRAGMENT_TYPE;
+    var Lazy = REACT_LAZY_TYPE;
+    var Memo = REACT_MEMO_TYPE;
+    var Portal = REACT_PORTAL_TYPE;
+    var Profiler = REACT_PROFILER_TYPE;
+    var StrictMode = REACT_STRICT_MODE_TYPE;
+    var Suspense = REACT_SUSPENSE_TYPE;
+    var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+    function isAsyncMode(object) {
+        if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+            hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+            console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.");
+        }
+        return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+    }
+    function isConcurrentMode(object) {
+        return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+    }
+    function isContextConsumer(object) {
+        return typeOf(object) === REACT_CONTEXT_TYPE;
+    }
+    function isContextProvider(object) {
+        return typeOf(object) === REACT_PROVIDER_TYPE;
+    }
+    function isElement(object) {
+        return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+    }
+    function isForwardRef(object) {
+        return typeOf(object) === REACT_FORWARD_REF_TYPE;
+    }
+    function isFragment(object) {
+        return typeOf(object) === REACT_FRAGMENT_TYPE;
+    }
+    function isLazy(object) {
+        return typeOf(object) === REACT_LAZY_TYPE;
+    }
+    function isMemo(object) {
+        return typeOf(object) === REACT_MEMO_TYPE;
+    }
+    function isPortal(object) {
+        return typeOf(object) === REACT_PORTAL_TYPE;
+    }
+    function isProfiler(object) {
+        return typeOf(object) === REACT_PROFILER_TYPE;
+    }
+    function isStrictMode(object) {
+        return typeOf(object) === REACT_STRICT_MODE_TYPE;
+    }
+    function isSuspense(object) {
+        return typeOf(object) === REACT_SUSPENSE_TYPE;
+    }
+    exports.AsyncMode = AsyncMode;
+    exports.ConcurrentMode = ConcurrentMode;
+    exports.ContextConsumer = ContextConsumer;
+    exports.ContextProvider = ContextProvider;
+    exports.Element = Element;
+    exports.ForwardRef = ForwardRef;
+    exports.Fragment = Fragment;
+    exports.Lazy = Lazy;
+    exports.Memo = Memo;
+    exports.Portal = Portal;
+    exports.Profiler = Profiler;
+    exports.StrictMode = StrictMode;
+    exports.Suspense = Suspense;
+    exports.isAsyncMode = isAsyncMode;
+    exports.isConcurrentMode = isConcurrentMode;
+    exports.isContextConsumer = isContextConsumer;
+    exports.isContextProvider = isContextProvider;
+    exports.isElement = isElement;
+    exports.isForwardRef = isForwardRef;
+    exports.isFragment = isFragment;
+    exports.isLazy = isLazy;
+    exports.isMemo = isMemo;
+    exports.isPortal = isPortal;
+    exports.isProfiler = isProfiler;
+    exports.isStrictMode = isStrictMode;
+    exports.isSuspense = isSuspense;
+    exports.isValidElementType = isValidElementType;
+    exports.typeOf = typeOf;
+})();
+
+},{}],"cHIiW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
@@ -28783,37 +30659,7 @@ function _setPrototypeOf(o, p) {
 }
 exports.default = _setPrototypeOf;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"7wKI2":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7wKI2":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -31016,256 +32862,11 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 exports.default = _objectWithoutPropertiesLoose;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1GfsB":[function(require,module,exports) {
-"use strict";
-var reactIs = require("react-is");
-/**
- * Copyright 2015, Yahoo! Inc.
- * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
- */ var REACT_STATICS = {
-    childContextTypes: true,
-    contextType: true,
-    contextTypes: true,
-    defaultProps: true,
-    displayName: true,
-    getDefaultProps: true,
-    getDerivedStateFromError: true,
-    getDerivedStateFromProps: true,
-    mixins: true,
-    propTypes: true,
-    type: true
-};
-var KNOWN_STATICS = {
-    name: true,
-    length: true,
-    prototype: true,
-    caller: true,
-    callee: true,
-    arguments: true,
-    arity: true
-};
-var FORWARD_REF_STATICS = {
-    "$$typeof": true,
-    render: true,
-    defaultProps: true,
-    displayName: true,
-    propTypes: true
-};
-var MEMO_STATICS = {
-    "$$typeof": true,
-    compare: true,
-    defaultProps: true,
-    displayName: true,
-    propTypes: true,
-    type: true
-};
-var TYPE_STATICS = {};
-TYPE_STATICS[reactIs.ForwardRef] = FORWARD_REF_STATICS;
-TYPE_STATICS[reactIs.Memo] = MEMO_STATICS;
-function getStatics(component) {
-    // React v16.11 and below
-    if (reactIs.isMemo(component)) return MEMO_STATICS;
-     // React v16.12 and above
-    return TYPE_STATICS[component["$$typeof"]] || REACT_STATICS;
-}
-var defineProperty = Object.defineProperty;
-var getOwnPropertyNames = Object.getOwnPropertyNames;
-var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
-var getPrototypeOf = Object.getPrototypeOf;
-var objectPrototype = Object.prototype;
-function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
-    if (typeof sourceComponent !== "string") {
-        // don't hoist over string (html) components
-        if (objectPrototype) {
-            var inheritedComponent = getPrototypeOf(sourceComponent);
-            if (inheritedComponent && inheritedComponent !== objectPrototype) hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
-        }
-        var keys = getOwnPropertyNames(sourceComponent);
-        if (getOwnPropertySymbols) keys = keys.concat(getOwnPropertySymbols(sourceComponent));
-        var targetStatics = getStatics(targetComponent);
-        var sourceStatics = getStatics(sourceComponent);
-        for(var i = 0; i < keys.length; ++i){
-            var key = keys[i];
-            if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
-                var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
-                try {
-                    // Avoid failures from read-only properties
-                    defineProperty(targetComponent, key, descriptor);
-                } catch (e) {}
-            }
-        }
-    }
-    return targetComponent;
-}
-module.exports = hoistNonReactStatics;
-
-},{"react-is":"8V70c"}],"8V70c":[function(require,module,exports) {
-"use strict";
-module.exports = require("./cjs/react-is.development.js");
-
-},{"./cjs/react-is.development.js":"drjfK"}],"drjfK":[function(require,module,exports) {
-/** @license React v16.13.1
- * react-is.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ "use strict";
-(function() {
-    "use strict";
-    // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
-    // nor polyfill, then a plain number is used for performance.
-    var hasSymbol = typeof Symbol === "function" && Symbol.for;
-    var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for("react.element") : 0xeac7;
-    var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for("react.portal") : 0xeaca;
-    var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for("react.fragment") : 0xeacb;
-    var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for("react.strict_mode") : 0xeacc;
-    var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for("react.profiler") : 0xead2;
-    var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for("react.provider") : 0xeacd;
-    var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for("react.context") : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
-    // (unstable) APIs that have been removed. Can we remove the symbols?
-    var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for("react.async_mode") : 0xeacf;
-    var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for("react.concurrent_mode") : 0xeacf;
-    var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for("react.forward_ref") : 0xead0;
-    var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for("react.suspense") : 0xead1;
-    var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for("react.suspense_list") : 0xead8;
-    var REACT_MEMO_TYPE = hasSymbol ? Symbol.for("react.memo") : 0xead3;
-    var REACT_LAZY_TYPE = hasSymbol ? Symbol.for("react.lazy") : 0xead4;
-    var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for("react.block") : 0xead9;
-    var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for("react.fundamental") : 0xead5;
-    var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for("react.responder") : 0xead6;
-    var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for("react.scope") : 0xead7;
-    function isValidElementType(type) {
-        return typeof type === "string" || typeof type === "function" || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
-        type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === "object" && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
-    }
-    function typeOf(object) {
-        if (typeof object === "object" && object !== null) {
-            var $$typeof = object.$$typeof;
-            switch($$typeof){
-                case REACT_ELEMENT_TYPE:
-                    var type = object.type;
-                    switch(type){
-                        case REACT_ASYNC_MODE_TYPE:
-                        case REACT_CONCURRENT_MODE_TYPE:
-                        case REACT_FRAGMENT_TYPE:
-                        case REACT_PROFILER_TYPE:
-                        case REACT_STRICT_MODE_TYPE:
-                        case REACT_SUSPENSE_TYPE:
-                            return type;
-                        default:
-                            var $$typeofType = type && type.$$typeof;
-                            switch($$typeofType){
-                                case REACT_CONTEXT_TYPE:
-                                case REACT_FORWARD_REF_TYPE:
-                                case REACT_LAZY_TYPE:
-                                case REACT_MEMO_TYPE:
-                                case REACT_PROVIDER_TYPE:
-                                    return $$typeofType;
-                                default:
-                                    return $$typeof;
-                            }
-                    }
-                case REACT_PORTAL_TYPE:
-                    return $$typeof;
-            }
-        }
-        return undefined;
-    } // AsyncMode is deprecated along with isAsyncMode
-    var AsyncMode = REACT_ASYNC_MODE_TYPE;
-    var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
-    var ContextConsumer = REACT_CONTEXT_TYPE;
-    var ContextProvider = REACT_PROVIDER_TYPE;
-    var Element = REACT_ELEMENT_TYPE;
-    var ForwardRef = REACT_FORWARD_REF_TYPE;
-    var Fragment = REACT_FRAGMENT_TYPE;
-    var Lazy = REACT_LAZY_TYPE;
-    var Memo = REACT_MEMO_TYPE;
-    var Portal = REACT_PORTAL_TYPE;
-    var Profiler = REACT_PROFILER_TYPE;
-    var StrictMode = REACT_STRICT_MODE_TYPE;
-    var Suspense = REACT_SUSPENSE_TYPE;
-    var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
-    function isAsyncMode(object) {
-        if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-            hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
-            console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.");
-        }
-        return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
-    }
-    function isConcurrentMode(object) {
-        return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
-    }
-    function isContextConsumer(object) {
-        return typeOf(object) === REACT_CONTEXT_TYPE;
-    }
-    function isContextProvider(object) {
-        return typeOf(object) === REACT_PROVIDER_TYPE;
-    }
-    function isElement(object) {
-        return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-    }
-    function isForwardRef(object) {
-        return typeOf(object) === REACT_FORWARD_REF_TYPE;
-    }
-    function isFragment(object) {
-        return typeOf(object) === REACT_FRAGMENT_TYPE;
-    }
-    function isLazy(object) {
-        return typeOf(object) === REACT_LAZY_TYPE;
-    }
-    function isMemo(object) {
-        return typeOf(object) === REACT_MEMO_TYPE;
-    }
-    function isPortal(object) {
-        return typeOf(object) === REACT_PORTAL_TYPE;
-    }
-    function isProfiler(object) {
-        return typeOf(object) === REACT_PROFILER_TYPE;
-    }
-    function isStrictMode(object) {
-        return typeOf(object) === REACT_STRICT_MODE_TYPE;
-    }
-    function isSuspense(object) {
-        return typeOf(object) === REACT_SUSPENSE_TYPE;
-    }
-    exports.AsyncMode = AsyncMode;
-    exports.ConcurrentMode = ConcurrentMode;
-    exports.ContextConsumer = ContextConsumer;
-    exports.ContextProvider = ContextProvider;
-    exports.Element = Element;
-    exports.ForwardRef = ForwardRef;
-    exports.Fragment = Fragment;
-    exports.Lazy = Lazy;
-    exports.Memo = Memo;
-    exports.Portal = Portal;
-    exports.Profiler = Profiler;
-    exports.StrictMode = StrictMode;
-    exports.Suspense = Suspense;
-    exports.isAsyncMode = isAsyncMode;
-    exports.isConcurrentMode = isConcurrentMode;
-    exports.isContextConsumer = isContextConsumer;
-    exports.isContextProvider = isContextProvider;
-    exports.isElement = isElement;
-    exports.isForwardRef = isForwardRef;
-    exports.isFragment = isFragment;
-    exports.isLazy = isLazy;
-    exports.isMemo = isMemo;
-    exports.isPortal = isPortal;
-    exports.isProfiler = isProfiler;
-    exports.isStrictMode = isStrictMode;
-    exports.isSuspense = isSuspense;
-    exports.isValidElementType = isValidElementType;
-    exports.typeOf = typeOf;
-})();
-
-},{}],"6Ihzs":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$87bc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1xPEE":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$befa = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$87bc.prelude(module);
+$parcel$ReactRefreshHelpers$befa.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -31274,233 +32875,211 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-var _cocktailsList = require("../CocktailsList");
-var _cocktailsListDefault = parcelHelpers.interopDefault(_cocktailsList);
-var _juiceCss = require("./Juice.css");
-function Juice(props) {
-    const { ilBaglioreNavbar , tableReservation , place1 , dishes , drinks , place2 , menu , firstCourse , ellipse1 , title , restaurant , aboutUs , cocktailsListProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "juice screen",
+var _dishesList = require("../DishesList");
+var _dishesListDefault = parcelHelpers.interopDefault(_dishesList);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _appetizersCss = require("./Appetizers.css");
+class Appetizers extends (0, _reactDefault.default).Component {
+    render() {
+        const { appetizers , ellipse1 , title , restaurant , gobackbutton , dishesListProps  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "appetizers screen",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "topbar"
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesListDefault.default), {
+                    img5: dishesListProps.img5,
+                    dish11Props: dishesListProps.dish11Props,
+                    dish12Props: dishesListProps.dish12Props,
+                    dish31Props: dishesListProps.dish31Props,
+                    dish32Props: dishesListProps.dish32Props
                 }, void 0, false, {
-                    fileName: "components/Juice/index.jsx",
+                    fileName: "components/Appetizers/index.jsx",
+                    lineNumber: 19,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BlackRectangle, {}, void 0, false, {
+                    fileName: "components/Appetizers/index.jsx",
                     lineNumber: 26,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "il-bagliore-navbar inter-semi-bold-white-36px",
-                    children: ilBaglioreNavbar
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Appetizers1, {
+                    children: appetizers
                 }, void 0, false, {
-                    fileName: "components/Juice/index.jsx",
+                    fileName: "components/Appetizers/index.jsx",
                     lineNumber: 27,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/table-reservation",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "table-reservation inter-normal-white-27px",
-                        children: tableReservation
+                    to: "/home-page",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/Appetizers/index.jsx",
+                                    lineNumber: 31,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {
+                                    children: title
+                                }, void 0, false, {
+                                    fileName: "components/Appetizers/index.jsx",
+                                    lineNumber: 32,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/Appetizers/index.jsx",
+                                    lineNumber: 33,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Appetizers/index.jsx",
+                            lineNumber: 30,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
-                        fileName: "components/Juice/index.jsx",
+                        fileName: "components/Appetizers/index.jsx",
                         lineNumber: 29,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "components/Juice/index.jsx",
+                    fileName: "components/Appetizers/index.jsx",
                     lineNumber: 28,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "place inter-normal-white-27px",
-                    children: place1
-                }, void 0, false, {
-                    fileName: "components/Juice/index.jsx",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                     to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "dishes inter-normal-white-27px",
-                        children: dishes
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                        src: gobackbutton,
+                        alt: "GoBackButton"
                     }, void 0, false, {
-                        fileName: "components/Juice/index.jsx",
-                        lineNumber: 33,
+                        fileName: "components/Appetizers/index.jsx",
+                        lineNumber: 38,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "components/Juice/index.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "drinks inter-normal-tobacco-brown-27px",
-                        children: drinks
-                    }, void 0, false, {
-                        fileName: "components/Juice/index.jsx",
-                        lineNumber: 36,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Juice/index.jsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/landing-page",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "place-1 inter-normal-white-27px",
-                        children: place2
-                    }, void 0, false, {
-                        fileName: "components/Juice/index.jsx",
-                        lineNumber: 39,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Juice/index.jsx",
-                    lineNumber: 38,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "menu inter-normal-white-27px",
-                        children: menu
-                    }, void 0, false, {
-                        fileName: "components/Juice/index.jsx",
-                        lineNumber: 42,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Juice/index.jsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "first-course valign-text-middle kurale-normal-tobacco-brown-63px",
-                            children: firstCourse
-                        }, void 0, false, {
-                            fileName: "components/Juice/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/Juice/index.jsx",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                    className: "title bellefair-normal-white-72px",
-                                    children: title
-                                }, void 0, false, {
-                                    fileName: "components/Juice/index.jsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/Juice/index.jsx",
-                                    lineNumber: 49,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Juice/index.jsx",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Juice/index.jsx",
-                    lineNumber: 44,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cocktailsListDefault.default), {
-                    image1: cocktailsListProps.image1,
-                    img2: cocktailsListProps.img2,
-                    img3: cocktailsListProps.img3,
-                    img4: cocktailsListProps.img4,
-                    drink51Props: cocktailsListProps.drink51Props,
-                    drink52Props: cocktailsListProps.drink52Props
-                }, void 0, false, {
-                    fileName: "components/Juice/index.jsx",
-                    lineNumber: 52,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "footer-contact-about-us",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "overlap-group1",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/Juice/index.jsx",
-                                lineNumber: 63,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Juice/index.jsx",
-                            lineNumber: 62,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/Juice/index.jsx",
-                        lineNumber: 61,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Juice/index.jsx",
-                    lineNumber: 60,
+                    fileName: "components/Appetizers/index.jsx",
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "components/Juice/index.jsx",
-            lineNumber: 25,
+            fileName: "components/Appetizers/index.jsx",
+            lineNumber: 18,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Juice/index.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = Juice;
-exports.default = Juice;
-var _c;
-$RefreshReg$(_c, "Juice");
+const BlackRectangle = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+_c = BlackRectangle;
+const Appetizers1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 143px);
+  width: 286px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = Appetizers1;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c2 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+_c3 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c4 = Ellipse1;
+const Title = (0, _styledComponentsDefault.default).h1`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = Title;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = Restaurant;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
+_c7 = GoBackButton;
+exports.default = Appetizers;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7;
+$RefreshReg$(_c, "BlackRectangle");
+$RefreshReg$(_c1, "Appetizers1");
+$RefreshReg$(_c2, "Logo");
+$RefreshReg$(_c3, "OverlapGroup");
+$RefreshReg$(_c4, "Ellipse1");
+$RefreshReg$(_c5, "Title");
+$RefreshReg$(_c6, "Restaurant");
+$RefreshReg$(_c7, "GoBackButton");
 
-  $parcel$ReactRefreshHelpers$87bc.postlude(module);
+  $parcel$ReactRefreshHelpers$befa.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../CocktailsList":"infPW","./Juice.css":"i52Ey","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"infPW":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$77e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../DishesList":"lzKmB","styled-components":"1U3k6","../../styledMixins":"dUZFz","./Appetizers.css":"1ymgI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lzKmB":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9e36 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$77e7.prelude(module);
+$parcel$ReactRefreshHelpers$9e36.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -31508,171 +33087,193 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _drink5 = require("../Drink5");
-var _drink5Default = parcelHelpers.interopDefault(_drink5);
-var _cocktailsListCss = require("./CocktailsList.css");
-function CocktailsList(props) {
-    const { image1 , img2 , img3 , img4 , drink51Props , drink52Props  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "juice-list",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "drink-1",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "desc-lorem1 inter-normal-white-24px",
-                        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-                    }, void 0, false, {
-                        fileName: "components/CocktailsList/index.jsx",
-                        lineNumber: 11,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image1",
-                        src: image1,
-                        alt: "image1"
-                    }, void 0, false, {
-                        fileName: "components/CocktailsList/index.jsx",
-                        lineNumber: 15,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "drink-1-1 valign-text-middle kurale-normal-tobacco-brown-45px",
-                        children: "Lorem ipsum dolor sit"
-                    }, void 0, false, {
-                        fileName: "components/CocktailsList/index.jsx",
-                        lineNumber: 16,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/CocktailsList/index.jsx",
-                lineNumber: 10,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "drink-2",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "img2",
-                        src: img2,
-                        alt: "img2"
-                    }, void 0, false, {
-                        fileName: "components/CocktailsList/index.jsx",
-                        lineNumber: 19,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "desc-lorem inter-normal-white-24px",
-                        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-                    }, void 0, false, {
-                        fileName: "components/CocktailsList/index.jsx",
-                        lineNumber: 20,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/CocktailsList/index.jsx",
-                lineNumber: 18,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "drink-3",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "img3",
-                        src: img3,
-                        alt: "Img3"
-                    }, void 0, false, {
-                        fileName: "components/CocktailsList/index.jsx",
-                        lineNumber: 26,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "desc-lorem inter-normal-white-24px",
-                        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-                    }, void 0, false, {
-                        fileName: "components/CocktailsList/index.jsx",
-                        lineNumber: 27,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/CocktailsList/index.jsx",
-                lineNumber: 25,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "drink-4",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "img4",
-                        src: img4,
-                        alt: "img4"
-                    }, void 0, false, {
-                        fileName: "components/CocktailsList/index.jsx",
-                        lineNumber: 33,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "desc-lorem4 inter-normal-white-24px",
-                        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-                    }, void 0, false, {
-                        fileName: "components/CocktailsList/index.jsx",
-                        lineNumber: 34,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "drink-4-1 valign-text-middle kurale-normal-tobacco-brown-45px",
-                        children: "Lorem ipsum dolor sit amet consectetur"
-                    }, void 0, false, {
-                        fileName: "components/CocktailsList/index.jsx",
-                        lineNumber: 38,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/CocktailsList/index.jsx",
-                lineNumber: 32,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink5Default.default), {
-                img5: drink51Props.img5
-            }, void 0, false, {
-                fileName: "components/CocktailsList/index.jsx",
-                lineNumber: 42,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink5Default.default), {
-                img5: drink52Props.img5,
-                className: drink52Props.className
-            }, void 0, false, {
-                fileName: "components/CocktailsList/index.jsx",
-                lineNumber: 43,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "components/CocktailsList/index.jsx",
-        lineNumber: 9,
-        columnNumber: 5
-    }, this);
+var _dish1 = require("../Dish1");
+var _dish1Default = parcelHelpers.interopDefault(_dish1);
+var _dish3 = require("../Dish3");
+var _dish3Default = parcelHelpers.interopDefault(_dish3);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+class DishesList extends (0, _reactDefault.default).Component {
+    render() {
+        const { img5 , className , dish11Props , dish12Props , dish31Props , dish32Props  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DishesList1, {
+            className: `dishes-list ${className || ""}`,
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dish1Default.default), {
+                    dish1: dish11Props.dish1,
+                    image1: dish11Props.image1,
+                    className: dish11Props.className
+                }, void 0, false, {
+                    fileName: "components/DishesList/index.jsx",
+                    lineNumber: 18,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dish1Default.default), {
+                    dish1: dish12Props.dish1,
+                    image1: dish12Props.image1,
+                    className: dish12Props.className
+                }, void 0, false, {
+                    fileName: "components/DishesList/index.jsx",
+                    lineNumber: 19,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dish3Default.default), {
+                    dish3: dish31Props.dish3,
+                    img3: dish31Props.img3
+                }, void 0, false, {
+                    fileName: "components/DishesList/index.jsx",
+                    lineNumber: 20,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dish3Default.default), {
+                    dish3: dish32Props.dish3,
+                    img3: dish32Props.img3,
+                    className: dish32Props.className
+                }, void 0, false, {
+                    fileName: "components/DishesList/index.jsx",
+                    lineNumber: 21,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Dish5, {
+                    className: "dish5",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Dish51, {
+                            className: "dish5-1",
+                            children: "Lorem ipsum dolor sit amet consectetur"
+                        }, void 0, false, {
+                            fileName: "components/DishesList/index.jsx",
+                            lineNumber: 23,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                            className: "flex-row",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img5, {
+                                    className: "img5",
+                                    src: img5,
+                                    alt: "Img5"
+                                }, void 0, false, {
+                                    fileName: "components/DishesList/index.jsx",
+                                    lineNumber: 25,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem5, {
+                                    className: "desc-lorem5",
+                                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+                                }, void 0, false, {
+                                    fileName: "components/DishesList/index.jsx",
+                                    lineNumber: 26,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/DishesList/index.jsx",
+                            lineNumber: 24,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/DishesList/index.jsx",
+                    lineNumber: 22,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/DishesList/index.jsx",
+            lineNumber: 17,
+            columnNumber: 7
+        }, this);
+    }
 }
-_c = CocktailsList;
-exports.default = CocktailsList;
-var _c;
-$RefreshReg$(_c, "CocktailsList");
+const DishesList1 = (0, _styledComponentsDefault.default).div`
+  z-index: 1;
+  margin-top: 613px;
+  width: 1170px;
+  height: 1941px;
+  margin-left: 70px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 29px;
 
-  $parcel$ReactRefreshHelpers$77e7.postlude(module);
+  &.dishes-list.dishes-list-1 {
+    justify-content: unset;
+  }
+
+  &.dishes-list.dishes-list-2 {
+    justify-content: unset;
+  }
+
+  &.dishes-list.desserts-list {
+    justify-content: unset;
+  }
+
+  &.dishes-list.dishes-list-3 {
+    justify-content: unset;
+  }
+`;
+_c = DishesList1;
+const Dish5 = (0, _styledComponentsDefault.default).div`
+  margin-left: 5px;
+  width: 1152px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 365px;
+`;
+_c1 = Dish5;
+const Dish51 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 836px;
+  height: 87px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c2 = Dish51;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1148px;
+  gap: 37px;
+`;
+_c3 = FlexRow;
+const Img5 = (0, _styledComponentsDefault.default).img`
+  width: 215px;
+  height: 278px;
+  object-fit: cover;
+`;
+_c4 = Img5;
+const DescLorem5 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 122px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = DescLorem5;
+exports.default = DishesList;
+var _c, _c1, _c2, _c3, _c4, _c5;
+$RefreshReg$(_c, "DishesList1");
+$RefreshReg$(_c1, "Dish5");
+$RefreshReg$(_c2, "Dish51");
+$RefreshReg$(_c3, "FlexRow");
+$RefreshReg$(_c4, "Img5");
+$RefreshReg$(_c5, "DescLorem5");
+
+  $parcel$ReactRefreshHelpers$9e36.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Drink5":"fUcYf","./CocktailsList.css":"iuEwb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fUcYf":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$903c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Dish1":"j3zUI","../Dish3":"6X0OS","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"j3zUI":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$71e5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$903c.prelude(module);
+$parcel$ReactRefreshHelpers$71e5.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -31680,64 +33281,262 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _drink5Css = require("./Drink5.css");
-function Drink5(props) {
-    const { img5 , className  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `drink-5-4 ${className || ""}`,
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "drink-5 valign-text-middle kurale-normal-tobacco-brown-45px",
-                children: "Lorem ipsum dolor sit amet consectetur"
-            }, void 0, false, {
-                fileName: "components/Drink5/index.jsx",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex-row",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "img5",
-                        src: img5,
-                        alt: "Img5"
-                    }, void 0, false, {
-                        fileName: "components/Drink5/index.jsx",
-                        lineNumber: 13,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "desc-lorem5 inter-normal-white-24px",
-                        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-                    }, void 0, false, {
-                        fileName: "components/Drink5/index.jsx",
-                        lineNumber: 14,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/Drink5/index.jsx",
-                lineNumber: 12,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "components/Drink5/index.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+class Dish1 extends (0, _reactDefault.default).Component {
+    render() {
+        const { dish1 , image1 , className  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Dish11, {
+            className: `dish1 ${className || ""}`,
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Dish12, {
+                    className: "dish1-1",
+                    children: dish1
+                }, void 0, false, {
+                    fileName: "components/Dish1/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                    className: "flex-row-1",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Image1, {
+                            className: "image1",
+                            src: image1,
+                            alt: "image1"
+                        }, void 0, false, {
+                            fileName: "components/Dish1/index.jsx",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem1, {
+                            className: "desc-lorem1",
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+                        }, void 0, false, {
+                            fileName: "components/Dish1/index.jsx",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Dish1/index.jsx",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Dish1/index.jsx",
+            lineNumber: 15,
+            columnNumber: 7
+        }, this);
+    }
 }
-_c = Drink5;
-exports.default = Drink5;
-var _c;
-$RefreshReg$(_c, "Drink5");
+const Dish11 = (0, _styledComponentsDefault.default).div`
+  width: 1174px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 365px;
+`;
+_c = Dish11;
+const Dish12 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 546px;
+  height: 87px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = Dish12;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1170px;
+  gap: 59px;
+`;
+_c2 = FlexRow;
+const Image1 = (0, _styledComponentsDefault.default).img`
+  width: 215px;
+  height: 278px;
+  object-fit: cover;
+`;
+_c3 = Image1;
+const DescLorem1 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 122px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c4 = DescLorem1;
+const Dish2 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .dish1.dish2  & {
+    width: 632px;
+  }
+`;
+const Dish21 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .dish1.dish2-1  & {
+    width: 632px;
+  }
+`;
+const Dish22 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .dish1.dish2-2  & {
+    width: 632px;
+  }
+`;
+const Dish23 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .dish1.dish2-3  & {
+    width: 632px;
+  }
+`;
+const Dish24 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .dish1.dish2-4  & {
+    width: 632px;
+  }
+`;
+exports.default = Dish1;
+var _c, _c1, _c2, _c3, _c4;
+$RefreshReg$(_c, "Dish11");
+$RefreshReg$(_c1, "Dish12");
+$RefreshReg$(_c2, "FlexRow");
+$RefreshReg$(_c3, "Image1");
+$RefreshReg$(_c4, "DescLorem1");
 
-  $parcel$ReactRefreshHelpers$903c.postlude(module);
+  $parcel$ReactRefreshHelpers$71e5.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Drink5.css":"04rZN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"04rZN":[function() {},{}],"km3Ru":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dUZFz":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AlignSelfFlexStart", ()=>AlignSelfFlexStart);
+parcelHelpers.export(exports, "AlignSelfFlexEnd", ()=>AlignSelfFlexEnd);
+parcelHelpers.export(exports, "ValignTextMiddle", ()=>ValignTextMiddle);
+parcelHelpers.export(exports, "KuraleNormalTobaccoBrown45px", ()=>KuraleNormalTobaccoBrown45px);
+parcelHelpers.export(exports, "LaomuangkhongRegularNormalWhite24px", ()=>LaomuangkhongRegularNormalWhite24px);
+parcelHelpers.export(exports, "BellefairNormalWhite72px", ()=>BellefairNormalWhite72px);
+parcelHelpers.export(exports, "LaomuangkhongRegularNormalTobaccoBr", ()=>LaomuangkhongRegularNormalTobaccoBr);
+parcelHelpers.export(exports, "KuraleNormalTobaccoBrown63px", ()=>KuraleNormalTobaccoBrown63px);
+parcelHelpers.export(exports, "LaomuangkhongRegularNormalTobaccoBr1", ()=>LaomuangkhongRegularNormalTobaccoBr1);
+parcelHelpers.export(exports, "LaomuangkhongRegularNormalWhite27px", ()=>LaomuangkhongRegularNormalWhite27px);
+parcelHelpers.export(exports, "InterNormalWhite27px", ()=>InterNormalWhite27px);
+parcelHelpers.export(exports, "LaomuangkhongRegularNormalMistGray2", ()=>LaomuangkhongRegularNormalMistGray2);
+parcelHelpers.export(exports, "KuraleNormalTobaccoBrown60px", ()=>KuraleNormalTobaccoBrown60px);
+parcelHelpers.export(exports, "LaomuangkhongRegularNormalWhite27px1", ()=>LaomuangkhongRegularNormalWhite27px1);
+var _styledComponents = require("styled-components");
+const AlignSelfFlexStart = (0, _styledComponents.css)`
+  align-self: flex-start;
+`;
+const AlignSelfFlexEnd = (0, _styledComponents.css)`
+  align-self: flex-end;
+`;
+const ValignTextMiddle = (0, _styledComponents.css)`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
+const KuraleNormalTobaccoBrown45px = (0, _styledComponents.css)`
+  color: var(--tobacco-brown);
+  font-family: var(--font-family-kurale);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  font-style: normal;
+`;
+const LaomuangkhongRegularNormalWhite24px = (0, _styledComponents.css)`
+  color: var(--white);
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+`;
+const BellefairNormalWhite72px = (0, _styledComponents.css)`
+  color: var(--white);
+  font-family: var(--font-family-bellefair);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 400;
+  font-style: normal;
+`;
+const LaomuangkhongRegularNormalTobaccoBr = (0, _styledComponents.css)`
+  color: var(--tobacco-brown);
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  font-style: normal;
+`;
+const KuraleNormalTobaccoBrown63px = (0, _styledComponents.css)`
+  color: var(--tobacco-brown);
+  font-family: var(--font-family-kurale);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  font-style: normal;
+`;
+const LaomuangkhongRegularNormalTobaccoBr1 = (0, _styledComponents.css)`
+  color: var(--tobacco-brown);
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+`;
+const LaomuangkhongRegularNormalWhite27px = (0, _styledComponents.css)`
+  color: var(--white-2);
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+`;
+const InterNormalWhite27px = (0, _styledComponents.css)`
+  color: var(--white-2);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+`;
+const LaomuangkhongRegularNormalMistGray2 = (0, _styledComponents.css)`
+  color: var(--mist-gray);
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+`;
+const KuraleNormalTobaccoBrown60px = (0, _styledComponents.css)`
+  color: var(--tobacco-brown);
+  font-family: var(--font-family-kurale);
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+`;
+const LaomuangkhongRegularNormalWhite27px1 = (0, _styledComponents.css)`
+  color: var(--white);
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+`;
+
+},{"styled-components":"1U3k6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("react-refresh/runtime");
 function debounce(func, delay) {
@@ -31871,7 +33670,610 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"iuEwb":[function() {},{}],"i52Ey":[function() {},{}],"4yB0y":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"6X0OS":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8137 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8137.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+class Dish3 extends (0, _reactDefault.default).Component {
+    render() {
+        const { dish3 , img3 , className  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Dish31, {
+            className: `dish3 ${className || ""}`,
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Dish32, {
+                    className: "dish3-1",
+                    children: dish3
+                }, void 0, false, {
+                    fileName: "components/Dish3/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                    className: "flex-row-2",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img3, {
+                            className: "img3",
+                            src: img3,
+                            alt: "Img3"
+                        }, void 0, false, {
+                            fileName: "components/Dish3/index.jsx",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem3, {
+                            className: "desc-lorem3",
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+                        }, void 0, false, {
+                            fileName: "components/Dish3/index.jsx",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Dish3/index.jsx",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Dish3/index.jsx",
+            lineNumber: 15,
+            columnNumber: 7
+        }, this);
+    }
+}
+const Dish31 = (0, _styledComponentsDefault.default).div`
+  width: 1157px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 365px;
+`;
+_c = Dish31;
+const Dish32 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 865px;
+  height: 87px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = Dish32;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1153px;
+  gap: 42px;
+`;
+_c2 = FlexRow;
+const Img3 = (0, _styledComponentsDefault.default).img`
+  width: 215px;
+  height: 278px;
+  object-fit: cover;
+`;
+_c3 = Img3;
+const DescLorem3 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 122px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c4 = DescLorem3;
+const Dish4 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .dish3.dish4  & {
+    width: 841px;
+  }
+`;
+const Dish41 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .dish3.dish4-1  & {
+    width: 841px;
+  }
+`;
+const Dish42 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .dish3.dish4-2  & {
+    width: 841px;
+  }
+`;
+const Dish43 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .dish3.dish4-3  & {
+    width: 841px;
+  }
+`;
+const Dish44 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .dish3.dish4-4  & {
+    width: 841px;
+  }
+`;
+exports.default = Dish3;
+var _c, _c1, _c2, _c3, _c4;
+$RefreshReg$(_c, "Dish31");
+$RefreshReg$(_c1, "Dish32");
+$RefreshReg$(_c2, "FlexRow");
+$RefreshReg$(_c3, "Img3");
+$RefreshReg$(_c4, "DescLorem3");
+
+  $parcel$ReactRefreshHelpers$8137.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1ymgI":[function() {},{}],"iDhAv":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9f2d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9f2d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _homePageCss = require("./HomePage.css");
+class HomePage extends (0, _reactDefault.default).Component {
+    render() {
+        const { ilBaglioreNavbar , loginRegistration , tableReservation , menu , ellipse1 , ilBagliore , restaurant , traditionalTaste , text1 , fineDinning , loremSentence , pexelsLumn6049691 , aboutUs  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container-center-horizontal",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "home-page screen",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IlBaglioreNavbar, {
+                                children: ilBaglioreNavbar
+                            }, void 0, false, {
+                                fileName: "components/HomePage/index.jsx",
+                                lineNumber: 36,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/login-registration",
+                                className: "align-self-flex-end",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LoginRegistration, {
+                                    children: loginRegistration
+                                }, void 0, false, {
+                                    fileName: "components/HomePage/index.jsx",
+                                    lineNumber: 38,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/HomePage/index.jsx",
+                                lineNumber: 37,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/HomePage/index.jsx",
+                        lineNumber: 35,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/table-reservation",
+                        className: "align-self-flex-end",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TableReservation, {
+                            children: tableReservation
+                        }, void 0, false, {
+                            fileName: "components/HomePage/index.jsx",
+                            lineNumber: 42,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/HomePage/index.jsx",
+                        lineNumber: 41,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/menu",
+                        className: "align-self-flex-end",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Menu, {
+                            children: menu
+                        }, void 0, false, {
+                            fileName: "components/HomePage/index.jsx",
+                            lineNumber: 45,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/HomePage/index.jsx",
+                        lineNumber: 44,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/HomePage/index.jsx",
+                                    lineNumber: 49,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                    children: ilBagliore
+                                }, void 0, false, {
+                                    fileName: "components/HomePage/index.jsx",
+                                    lineNumber: 50,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/HomePage/index.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/HomePage/index.jsx",
+                            lineNumber: 48,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/HomePage/index.jsx",
+                        lineNumber: 47,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow1, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SloganAndSentence, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TraditionalTaste, {
+                                                children: traditionalTaste
+                                            }, void 0, false, {
+                                                fileName: "components/HomePage/index.jsx",
+                                                lineNumber: 57,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Text1, {
+                                                children: text1
+                                            }, void 0, false, {
+                                                fileName: "components/HomePage/index.jsx",
+                                                lineNumber: 58,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FineDinning, {
+                                                children: fineDinning
+                                            }, void 0, false, {
+                                                fileName: "components/HomePage/index.jsx",
+                                                lineNumber: 59,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/HomePage/index.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LoremSentence, {
+                                        children: loremSentence
+                                    }, void 0, false, {
+                                        fileName: "components/HomePage/index.jsx",
+                                        lineNumber: 61,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/HomePage/index.jsx",
+                                lineNumber: 55,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PexelsLumn6049691, {
+                                src: pexelsLumn6049691,
+                                alt: "pexels-lumn-604969 1"
+                            }, void 0, false, {
+                                fileName: "components/HomePage/index.jsx",
+                                lineNumber: 63,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/HomePage/index.jsx",
+                        lineNumber: 54,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/about-us",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AboutUs, {
+                                children: aboutUs
+                            }, void 0, false, {
+                                fileName: "components/HomePage/index.jsx",
+                                lineNumber: 67,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/HomePage/index.jsx",
+                            lineNumber: 66,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/HomePage/index.jsx",
+                        lineNumber: 65,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/HomePage/index.jsx",
+                lineNumber: 34,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "components/HomePage/index.jsx",
+            lineNumber: 33,
+            columnNumber: 7
+        }, this);
+    }
+}
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  height: 44px;
+  margin-top: 10px;
+  margin-left: 1px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1785px;
+  gap: 1360px;
+`;
+_c = FlexRow;
+const IlBaglioreNavbar = (0, _styledComponentsDefault.default).div`
+  width: 171px;
+  min-height: 42px;
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-weight: 400;
+  color: var(--white-2);
+  font-size: var(--font-size-xl);
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = IlBaglioreNavbar;
+const LoginRegistration = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite27px)}
+  min-height: 34px;
+  align-self: flex-end;
+  min-width: 254px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c2 = LoginRegistration;
+const TableReservation = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite27px)}
+  min-height: 34px;
+  align-self: flex-end;
+  min-width: 223px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c3 = TableReservation;
+const Menu = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite27px)}
+  min-height: 34px;
+  align-self: flex-end;
+  margin-right: 1px;
+  min-width: 74px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c4 = Menu;
+const Logo = (0, _styledComponentsDefault.default).div`
+  height: 353px;
+  margin-top: 15px;
+  margin-right: 6px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+`;
+_c5 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 355px;
+  position: relative;
+  margin-top: -1px;
+`;
+_c6 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  top: 0;
+  left: 220px;
+`;
+_c7 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 106px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c8 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 162px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c9 = Restaurant;
+const FlexRow1 = (0, _styledComponentsDefault.default).div`
+  margin-top: 36px;
+  margin-right: 2px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1782px;
+  gap: 101px;
+`;
+_c10 = FlexRow1;
+const SloganAndSentence = (0, _styledComponentsDefault.default).div`
+  width: 951px;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 283px;
+  gap: 29px;
+  box-shadow: 0px 4px 4px #00000040;
+`;
+_c11 = SloganAndSentence;
+const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+  width: 679px;
+  height: 167px;
+  position: relative;
+  margin-left: 1px;
+`;
+_c12 = OverlapGroup1;
+const TraditionalTaste = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  position: absolute;
+  width: 357px;
+  height: 87px;
+  top: 80px;
+  left: 322px;
+  text-shadow: 0px 4px 4px #92795408;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c13 = TraditionalTaste;
+const Text1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  position: absolute;
+  width: 60px;
+  height: 87px;
+  top: 40px;
+  left: 367px;
+  text-shadow: 0px 4px 4px #92795408;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c14 = Text1;
+const FineDinning = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  position: absolute;
+  width: 482px;
+  height: 87px;
+  top: 0;
+  left: 0;
+  text-shadow: 0px 4px 4px #92795408;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c15 = FineDinning;
+const LoremSentence = (0, _styledComponentsDefault.default).p`
+  width: 943px;
+  min-height: 87px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-weight: 400;
+  color: var(--mist-gray);
+  font-size: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c16 = LoremSentence;
+const PexelsLumn6049691 = (0, _styledComponentsDefault.default).img`
+  width: 730px;
+  height: 382px;
+  object-fit: cover;
+`;
+_c17 = PexelsLumn6049691;
+const Footer = (0, _styledComponentsDefault.default).div`
+  width: 111px;
+  margin-top: 106px;
+  margin-left: 1px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+`;
+_c18 = Footer;
+const AboutUs = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 109px;
+  height: 22px;
+  margin-left: -2px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c19 = AboutUs;
+exports.default = HomePage;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19;
+$RefreshReg$(_c, "FlexRow");
+$RefreshReg$(_c1, "IlBaglioreNavbar");
+$RefreshReg$(_c2, "LoginRegistration");
+$RefreshReg$(_c3, "TableReservation");
+$RefreshReg$(_c4, "Menu");
+$RefreshReg$(_c5, "Logo");
+$RefreshReg$(_c6, "OverlapGroup");
+$RefreshReg$(_c7, "Ellipse1");
+$RefreshReg$(_c8, "ILBAGLIORE");
+$RefreshReg$(_c9, "Restaurant");
+$RefreshReg$(_c10, "FlexRow1");
+$RefreshReg$(_c11, "SloganAndSentence");
+$RefreshReg$(_c12, "OverlapGroup1");
+$RefreshReg$(_c13, "TraditionalTaste");
+$RefreshReg$(_c14, "Text1");
+$RefreshReg$(_c15, "FineDinning");
+$RefreshReg$(_c16, "LoremSentence");
+$RefreshReg$(_c17, "PexelsLumn6049691");
+$RefreshReg$(_c18, "Footer");
+$RefreshReg$(_c19, "AboutUs");
+
+  $parcel$ReactRefreshHelpers$9f2d.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","styled-components":"1U3k6","../../styledMixins":"dUZFz","./HomePage.css":"dkE6O","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dkE6O":[function() {},{}],"4yB0y":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$e61f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -31884,2312 +34286,478 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-var _footerSocialMedia = require("../FooterSocialMedia");
-var _footerSocialMediaDefault = parcelHelpers.interopDefault(_footerSocialMedia);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
 var _tableReservationCss = require("./TableReservation.css");
-function TableReservation(props) {
-    const { ilBaglioreNavbar , place , ellipse1 , ilBagliore , restaurant , reservationForm , makeReservation , clearForm , aboutUs , footerSocialMediaProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "table-reservation-1 screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-row-4",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "il-bagliore-navbar-1 inter-semi-bold-white-36px",
-                            children: ilBaglioreNavbar
-                        }, void 0, false, {
-                            fileName: "components/TableReservation/index.jsx",
-                            lineNumber: 24,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex-col",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/landing-page",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "place-2 inter-normal-white-27px",
-                                        children: place
-                                    }, void 0, false, {
-                                        fileName: "components/TableReservation/index.jsx",
-                                        lineNumber: 27,
-                                        columnNumber: 15
-                                    }, this)
+class TableReservation extends (0, _reactDefault.default).Component {
+    render() {
+        const { gobackbutton , ellipse1 , ilBagliore , restaurant , reservationForm , makeReservation , clearForm , place , aboutUs , fbLogo , facebook , twitterIcon , twitter , instraLogo , instagram  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container-center-horizontal",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "table-reservation screen",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/home-page",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                                    src: gobackbutton,
+                                    alt: "GoBackButton"
                                 }, void 0, false, {
                                     fileName: "components/TableReservation/index.jsx",
-                                    lineNumber: 26,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "overlap-group5",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "overlap-group-1",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                    className: "ellipse-1-1",
-                                                    src: ellipse1,
-                                                    alt: "Ellipse 1"
-                                                }, void 0, false, {
-                                                    fileName: "components/TableReservation/index.jsx",
-                                                    lineNumber: 31,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "il-bagliore bellefair-normal-white-72px",
-                                                    children: ilBagliore
-                                                }, void 0, false, {
-                                                    fileName: "components/TableReservation/index.jsx",
-                                                    lineNumber: 32,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "restaurant-1 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                                    children: restaurant
-                                                }, void 0, false, {
-                                                    fileName: "components/TableReservation/index.jsx",
-                                                    lineNumber: 33,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/TableReservation/index.jsx",
-                                            lineNumber: 30,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                            className: "reservation-form",
-                                            src: reservationForm,
-                                            alt: "Reservation Form"
-                                        }, void 0, false, {
-                                            fileName: "components/TableReservation/index.jsx",
-                                            lineNumber: 35,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "overlap-group1-1",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "make-reservation valign-text-middle laomuangkhong-regular-normal-mist-gray-24px",
-                                                    children: makeReservation
-                                                }, void 0, false, {
-                                                    fileName: "components/TableReservation/index.jsx",
-                                                    lineNumber: 37,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "rectangle-1"
-                                                }, void 0, false, {
-                                                    fileName: "components/TableReservation/index.jsx",
-                                                    lineNumber: 40,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/TableReservation/index.jsx",
-                                            lineNumber: 36,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "overlap-group2-1",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "clear-form valign-text-middle laomuangkhong-regular-normal-mist-gray-24px",
-                                                    children: clearForm
-                                                }, void 0, false, {
-                                                    fileName: "components/TableReservation/index.jsx",
-                                                    lineNumber: 43,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "rectangle-1-1"
-                                                }, void 0, false, {
-                                                    fileName: "components/TableReservation/index.jsx",
-                                                    lineNumber: 46,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/TableReservation/index.jsx",
-                                            lineNumber: 42,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/TableReservation/index.jsx",
-                                    lineNumber: 29,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/TableReservation/index.jsx",
-                            lineNumber: 25,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/TableReservation/index.jsx",
-                    lineNumber: 23,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "foot-container",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "footbar"
-                        }, void 0, false, {
-                            fileName: "components/TableReservation/index.jsx",
-                            lineNumber: 52,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "footer-contact-about-us-1",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "about-us-1 inter-bold-white-24px",
-                                    children: aboutUs
-                                }, void 0, false, {
-                                    fileName: "components/TableReservation/index.jsx",
-                                    lineNumber: 55,
+                                    lineNumber: 40,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "components/TableReservation/index.jsx",
-                                lineNumber: 54,
+                                lineNumber: 39,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup3, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                                src: ellipse1,
+                                                alt: "Ellipse 1"
+                                            }, void 0, false, {
+                                                fileName: "components/TableReservation/index.jsx",
+                                                lineNumber: 44,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                                children: ilBagliore
+                                            }, void 0, false, {
+                                                fileName: "components/TableReservation/index.jsx",
+                                                lineNumber: 45,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                                children: restaurant
+                                            }, void 0, false, {
+                                                fileName: "components/TableReservation/index.jsx",
+                                                lineNumber: 46,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/TableReservation/index.jsx",
+                                        lineNumber: 43,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ReservationForm, {
+                                        src: reservationForm,
+                                        alt: "Reservation Form"
+                                    }, void 0, false, {
+                                        fileName: "components/TableReservation/index.jsx",
+                                        lineNumber: 48,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(MakeReservation, {
+                                                children: makeReservation
+                                            }, void 0, false, {
+                                                fileName: "components/TableReservation/index.jsx",
+                                                lineNumber: 50,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Rectangle1, {}, void 0, false, {
+                                                fileName: "components/TableReservation/index.jsx",
+                                                lineNumber: 51,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/TableReservation/index.jsx",
+                                        lineNumber: 49,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup2, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ClearForm, {
+                                                children: clearForm
+                                            }, void 0, false, {
+                                                fileName: "components/TableReservation/index.jsx",
+                                                lineNumber: 54,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Rectangle11, {}, void 0, false, {
+                                                fileName: "components/TableReservation/index.jsx",
+                                                lineNumber: 55,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/TableReservation/index.jsx",
+                                        lineNumber: 53,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/TableReservation/index.jsx",
+                                lineNumber: 42,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/home-page",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Place, {
+                                    children: place
+                                }, void 0, false, {
+                                    fileName: "components/TableReservation/index.jsx",
+                                    lineNumber: 59,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/TableReservation/index.jsx",
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, this)
-                        }, void 0, false, {
-                            fileName: "components/TableReservation/index.jsx",
-                            lineNumber: 53,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerSocialMediaDefault.default), {
-                            iconTwitter: footerSocialMediaProps.iconTwitter
-                        }, void 0, false, {
-                            fileName: "components/TableReservation/index.jsx",
-                            lineNumber: 58,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/TableReservation/index.jsx",
-                    lineNumber: 51,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/TableReservation/index.jsx",
+                        lineNumber: 38,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow1, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/about-us",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AboutUs, {
+                                    children: aboutUs
+                                }, void 0, false, {
+                                    fileName: "components/TableReservation/index.jsx",
+                                    lineNumber: 64,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/TableReservation/index.jsx",
+                                lineNumber: 63,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FooterSocialMedia, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FbLogo, {
+                                        src: fbLogo,
+                                        alt: "fb-logo"
+                                    }, void 0, false, {
+                                        fileName: "components/TableReservation/index.jsx",
+                                        lineNumber: 67,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Facebook, {
+                                        children: facebook
+                                    }, void 0, false, {
+                                        fileName: "components/TableReservation/index.jsx",
+                                        lineNumber: 68,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TwitterIcon, {
+                                        src: twitterIcon,
+                                        alt: "twitter-icon"
+                                    }, void 0, false, {
+                                        fileName: "components/TableReservation/index.jsx",
+                                        lineNumber: 69,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Twitter, {
+                                        children: twitter
+                                    }, void 0, false, {
+                                        fileName: "components/TableReservation/index.jsx",
+                                        lineNumber: 70,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(InstraLogo, {
+                                        src: instraLogo,
+                                        alt: "instra-logo"
+                                    }, void 0, false, {
+                                        fileName: "components/TableReservation/index.jsx",
+                                        lineNumber: 71,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Instagram, {
+                                        children: instagram
+                                    }, void 0, false, {
+                                        fileName: "components/TableReservation/index.jsx",
+                                        lineNumber: 72,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/TableReservation/index.jsx",
+                                lineNumber: 66,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/TableReservation/index.jsx",
+                        lineNumber: 62,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/TableReservation/index.jsx",
+                lineNumber: 37,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "components/TableReservation/index.jsx",
-            lineNumber: 22,
+            lineNumber: 36,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/TableReservation/index.jsx",
-        lineNumber: 21,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = TableReservation;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  height: 999px;
+  margin-top: 6px;
+  margin-right: 46px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1834px;
+`;
+_c = FlexRow;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+`;
+_c1 = GoBackButton;
+const OverlapGroup3 = (0, _styledComponentsDefault.default).div`
+  width: 854px;
+  height: 950px;
+  position: relative;
+  align-self: flex-end;
+  margin-left: 463px;
+`;
+_c2 = OverlapGroup3;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  width: 784px;
+  height: 351px;
+  top: 90px;
+  left: 30px;
+`;
+_c3 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 351px;
+  top: 0;
+  left: 221px;
+`;
+_c4 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = Restaurant;
+const ReservationForm = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 854px;
+  height: 950px;
+  top: 0;
+  left: 0;
+`;
+_c7 = ReservationForm;
+const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  width: 308px;
+  height: 71px;
+  top: 859px;
+  left: 341px;
+  border-radius: 13px;
+`;
+_c8 = OverlapGroup1;
+const MakeReservation = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.LaomuangkhongRegularNormalMistGray2)}
+            position: absolute;
+  width: 204px;
+  height: 71px;
+  top: 0;
+  left: 52px;
+  text-shadow: 0px 4px 4px #00000040;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c9 = MakeReservation;
+const Rectangle1 = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  width: 308px;
+  height: 71px;
+  top: 0;
+  left: 0;
+  border-radius: 13px;
+  border: 1px solid;
+  border-color: var(--mist-gray-2);
+`;
+_c10 = Rectangle1;
+const OverlapGroup2 = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  width: 164px;
+  height: 71px;
+  top: 859px;
+  left: 668px;
+`;
+_c11 = OverlapGroup2;
+const ClearForm = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.LaomuangkhongRegularNormalMistGray2)}
+            position: absolute;
+  width: 164px;
+  height: 71px;
+  top: 0;
+  left: 0;
+  text-shadow: 0px 4px 4px #00000040;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c12 = ClearForm;
+const Rectangle11 = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  width: 164px;
+  height: 71px;
+  top: 0;
+  left: 0;
+  border-radius: 13px;
+  border: 1px solid;
+  border-color: var(--mist-gray-2);
+`;
+_c13 = Rectangle11;
+const Place = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite27px)}
+  min-height: 34px;
+  margin-left: 390px;
+  margin-top: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c14 = Place;
+const FlexRow1 = (0, _styledComponentsDefault.default).div`
+  height: 31px;
+  margin-left: 9px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1789px;
+  gap: 1228px;
+`;
+_c15 = FlexRow1;
+const AboutUs = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 110px;
+  min-height: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c16 = AboutUs;
+const FooterSocialMedia = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr1)}
+  height: 26px;
+  display: flex;
+  align-items: center;
+  min-width: 451px;
+`;
+_c17 = FooterSocialMedia;
+const FbLogo = (0, _styledComponentsDefault.default).img`
+  width: 19px;
+  height: 20px;
+`;
+_c18 = FbLogo;
+const Facebook = (0, _styledComponentsDefault.default).div`
+  width: 110px;
+  min-height: 22px;
+  align-self: flex-start;
+  margin-left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c19 = Facebook;
+const TwitterIcon = (0, _styledComponentsDefault.default).img`
+  width: 22px;
+  height: 20px;
+  margin-left: 32px;
+`;
+_c20 = TwitterIcon;
+const Twitter = (0, _styledComponentsDefault.default).div`
+  width: 82px;
+  min-height: 25px;
+  align-self: flex-start;
+  margin-left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c21 = Twitter;
+const InstraLogo = (0, _styledComponentsDefault.default).img`
+  width: 19px;
+  height: 20px;
+  margin-left: 29px;
+  margin-top: 2px;
+`;
+_c22 = InstraLogo;
+const Instagram = (0, _styledComponentsDefault.default).div`
+  width: 117px;
+  min-height: 26px;
+  margin-left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c23 = Instagram;
 exports.default = TableReservation;
-var _c;
-$RefreshReg$(_c, "TableReservation");
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22, _c23;
+$RefreshReg$(_c, "FlexRow");
+$RefreshReg$(_c1, "GoBackButton");
+$RefreshReg$(_c2, "OverlapGroup3");
+$RefreshReg$(_c3, "OverlapGroup");
+$RefreshReg$(_c4, "Ellipse1");
+$RefreshReg$(_c5, "ILBAGLIORE");
+$RefreshReg$(_c6, "Restaurant");
+$RefreshReg$(_c7, "ReservationForm");
+$RefreshReg$(_c8, "OverlapGroup1");
+$RefreshReg$(_c9, "MakeReservation");
+$RefreshReg$(_c10, "Rectangle1");
+$RefreshReg$(_c11, "OverlapGroup2");
+$RefreshReg$(_c12, "ClearForm");
+$RefreshReg$(_c13, "Rectangle11");
+$RefreshReg$(_c14, "Place");
+$RefreshReg$(_c15, "FlexRow1");
+$RefreshReg$(_c16, "AboutUs");
+$RefreshReg$(_c17, "FooterSocialMedia");
+$RefreshReg$(_c18, "FbLogo");
+$RefreshReg$(_c19, "Facebook");
+$RefreshReg$(_c20, "TwitterIcon");
+$RefreshReg$(_c21, "Twitter");
+$RefreshReg$(_c22, "InstraLogo");
+$RefreshReg$(_c23, "Instagram");
 
   $parcel$ReactRefreshHelpers$e61f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../FooterSocialMedia":"lAUiE","./TableReservation.css":"UITwJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lAUiE":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$3e59 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$3e59.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _footerSocialMediaCss = require("./FooterSocialMedia.css");
-function FooterSocialMedia(props) {
-    const { iconTwitter  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "footer-social-media",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "icon-facebook",
-                src: "/img/fb-logo@2x.png",
-                alt: "icon-facebook"
-            }, void 0, false, {
-                fileName: "components/FooterSocialMedia/index.jsx",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "overlap-group3",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "instra-logo",
-                        src: "/img/instra-logo@2x.png",
-                        alt: "instra-logo"
-                    }, void 0, false, {
-                        fileName: "components/FooterSocialMedia/index.jsx",
-                        lineNumber: 11,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "facebook inter-bold-tobacco-brown-24px",
-                        children: "Facebook"
-                    }, void 0, false, {
-                        fileName: "components/FooterSocialMedia/index.jsx",
-                        lineNumber: 12,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/FooterSocialMedia/index.jsx",
-                lineNumber: 10,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "overlap-group4",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "instagram inter-bold-tobacco-brown-24px",
-                        children: "Instagram"
-                    }, void 0, false, {
-                        fileName: "components/FooterSocialMedia/index.jsx",
-                        lineNumber: 15,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "icon-twitter",
-                        src: iconTwitter,
-                        alt: "icon-twitter"
-                    }, void 0, false, {
-                        fileName: "components/FooterSocialMedia/index.jsx",
-                        lineNumber: 16,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/FooterSocialMedia/index.jsx",
-                lineNumber: 14,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "twitter inter-bold-tobacco-brown-24px",
-                children: "Twitter"
-            }, void 0, false, {
-                fileName: "components/FooterSocialMedia/index.jsx",
-                lineNumber: 18,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "components/FooterSocialMedia/index.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
-}
-_c = FooterSocialMedia;
-exports.default = FooterSocialMedia;
-var _c;
-$RefreshReg$(_c, "FooterSocialMedia");
-
-  $parcel$ReactRefreshHelpers$3e59.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./FooterSocialMedia.css":"dYRLX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dYRLX":[function() {},{}],"UITwJ":[function() {},{}],"f5MrQ":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9913 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9913.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _cocktailsList = require("../CocktailsList");
-var _cocktailsListDefault = parcelHelpers.interopDefault(_cocktailsList);
-var _smoothiesCss = require("./Smoothies.css");
-function Smoothies(props) {
-    const { ilBaglioreNavbar , tableReservation , place1 , dishes , drinks , place2 , menu , firstCourse , ellipse1 , ilBagliore , restaurant , aboutUs , cocktailsListProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "smoothies screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "topbar-1"
-                }, void 0, false, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 26,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "il-bagliore-navbar-2 inter-semi-bold-white-36px",
-                    children: ilBaglioreNavbar
-                }, void 0, false, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 27,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/table-reservation",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "table-reservation-2 inter-normal-white-27px",
-                        children: tableReservation
-                    }, void 0, false, {
-                        fileName: "components/Smoothies/index.jsx",
-                        lineNumber: 29,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 28,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "place-3 inter-normal-white-27px",
-                    children: place1
-                }, void 0, false, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "dishes-1 inter-normal-white-27px",
-                        children: dishes
-                    }, void 0, false, {
-                        fileName: "components/Smoothies/index.jsx",
-                        lineNumber: 33,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "drinks-1 inter-normal-tobacco-brown-27px",
-                        children: drinks
-                    }, void 0, false, {
-                        fileName: "components/Smoothies/index.jsx",
-                        lineNumber: 36,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/landing-page",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "place-4 inter-normal-white-27px",
-                        children: place2
-                    }, void 0, false, {
-                        fileName: "components/Smoothies/index.jsx",
-                        lineNumber: 39,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 38,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "menu-1 inter-normal-white-27px",
-                        children: menu
-                    }, void 0, false, {
-                        fileName: "components/Smoothies/index.jsx",
-                        lineNumber: 42,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2-3",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "first-course-1 valign-text-middle kurale-normal-tobacco-brown-63px",
-                            children: firstCourse
-                        }, void 0, false, {
-                            fileName: "components/Smoothies/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-2",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-2",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/Smoothies/index.jsx",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-1 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/Smoothies/index.jsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-2 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/Smoothies/index.jsx",
-                                    lineNumber: 49,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Smoothies/index.jsx",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 44,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cocktailsListDefault.default), {
-                    image1: cocktailsListProps.image1,
-                    img2: cocktailsListProps.img2,
-                    img3: cocktailsListProps.img3,
-                    img4: cocktailsListProps.img4,
-                    drink51Props: cocktailsListProps.drink51Props,
-                    drink52Props: cocktailsListProps.drink52Props
-                }, void 0, false, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 52,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "footer-contact-about-us-2",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "overlap-group1-2",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us-2 inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/Smoothies/index.jsx",
-                                lineNumber: 63,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Smoothies/index.jsx",
-                            lineNumber: 62,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/Smoothies/index.jsx",
-                        lineNumber: 61,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Smoothies/index.jsx",
-                    lineNumber: 60,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/Smoothies/index.jsx",
-            lineNumber: 25,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Smoothies/index.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
-}
-_c = Smoothies;
-exports.default = Smoothies;
-var _c;
-$RefreshReg$(_c, "Smoothies");
-
-  $parcel$ReactRefreshHelpers$9913.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../CocktailsList":"infPW","./Smoothies.css":"ehsbT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ehsbT":[function() {},{}],"hroaF":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$26cd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$26cd.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _menuCss = require("./Menu.css");
-function Menu(props) {
-    const { ilBaglioreNavbar , loginRegistration , booktable , menu , place , ellipse1 , ilBagliore , restaurant , pexelsMariaOrlova49464421 , pexelsMariaOrlova49464422 , dishes , drinks , aboutUs  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "menu-2 screen",
-            onclick: "window.open('landing-page.html', '_self');",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-row-5",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "il-bagliore-navbar-3 inter-semi-bold-white-36px",
-                            children: ilBaglioreNavbar
-                        }, void 0, false, {
-                            fileName: "components/Menu/index.jsx",
-                            lineNumber: 26,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "login-registration inter-normal-white-27px",
-                            children: loginRegistration
-                        }, void 0, false, {
-                            fileName: "components/Menu/index.jsx",
-                            lineNumber: 27,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex-col-1",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/table-reservation",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "booktable inter-normal-white-27px",
-                                        children: booktable
-                                    }, void 0, false, {
-                                        fileName: "components/Menu/index.jsx",
-                                        lineNumber: 30,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Menu/index.jsx",
-                                    lineNumber: 29,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "menu-3 inter-normal-tobacco-brown-27px",
-                                    children: menu
-                                }, void 0, false, {
-                                    fileName: "components/Menu/index.jsx",
-                                    lineNumber: 32,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/landing-page",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "place-5 inter-normal-white-27px",
-                                        children: place
-                                    }, void 0, false, {
-                                        fileName: "components/Menu/index.jsx",
-                                        lineNumber: 34,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Menu/index.jsx",
-                                    lineNumber: 33,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Menu/index.jsx",
-                            lineNumber: 28,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Menu/index.jsx",
-                    lineNumber: 25,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group-container",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group3-2 kurale-normal-tobacco-brown-63px",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "overlap-group2-4",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "overlap-group-3",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                    className: "ellipse-1-3",
-                                                    src: ellipse1,
-                                                    alt: "Ellipse 1"
-                                                }, void 0, false, {
-                                                    fileName: "components/Menu/index.jsx",
-                                                    lineNumber: 42,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "il-bagliore-2 bellefair-normal-white-72px",
-                                                    children: ilBagliore
-                                                }, void 0, false, {
-                                                    fileName: "components/Menu/index.jsx",
-                                                    lineNumber: 43,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "restaurant-3 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                                    children: restaurant
-                                                }, void 0, false, {
-                                                    fileName: "components/Menu/index.jsx",
-                                                    lineNumber: 44,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/Menu/index.jsx",
-                                            lineNumber: 41,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                            to: "/dishes",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                className: "pexels-maria-orlova-4946442-1",
-                                                src: pexelsMariaOrlova49464421,
-                                                alt: "pexels-maria-orlova-4946442 1"
-                                            }, void 0, false, {
-                                                fileName: "components/Menu/index.jsx",
-                                                lineNumber: 47,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "components/Menu/index.jsx",
-                                            lineNumber: 46,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                            to: "/drinks",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                className: "pexels-maria-orlova-4946442-2",
-                                                src: pexelsMariaOrlova49464422,
-                                                alt: "pexels-maria-orlova-4946442 2"
-                                            }, void 0, false, {
-                                                fileName: "components/Menu/index.jsx",
-                                                lineNumber: 54,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "components/Menu/index.jsx",
-                                            lineNumber: 53,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/Menu/index.jsx",
-                                    lineNumber: 40,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "dishes-2 valign-text-middle",
-                                    children: dishes
-                                }, void 0, false, {
-                                    fileName: "components/Menu/index.jsx",
-                                    lineNumber: 61,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "drinks-2 valign-text-middle",
-                                    children: drinks
-                                }, void 0, false, {
-                                    fileName: "components/Menu/index.jsx",
-                                    lineNumber: 62,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Menu/index.jsx",
-                            lineNumber: 39,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group1-3",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/about-us",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "footer-contact-about-us-3",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "about-us-3 inter-bold-white-24px",
-                                        children: aboutUs
-                                    }, void 0, false, {
-                                        fileName: "components/Menu/index.jsx",
-                                        lineNumber: 67,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Menu/index.jsx",
-                                    lineNumber: 66,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/Menu/index.jsx",
-                                lineNumber: 65,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Menu/index.jsx",
-                            lineNumber: 64,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Menu/index.jsx",
-                    lineNumber: 38,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/Menu/index.jsx",
-            lineNumber: 24,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Menu/index.jsx",
-        lineNumber: 23,
-        columnNumber: 5
-    }, this);
-}
-_c = Menu;
-exports.default = Menu;
-var _c;
-$RefreshReg$(_c, "Menu");
-
-  $parcel$ReactRefreshHelpers$26cd.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./Menu.css":"h8R5K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h8R5K":[function() {},{}],"cQNVe":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$64d6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$64d6.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _footerSocialMedia = require("../FooterSocialMedia");
-var _footerSocialMediaDefault = parcelHelpers.interopDefault(_footerSocialMedia);
-var _loginRegistrationCss = require("./LoginRegistration.css");
-function LoginRegistration(props) {
-    const { place , ellipse1 , ilBagliore , restaurant , signUpForm , joinNow , aboutUs , footerSocialMediaProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "login-registration-1 screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/landing-page",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "place-6 inter-normal-white-27px",
-                        children: place
-                    }, void 0, false, {
-                        fileName: "components/LoginRegistration/index.jsx",
-                        lineNumber: 13,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/LoginRegistration/index.jsx",
-                    lineNumber: 12,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group5-1",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-4",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-4",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/LoginRegistration/index.jsx",
-                                    lineNumber: 17,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-3 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/LoginRegistration/index.jsx",
-                                    lineNumber: 18,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-4 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/LoginRegistration/index.jsx",
-                                    lineNumber: 19,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/LoginRegistration/index.jsx",
-                            lineNumber: 16,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "sign-up-form",
-                            src: signUpForm,
-                            alt: "Sign Up Form"
-                        }, void 0, false, {
-                            fileName: "components/LoginRegistration/index.jsx",
-                            lineNumber: 21,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group1-4",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "join-now valign-text-middle laomuangkhong-regular-normal-mist-gray-24px",
-                                    children: joinNow
-                                }, void 0, false, {
-                                    fileName: "components/LoginRegistration/index.jsx",
-                                    lineNumber: 23,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "rectangle-1-2"
-                                }, void 0, false, {
-                                    fileName: "components/LoginRegistration/index.jsx",
-                                    lineNumber: 24,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/LoginRegistration/index.jsx",
-                            lineNumber: 22,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/LoginRegistration/index.jsx",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "foot-container-1",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "footbar-1"
-                        }, void 0, false, {
-                            fileName: "components/LoginRegistration/index.jsx",
-                            lineNumber: 28,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "footer-contact-about-us-4",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "about-us-4 inter-bold-white-24px",
-                                    children: aboutUs
-                                }, void 0, false, {
-                                    fileName: "components/LoginRegistration/index.jsx",
-                                    lineNumber: 31,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/LoginRegistration/index.jsx",
-                                lineNumber: 30,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/LoginRegistration/index.jsx",
-                            lineNumber: 29,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerSocialMediaDefault.default), {
-                            iconTwitter: footerSocialMediaProps.iconTwitter
-                        }, void 0, false, {
-                            fileName: "components/LoginRegistration/index.jsx",
-                            lineNumber: 34,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/LoginRegistration/index.jsx",
-                    lineNumber: 27,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/LoginRegistration/index.jsx",
-            lineNumber: 11,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/LoginRegistration/index.jsx",
-        lineNumber: 10,
-        columnNumber: 5
-    }, this);
-}
-_c = LoginRegistration;
-exports.default = LoginRegistration;
-var _c;
-$RefreshReg$(_c, "LoginRegistration");
-
-  $parcel$ReactRefreshHelpers$64d6.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../FooterSocialMedia":"lAUiE","./LoginRegistration.css":"cCYy4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cCYy4":[function() {},{}],"kUIfg":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1b54 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1b54.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _aboutUsCss = require("./AboutUs.css");
-function AboutUs(props) {
-    const { ilBaglioreNavbar , place , ellipse1 , ilBagliore , restaurant , aboutUs , loremIpsumDolorSi , iconFacebook , facebook , iconTwitter , instraLogo , instagram , twitter , contact  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "about-us-5 screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-row-6",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "il-bagliore-navbar-4 inter-semi-bold-white-36px",
-                            children: ilBaglioreNavbar
-                        }, void 0, false, {
-                            fileName: "components/AboutUs/index.jsx",
-                            lineNumber: 27,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/landing-page",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "place-7 inter-normal-white-27px",
-                                children: place
-                            }, void 0, false, {
-                                fileName: "components/AboutUs/index.jsx",
-                                lineNumber: 29,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/AboutUs/index.jsx",
-                            lineNumber: 28,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/AboutUs/index.jsx",
-                    lineNumber: 26,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group3-3",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-5",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-5",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/AboutUs/index.jsx",
-                                    lineNumber: 34,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-4 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/AboutUs/index.jsx",
-                                    lineNumber: 35,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-5 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/AboutUs/index.jsx",
-                                    lineNumber: 36,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/AboutUs/index.jsx",
-                            lineNumber: 33,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "sign-up-form-1 inter-medium-white-27px",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "about-us-6",
-                                    children: aboutUs
-                                }, void 0, false, {
-                                    fileName: "components/AboutUs/index.jsx",
-                                    lineNumber: 39,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "lorem-ipsum-dolor-si",
-                                    children: loremIpsumDolorSi
-                                }, void 0, false, {
-                                    fileName: "components/AboutUs/index.jsx",
-                                    lineNumber: 40,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/AboutUs/index.jsx",
-                            lineNumber: 38,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/AboutUs/index.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "footer-social-media-2",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "icon-facebook-2",
-                            src: iconFacebook,
-                            alt: "icon-facebook"
-                        }, void 0, false, {
-                            fileName: "components/AboutUs/index.jsx",
-                            lineNumber: 44,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group1-5",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "facebook-2 inter-bold-tobacco-brown-24px",
-                                    children: facebook
-                                }, void 0, false, {
-                                    fileName: "components/AboutUs/index.jsx",
-                                    lineNumber: 46,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "icon-twitter-2",
-                                    src: iconTwitter,
-                                    alt: "icon-twitter"
-                                }, void 0, false, {
-                                    fileName: "components/AboutUs/index.jsx",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/AboutUs/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group2-5 inter-bold-tobacco-brown-24px",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "instra-logo-2",
-                                    src: instraLogo,
-                                    alt: "instra-logo"
-                                }, void 0, false, {
-                                    fileName: "components/AboutUs/index.jsx",
-                                    lineNumber: 50,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "instagram-2",
-                                    children: instagram
-                                }, void 0, false, {
-                                    fileName: "components/AboutUs/index.jsx",
-                                    lineNumber: 51,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "twitter-2",
-                                    children: twitter
-                                }, void 0, false, {
-                                    fileName: "components/AboutUs/index.jsx",
-                                    lineNumber: 52,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/AboutUs/index.jsx",
-                            lineNumber: 49,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/AboutUs/index.jsx",
-                    lineNumber: 43,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "foot-container-2",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "footbar-2"
-                        }, void 0, false, {
-                            fileName: "components/AboutUs/index.jsx",
-                            lineNumber: 56,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "footer-contact-about-us-5",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "contact inter-bold-white-24px",
-                                children: contact
-                            }, void 0, false, {
-                                fileName: "components/AboutUs/index.jsx",
-                                lineNumber: 58,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/AboutUs/index.jsx",
-                            lineNumber: 57,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/AboutUs/index.jsx",
-                    lineNumber: 55,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/AboutUs/index.jsx",
-            lineNumber: 25,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/AboutUs/index.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
-}
-_c = AboutUs;
-exports.default = AboutUs;
-var _c;
-$RefreshReg$(_c, "AboutUs");
-
-  $parcel$ReactRefreshHelpers$1b54.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./AboutUs.css":"g8khz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"g8khz":[function() {},{}],"3pHFz":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$b676 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b676.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _sloganAndSentence = require("../SloganAndSentence");
-var _sloganAndSentenceDefault = parcelHelpers.interopDefault(_sloganAndSentence);
-var _dishesCss = require("./Dishes.css");
-function Dishes(props) {
-    const { ilBaglioreNavbar , loginRegistration , place , dishes , drinks , tableReservation , ellipse1 , ilBagliore , restaurant , appetizers , firstCourse , secondCourse , sideDishes , desserts , pexelsMariaOrlova49464421 , pexelsJankoFerlic5904771 , pexelsSnapwire6759511 , pexelsValeriaBoltneva8425711 , pexelsAlishaMishra13435041 , aboutUs , sloganAndSentenceProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "dishes-3 screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-row-7",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "il-bagliore-navbar-5 inter-semi-bold-white-36px",
-                            children: ilBaglioreNavbar
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 35,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "login-registration-2 inter-normal-white-27px",
-                            children: loginRegistration
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 36,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group1-6",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/landing-page",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "place-8 inter-normal-white-27px",
-                                        children: place
-                                    }, void 0, false, {
-                                        fileName: "components/Dishes/index.jsx",
-                                        lineNumber: 39,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Dishes/index.jsx",
-                                    lineNumber: 38,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "dishes-4 inter-normal-tobacco-brown-27px",
-                                    children: dishes
-                                }, void 0, false, {
-                                    fileName: "components/Dishes/index.jsx",
-                                    lineNumber: 41,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/drinks",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "drinks-3 inter-normal-white-27px",
-                                        children: drinks
-                                    }, void 0, false, {
-                                        fileName: "components/Dishes/index.jsx",
-                                        lineNumber: 43,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Dishes/index.jsx",
-                                    lineNumber: 42,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/table-reservation",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "table-reservation-3 inter-normal-white-27px",
-                                        children: tableReservation
-                                    }, void 0, false, {
-                                        fileName: "components/Dishes/index.jsx",
-                                        lineNumber: 46,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Dishes/index.jsx",
-                                    lineNumber: 45,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 37,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Dishes/index.jsx",
-                    lineNumber: 34,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group3-4",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-6",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-6",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/Dishes/index.jsx",
-                                    lineNumber: 52,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-5 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/Dishes/index.jsx",
-                                    lineNumber: 53,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-6 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/Dishes/index.jsx",
-                                    lineNumber: 54,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 51,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sloganAndSentenceDefault.default), {
-                            children: sloganAndSentenceProps.children
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 56,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Dishes/index.jsx",
-                    lineNumber: 50,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-row-8",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/appetizers",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "appetizers valign-text-middle kurale-normal-tobacco-brown-45px",
-                                children: appetizers
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 60,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 59,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/first-course",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "first-course-2 valign-text-middle kurale-normal-tobacco-brown-45px",
-                                children: firstCourse
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 63,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 62,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/second-course",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "second-course valign-text-middle kurale-normal-tobacco-brown-45px",
-                                children: secondCourse
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 66,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 65,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/side-dishes",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "side-dishes valign-text-middle kurale-normal-tobacco-brown-45px",
-                                children: sideDishes
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 69,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 68,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/desserts",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "desserts valign-text-middle kurale-normal-tobacco-brown-45px",
-                                children: desserts
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 72,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 71,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Dishes/index.jsx",
-                    lineNumber: 58,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "pexels-container",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/appetizers",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "pexels-maria-orlova-4946442-1-1",
-                                src: pexelsMariaOrlova49464421,
-                                alt: "pexels-maria-orlova-4946442 1"
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 77,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 76,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/first-course",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "pexels-janko-ferlic-590477-1",
-                                src: pexelsJankoFerlic5904771,
-                                alt: "pexels-janko-ferlic-590477 1"
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 84,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 83,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/second-course",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "pexels-snapwire-675951-1",
-                                src: pexelsSnapwire6759511,
-                                alt: "pexels-snapwire-675951 1"
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 91,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 90,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/side-dishes",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "pexels-valeria-boltneva-842571-1",
-                                src: pexelsValeriaBoltneva8425711,
-                                alt: "pexels-valeria-boltneva-842571 1"
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 94,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 93,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/desserts",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "pexels-alisha-mishra-1343504-1",
-                                src: pexelsAlishaMishra13435041,
-                                alt: "pexels-alisha-mishra-1343504 1"
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 101,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 100,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Dishes/index.jsx",
-                    lineNumber: 75,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2-6",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/about-us",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "footer-contact-about-us-6",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us-7 inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/Dishes/index.jsx",
-                                lineNumber: 111,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Dishes/index.jsx",
-                            lineNumber: 110,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/Dishes/index.jsx",
-                        lineNumber: 109,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Dishes/index.jsx",
-                    lineNumber: 108,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/Dishes/index.jsx",
-            lineNumber: 33,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Dishes/index.jsx",
-        lineNumber: 32,
-        columnNumber: 5
-    }, this);
-}
-_c = Dishes;
-exports.default = Dishes;
-var _c;
-$RefreshReg$(_c, "Dishes");
-
-  $parcel$ReactRefreshHelpers$b676.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../SloganAndSentence":"jv6Vw","./Dishes.css":"abHjJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jv6Vw":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$572a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$572a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _sloganAndSentenceCss = require("./SloganAndSentence.css");
-function SloganAndSentence(props) {
-    const { children , className  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `slogan-and-sentence ${className || ""}`,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "dishes-5 valign-text-middle kurale-normal-tobacco-brown-63px",
-            children: children
-        }, void 0, false, {
-            fileName: "components/SloganAndSentence/index.jsx",
-            lineNumber: 9,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/SloganAndSentence/index.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
-}
-_c = SloganAndSentence;
-exports.default = SloganAndSentence;
-var _c;
-$RefreshReg$(_c, "SloganAndSentence");
-
-  $parcel$ReactRefreshHelpers$572a.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./SloganAndSentence.css":"AoYAy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"AoYAy":[function() {},{}],"abHjJ":[function() {},{}],"lt35v":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2c4a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2c4a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _sloganAndSentence = require("../SloganAndSentence");
-var _sloganAndSentenceDefault = parcelHelpers.interopDefault(_sloganAndSentence);
-var _drinksCss = require("./Drinks.css");
-function Drinks(props) {
-    const { ilBaglioreNavbar , loginRegistration , place , dishes , drinks , tableReservation , ellipse1 , ilBagliore , restaurant , appetizers , firstCourse , secondCourse , sideDishes , desserts , pexelsMariaOrlova49464421 , pexelsJankoFerlic5904771 , pexelsSnapwire6759511 , pexelsValeriaBoltneva8425711 , pexelsAlishaMishra13435041 , aboutUs , sloganAndSentenceProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "drinks-4 screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-row-9",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "il-bagliore-navbar-6 inter-semi-bold-white-36px",
-                            children: ilBaglioreNavbar
-                        }, void 0, false, {
-                            fileName: "components/Drinks/index.jsx",
-                            lineNumber: 35,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "login-registration-3 inter-normal-white-27px",
-                            children: loginRegistration
-                        }, void 0, false, {
-                            fileName: "components/Drinks/index.jsx",
-                            lineNumber: 36,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group3-5",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/landing-page",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "place-9 inter-normal-white-27px",
-                                        children: place
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 39,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 38,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/dishes",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "dishes-7 inter-normal-white-27px",
-                                        children: dishes
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 42,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 41,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/desserts",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "drinks-5 inter-normal-tobacco-brown-27px",
-                                        children: drinks
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 45,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 44,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/table-reservation",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "table-reservation-4 inter-normal-white-27px",
-                                        children: tableReservation
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 48,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Drinks/index.jsx",
-                            lineNumber: 37,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Drinks/index.jsx",
-                    lineNumber: 34,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group1-7",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-7",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-7",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 54,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-6 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 55,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-7 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 56,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Drinks/index.jsx",
-                            lineNumber: 53,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sloganAndSentenceDefault.default), {
-                            className: sloganAndSentenceProps.className,
-                            children: sloganAndSentenceProps.children
-                        }, void 0, false, {
-                            fileName: "components/Drinks/index.jsx",
-                            lineNumber: 58,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Drinks/index.jsx",
-                    lineNumber: 52,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group4-1",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "titles",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/juice",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "appetizers-1 valign-text-middle kurale-normal-tobacco-brown-45px",
-                                        children: appetizers
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 65,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 64,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/smoothies",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "first-course-3 valign-text-middle kurale-normal-tobacco-brown-45px",
-                                        children: firstCourse
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 68,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 67,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/coffee",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "second-course-1 valign-text-middle kurale-normal-tobacco-brown-45px",
-                                        children: secondCourse
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 71,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 70,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/wine",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "side-dishes-1 valign-text-middle kurale-normal-tobacco-brown-45px",
-                                        children: sideDishes
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 74,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 73,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/cocktails-mixed-drinks",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "desserts-1 valign-text-middle kurale-normal-tobacco-brown-45px",
-                                        children: desserts
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 77,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 76,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Drinks/index.jsx",
-                            lineNumber: 63,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "images",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/juice",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "pexels-maria-orlova-4946442-1-2",
-                                        src: pexelsMariaOrlova49464421,
-                                        alt: "pexels-maria-orlova-4946442 1"
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 82,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 81,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/smoothies",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "pexels-janko-ferlic-590477-1-1",
-                                        src: pexelsJankoFerlic5904771,
-                                        alt: "pexels-janko-ferlic-590477 1"
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 89,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 88,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/coffee",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "pexels-snapwire-675951-1-1",
-                                        src: pexelsSnapwire6759511,
-                                        alt: "pexels-snapwire-675951 1"
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 96,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 95,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/wine",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "pexels-valeria-boltneva-842571-1-1",
-                                        src: pexelsValeriaBoltneva8425711,
-                                        alt: "pexels-valeria-boltneva-842571 1"
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 99,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 98,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/cocktails-mixed-drinks",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "pexels-alisha-mishra-1343504-1-1",
-                                        src: pexelsAlishaMishra13435041,
-                                        alt: "pexels-alisha-mishra-1343504 1"
-                                    }, void 0, false, {
-                                        fileName: "components/Drinks/index.jsx",
-                                        lineNumber: 106,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/Drinks/index.jsx",
-                                    lineNumber: 105,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Drinks/index.jsx",
-                            lineNumber: 80,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Drinks/index.jsx",
-                    lineNumber: 62,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2-7",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/about-us",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "footer-contact-about-us-7",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us-8 inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/Drinks/index.jsx",
-                                lineNumber: 117,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Drinks/index.jsx",
-                            lineNumber: 116,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/Drinks/index.jsx",
-                        lineNumber: 115,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Drinks/index.jsx",
-                    lineNumber: 114,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/Drinks/index.jsx",
-            lineNumber: 33,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Drinks/index.jsx",
-        lineNumber: 32,
-        columnNumber: 5
-    }, this);
-}
-_c = Drinks;
-exports.default = Drinks;
-var _c;
-$RefreshReg$(_c, "Drinks");
-
-  $parcel$ReactRefreshHelpers$2c4a.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../SloganAndSentence":"jv6Vw","./Drinks.css":"lljxt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lljxt":[function() {},{}],"68soG":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$4a59 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4a59.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _cocktailsList = require("../CocktailsList");
-var _cocktailsListDefault = parcelHelpers.interopDefault(_cocktailsList);
-var _coffeeCss = require("./Coffee.css");
-function Coffee(props) {
-    const { ilBaglioreNavbar , tableReservation , place1 , dishes , drinks , place2 , menu , firstCourse , ellipse1 , ilBagliore , restaurant , aboutUs , cocktailsListProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "coffee screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "topbar-2"
-                }, void 0, false, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 26,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "il-bagliore-navbar-7 inter-semi-bold-white-36px",
-                    children: ilBaglioreNavbar
-                }, void 0, false, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 27,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/table-reservation",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "table-reservation-5 inter-normal-white-27px",
-                        children: tableReservation
-                    }, void 0, false, {
-                        fileName: "components/Coffee/index.jsx",
-                        lineNumber: 29,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 28,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "place-10 inter-normal-white-27px",
-                    children: place1
-                }, void 0, false, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "dishes-8 inter-normal-white-27px",
-                        children: dishes
-                    }, void 0, false, {
-                        fileName: "components/Coffee/index.jsx",
-                        lineNumber: 33,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "drinks-6 inter-normal-tobacco-brown-27px",
-                        children: drinks
-                    }, void 0, false, {
-                        fileName: "components/Coffee/index.jsx",
-                        lineNumber: 36,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/landing-page",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "place-11 inter-normal-white-27px",
-                        children: place2
-                    }, void 0, false, {
-                        fileName: "components/Coffee/index.jsx",
-                        lineNumber: 39,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 38,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "menu-4 inter-normal-white-27px",
-                        children: menu
-                    }, void 0, false, {
-                        fileName: "components/Coffee/index.jsx",
-                        lineNumber: 42,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2-8",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "first-course-4 valign-text-middle kurale-normal-tobacco-brown-63px",
-                            children: firstCourse
-                        }, void 0, false, {
-                            fileName: "components/Coffee/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-8",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-8",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/Coffee/index.jsx",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-7 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/Coffee/index.jsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-8 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/Coffee/index.jsx",
-                                    lineNumber: 49,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Coffee/index.jsx",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 44,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cocktailsListDefault.default), {
-                    image1: cocktailsListProps.image1,
-                    img2: cocktailsListProps.img2,
-                    img3: cocktailsListProps.img3,
-                    img4: cocktailsListProps.img4,
-                    drink51Props: cocktailsListProps.drink51Props,
-                    drink52Props: cocktailsListProps.drink52Props
-                }, void 0, false, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 52,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "footer-contact-about-us-8",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "overlap-group1-8",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us-9 inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/Coffee/index.jsx",
-                                lineNumber: 63,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Coffee/index.jsx",
-                            lineNumber: 62,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/Coffee/index.jsx",
-                        lineNumber: 61,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Coffee/index.jsx",
-                    lineNumber: 60,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/Coffee/index.jsx",
-            lineNumber: 25,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Coffee/index.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
-}
-_c = Coffee;
-exports.default = Coffee;
-var _c;
-$RefreshReg$(_c, "Coffee");
-
-  $parcel$ReactRefreshHelpers$4a59.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../CocktailsList":"infPW","./Coffee.css":"bsV8q","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bsV8q":[function() {},{}],"khBHD":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","styled-components":"1U3k6","../../styledMixins":"dUZFz","./TableReservation.css":"UITwJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"UITwJ":[function() {},{}],"khBHD":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$a486 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34204,87 +34772,88 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
 var _dishesList = require("../DishesList");
 var _dishesListDefault = parcelHelpers.interopDefault(_dishesList);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
 var _firstCourseCss = require("./FirstCourse.css");
-function FirstCourse(props) {
-    const { ilBaglioreNavbar , tableReservation , place1 , dishes , drinks , place2 , menu , firstCourse , ellipse1 , ilBagliore , restaurant , aboutUs , dishesListProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "first-course-5 screen",
+class FirstCourse extends (0, _reactDefault.default).Component {
+    render() {
+        const { firstCourse , ellipse1 , ilBagliore , restaurant , gobackbutton , dishesListProps  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "first-course screen",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "topbar-3"
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesListDefault.default), {
+                    img5: dishesListProps.img5,
+                    className: dishesListProps.className,
+                    dish11Props: dishesListProps.dish11Props,
+                    dish12Props: dishesListProps.dish12Props,
+                    dish31Props: dishesListProps.dish31Props,
+                    dish32Props: dishesListProps.dish32Props
                 }, void 0, false, {
                     fileName: "components/FirstCourse/index.jsx",
-                    lineNumber: 26,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "il-bagliore-navbar-8 inter-semi-bold-white-36px",
-                    children: ilBaglioreNavbar
-                }, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BlackRectangle, {}, void 0, false, {
                     fileName: "components/FirstCourse/index.jsx",
                     lineNumber: 27,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/table-reservation",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "table-reservation-6 inter-normal-white-27px",
-                        children: tableReservation
-                    }, void 0, false, {
-                        fileName: "components/FirstCourse/index.jsx",
-                        lineNumber: 29,
-                        columnNumber: 11
-                    }, this)
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FirstCourse1, {
+                    children: firstCourse
                 }, void 0, false, {
                     fileName: "components/FirstCourse/index.jsx",
                     lineNumber: 28,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "place-12 inter-normal-white-27px",
-                    children: place1
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/home-page",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/FirstCourse/index.jsx",
+                                    lineNumber: 32,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                    children: ilBagliore
+                                }, void 0, false, {
+                                    fileName: "components/FirstCourse/index.jsx",
+                                    lineNumber: 33,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/FirstCourse/index.jsx",
+                                    lineNumber: 34,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/FirstCourse/index.jsx",
+                            lineNumber: 31,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/FirstCourse/index.jsx",
+                        lineNumber: 30,
+                        columnNumber: 11
+                    }, this)
                 }, void 0, false, {
                     fileName: "components/FirstCourse/index.jsx",
-                    lineNumber: 31,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                     to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "dishes-9 inter-normal-tobacco-brown-27px",
-                        children: dishes
-                    }, void 0, false, {
-                        fileName: "components/FirstCourse/index.jsx",
-                        lineNumber: 33,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/FirstCourse/index.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "drinks-7 inter-normal-white-27px",
-                        children: drinks
-                    }, void 0, false, {
-                        fileName: "components/FirstCourse/index.jsx",
-                        lineNumber: 36,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/FirstCourse/index.jsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/landing-page",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "place-13 inter-normal-white-27px",
-                        children: place2
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                        src: gobackbutton,
+                        alt: "GoBackButton"
                     }, void 0, false, {
                         fileName: "components/FirstCourse/index.jsx",
                         lineNumber: 39,
@@ -34294,140 +34863,119 @@ function FirstCourse(props) {
                     fileName: "components/FirstCourse/index.jsx",
                     lineNumber: 38,
                     columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "menu-5 inter-normal-white-27px",
-                        children: menu
-                    }, void 0, false, {
-                        fileName: "components/FirstCourse/index.jsx",
-                        lineNumber: 42,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/FirstCourse/index.jsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2-9",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "first-course-6 valign-text-middle kurale-normal-tobacco-brown-63px",
-                            children: firstCourse
-                        }, void 0, false, {
-                            fileName: "components/FirstCourse/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-9",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-9",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/FirstCourse/index.jsx",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-8 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/FirstCourse/index.jsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-9 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/FirstCourse/index.jsx",
-                                    lineNumber: 49,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/FirstCourse/index.jsx",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/FirstCourse/index.jsx",
-                    lineNumber: 44,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesListDefault.default), {
-                    img5: dishesListProps.img5,
-                    dish11Props: dishesListProps.dish11Props,
-                    dish12Props: dishesListProps.dish12Props,
-                    dish31Props: dishesListProps.dish31Props,
-                    dish32Props: dishesListProps.dish32Props
-                }, void 0, false, {
-                    fileName: "components/FirstCourse/index.jsx",
-                    lineNumber: 52,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "footer-contact-about-us-9",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "overlap-group1-9",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us-10 inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/FirstCourse/index.jsx",
-                                lineNumber: 62,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/FirstCourse/index.jsx",
-                            lineNumber: 61,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/FirstCourse/index.jsx",
-                        lineNumber: 60,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/FirstCourse/index.jsx",
-                    lineNumber: 59,
-                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/FirstCourse/index.jsx",
-            lineNumber: 25,
+            lineNumber: 18,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/FirstCourse/index.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = FirstCourse;
+const BlackRectangle = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+_c = BlackRectangle;
+const FirstCourse1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 168px);
+  width: 336px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = FirstCourse1;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c2 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+_c3 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c4 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = Restaurant;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
+_c7 = GoBackButton;
 exports.default = FirstCourse;
-var _c;
-$RefreshReg$(_c, "FirstCourse");
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7;
+$RefreshReg$(_c, "BlackRectangle");
+$RefreshReg$(_c1, "FirstCourse1");
+$RefreshReg$(_c2, "Logo");
+$RefreshReg$(_c3, "OverlapGroup");
+$RefreshReg$(_c4, "Ellipse1");
+$RefreshReg$(_c5, "ILBAGLIORE");
+$RefreshReg$(_c6, "Restaurant");
+$RefreshReg$(_c7, "GoBackButton");
 
   $parcel$ReactRefreshHelpers$a486.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../DishesList":"lzKmB","./FirstCourse.css":"fRCUF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lzKmB":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9e36 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../DishesList":"lzKmB","styled-components":"1U3k6","../../styledMixins":"dUZFz","./FirstCourse.css":"fRCUF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fRCUF":[function() {},{}],"hroaF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$26cd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9e36.prelude(module);
+$parcel$ReactRefreshHelpers$26cd.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -34435,117 +34983,351 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _dish1 = require("../Dish1");
-var _dish1Default = parcelHelpers.interopDefault(_dish1);
-var _dish3 = require("../Dish3");
-var _dish3Default = parcelHelpers.interopDefault(_dish3);
-var _dishesListCss = require("./DishesList.css");
-function DishesList(props) {
-    const { img5 , className , dish11Props , dish12Props , dish31Props , dish32Props  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `dishes-list ${className || ""}`,
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dish1Default.default), {
-                dish1: dish11Props.dish1,
-                image1: dish11Props.image1,
-                className: dish11Props.className
-            }, void 0, false, {
-                fileName: "components/DishesList/index.jsx",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dish1Default.default), {
-                dish1: dish12Props.dish1,
-                image1: dish12Props.image1,
-                className: dish12Props.className
-            }, void 0, false, {
-                fileName: "components/DishesList/index.jsx",
-                lineNumber: 12,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dish3Default.default), {
-                dish3: dish31Props.dish3,
-                img3: dish31Props.img3,
-                className: dish31Props.className
-            }, void 0, false, {
-                fileName: "components/DishesList/index.jsx",
-                lineNumber: 13,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dish3Default.default), {
-                dish3: dish32Props.dish3,
-                img3: dish32Props.img3,
-                className: dish32Props.className
-            }, void 0, false, {
-                fileName: "components/DishesList/index.jsx",
-                lineNumber: 14,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "dish5",
+var _reactRouterDom = require("react-router-dom");
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _menuCss = require("./Menu.css");
+class Menu extends (0, _reactDefault.default).Component {
+    render() {
+        const { gobackbutton , place , dishes , ellipse1 , ilBagliore , restaurant , drinks , pexelsMariaOrlova49464421 , pexelsMariaOrlova49464422 , men  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container-center-horizontal",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "menu screen",
+                onclick: "window.open('home-page.html', '_self');",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "dish5-1 valign-text-middle kurale-normal-tobacco-brown-45px",
-                        children: "Lorem ipsum dolor sit amet consectetur"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/home-page",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                            src: gobackbutton,
+                            alt: "GoBackButton"
+                        }, void 0, false, {
+                            fileName: "components/Menu/index.jsx",
+                            lineNumber: 31,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
-                        fileName: "components/DishesList/index.jsx",
-                        lineNumber: 16,
-                        columnNumber: 9
+                        fileName: "components/Menu/index.jsx",
+                        lineNumber: 30,
+                        columnNumber: 11
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "flex-row-10",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol, {
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "img5-4",
-                                src: img5,
-                                alt: "Img5"
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Place, {
+                                children: place
                             }, void 0, false, {
-                                fileName: "components/DishesList/index.jsx",
-                                lineNumber: 20,
-                                columnNumber: 11
+                                fileName: "components/Menu/index.jsx",
+                                lineNumber: 34,
+                                columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "desc-lorem5-1 inter-normal-white-24px",
-                                children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-                            }, void 0, false, {
-                                fileName: "components/DishesList/index.jsx",
-                                lineNumber: 21,
-                                columnNumber: 11
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Dishes, {
+                                                children: dishes
+                                            }, void 0, false, {
+                                                fileName: "components/Menu/index.jsx",
+                                                lineNumber: 37,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: "/home-page",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                                                src: ellipse1,
+                                                                alt: "Ellipse 1"
+                                                            }, void 0, false, {
+                                                                fileName: "components/Menu/index.jsx",
+                                                                lineNumber: 41,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                                                children: ilBagliore
+                                                            }, void 0, false, {
+                                                                fileName: "components/Menu/index.jsx",
+                                                                lineNumber: 42,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                                                children: restaurant
+                                                            }, void 0, false, {
+                                                                fileName: "components/Menu/index.jsx",
+                                                                lineNumber: 43,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "components/Menu/index.jsx",
+                                                        lineNumber: 40,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "components/Menu/index.jsx",
+                                                    lineNumber: 39,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/Menu/index.jsx",
+                                                lineNumber: 38,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/Menu/index.jsx",
+                                        lineNumber: 36,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drinks, {
+                                        children: drinks
+                                    }, void 0, false, {
+                                        fileName: "components/Menu/index.jsx",
+                                        lineNumber: 48,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Menu/index.jsx",
+                                lineNumber: 35,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PexelsMariaOrlovaContainer, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/dishes",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PexelsMariaOrlova49464421, {
+                                            src: pexelsMariaOrlova49464421,
+                                            alt: "pexels-maria-orlova-4946442 1"
+                                        }, void 0, false, {
+                                            fileName: "components/Menu/index.jsx",
+                                            lineNumber: 52,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Menu/index.jsx",
+                                        lineNumber: 51,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/drinks",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PexelsMariaOrlova49464421, {
+                                            src: pexelsMariaOrlova49464422,
+                                            alt: "pexels-maria-orlova-4946442 2"
+                                        }, void 0, false, {
+                                            fileName: "components/Menu/index.jsx",
+                                            lineNumber: 55,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Menu/index.jsx",
+                                        lineNumber: 54,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Menu/index.jsx",
+                                lineNumber: 50,
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "components/DishesList/index.jsx",
-                        lineNumber: 19,
-                        columnNumber: 9
+                        fileName: "components/Menu/index.jsx",
+                        lineNumber: 33,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Men, {
+                        children: men
+                    }, void 0, false, {
+                        fileName: "components/Menu/index.jsx",
+                        lineNumber: 59,
+                        columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "components/DishesList/index.jsx",
-                lineNumber: 15,
-                columnNumber: 7
+                fileName: "components/Menu/index.jsx",
+                lineNumber: 29,
+                columnNumber: 9
             }, this)
-        ]
-    }, void 0, true, {
-        fileName: "components/DishesList/index.jsx",
-        lineNumber: 10,
-        columnNumber: 5
-    }, this);
+        }, void 0, false, {
+            fileName: "components/Menu/index.jsx",
+            lineNumber: 28,
+            columnNumber: 7
+        }, this);
+    }
 }
-_c = DishesList;
-exports.default = DishesList;
-var _c;
-$RefreshReg$(_c, "DishesList");
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+`;
+_c = GoBackButton;
+const FlexCol = (0, _styledComponentsDefault.default).div`
+  width: 1609px;
+  margin-left: 88px;
+  margin-top: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 919px;
+`;
+_c1 = FlexCol;
+const Place = (0, _styledComponentsDefault.default).div`
+  min-height: 38px;
+  margin-right: 5px;
+  min-width: 130px;
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-weight: 400;
+  color: var(--white-2);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c2 = Place;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  margin-top: 82px;
+  margin-left: 1px;
+  display: flex;
+  align-items: flex-end;
+  min-width: 1166px;
+  gap: 4px;
+`;
+_c3 = FlexRow;
+const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
+  width: 971px;
+  height: 414px;
+  position: relative;
+`;
+_c4 = OverlapGroup1;
+const Dishes = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown60px)}
+            position: absolute;
+  width: 191px;
+  height: 87px;
+  top: 327px;
+  left: 0;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = Dishes;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  height: 353px;
+  top: 0;
+  left: 183px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c6 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 355px;
+  position: relative;
+  margin-top: -1px;
+`;
+_c7 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  top: 0;
+  left: 220px;
+`;
+_c8 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 106px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c9 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 162px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c10 = Restaurant;
+const Drinks = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown60px)}
+            width: 191px;
+  height: 87px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c11 = Drinks;
+const PexelsMariaOrlovaContainer = (0, _styledComponentsDefault.default).div`
+  margin-top: 7px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1609px;
+  gap: 341px;
+`;
+_c12 = PexelsMariaOrlovaContainer;
+const PexelsMariaOrlova49464421 = (0, _styledComponentsDefault.default).img`
+  width: 634px;
+  height: 378px;
+  object-fit: cover;
+  cursor: pointer;
+`;
+_c13 = PexelsMariaOrlova49464421;
+const Men = (0, _styledComponentsDefault.default).div`
+  min-height: 38px;
+  margin-left: 10px;
+  margin-top: 16px;
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-weight: 400;
+  color: var(--tobacco-brown);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c14 = Men;
+exports.default = Menu;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14;
+$RefreshReg$(_c, "GoBackButton");
+$RefreshReg$(_c1, "FlexCol");
+$RefreshReg$(_c2, "Place");
+$RefreshReg$(_c3, "FlexRow");
+$RefreshReg$(_c4, "OverlapGroup1");
+$RefreshReg$(_c5, "Dishes");
+$RefreshReg$(_c6, "Logo");
+$RefreshReg$(_c7, "OverlapGroup");
+$RefreshReg$(_c8, "Ellipse1");
+$RefreshReg$(_c9, "ILBAGLIORE");
+$RefreshReg$(_c10, "Restaurant");
+$RefreshReg$(_c11, "Drinks");
+$RefreshReg$(_c12, "PexelsMariaOrlovaContainer");
+$RefreshReg$(_c13, "PexelsMariaOrlova49464421");
+$RefreshReg$(_c14, "Men");
 
-  $parcel$ReactRefreshHelpers$9e36.postlude(module);
+  $parcel$ReactRefreshHelpers$26cd.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Dish1":"j3zUI","../Dish3":"6X0OS","./DishesList.css":"dh5jJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"j3zUI":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$71e5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","styled-components":"1U3k6","../../styledMixins":"dUZFz","./Menu.css":"h8R5K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h8R5K":[function() {},{}],"cQNVe":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$64d6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$71e5.prelude(module);
+$parcel$ReactRefreshHelpers$64d6.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -34553,68 +35335,374 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _dish1Css = require("./Dish1.css");
-function Dish1(props) {
-    const { dish1 , image1 , className  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `dish-4 ${className || ""}`,
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "dish1 valign-text-middle kurale-normal-tobacco-brown-45px",
-                children: dish1
-            }, void 0, false, {
-                fileName: "components/Dish1/index.jsx",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex-row-15",
+var _reactRouterDom = require("react-router-dom");
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _loginRegistrationCss = require("./LoginRegistration.css");
+class LoginRegistration extends (0, _reactDefault.default).Component {
+    render() {
+        const { gobackbutton , place , ellipse1 , ilBagliore , restaurant , signUpForm , aboutUs , fbLogo , facebook , twitterIcon , twitter , instraLogo , instagram  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container-center-horizontal",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "login-registration screen",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "image1-4",
-                        src: image1,
-                        alt: "image1"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/home-page",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                            src: gobackbutton,
+                            alt: "GoBackButton"
+                        }, void 0, false, {
+                            fileName: "components/LoginRegistration/index.jsx",
+                            lineNumber: 35,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
-                        fileName: "components/Dish1/index.jsx",
-                        lineNumber: 11,
-                        columnNumber: 9
+                        fileName: "components/LoginRegistration/index.jsx",
+                        lineNumber: 34,
+                        columnNumber: 11
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "desc-lorem-4 inter-normal-white-24px",
-                        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-                    }, void 0, false, {
-                        fileName: "components/Dish1/index.jsx",
-                        lineNumber: 12,
-                        columnNumber: 9
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/home-page",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Place, {
+                                    children: place
+                                }, void 0, false, {
+                                    fileName: "components/LoginRegistration/index.jsx",
+                                    lineNumber: 39,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/LoginRegistration/index.jsx",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                                src: ellipse1,
+                                                alt: "Ellipse 1"
+                                            }, void 0, false, {
+                                                fileName: "components/LoginRegistration/index.jsx",
+                                                lineNumber: 43,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                                children: ilBagliore
+                                            }, void 0, false, {
+                                                fileName: "components/LoginRegistration/index.jsx",
+                                                lineNumber: 44,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                                children: restaurant
+                                            }, void 0, false, {
+                                                fileName: "components/LoginRegistration/index.jsx",
+                                                lineNumber: 45,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/LoginRegistration/index.jsx",
+                                        lineNumber: 42,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SignUpForm, {
+                                        src: signUpForm,
+                                        alt: "Sign Up Form"
+                                    }, void 0, false, {
+                                        fileName: "components/LoginRegistration/index.jsx",
+                                        lineNumber: 47,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/LoginRegistration/index.jsx",
+                                lineNumber: 41,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/about-us",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AboutUs, {
+                                            children: aboutUs
+                                        }, void 0, false, {
+                                            fileName: "components/LoginRegistration/index.jsx",
+                                            lineNumber: 51,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/LoginRegistration/index.jsx",
+                                        lineNumber: 50,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FooterSocialMedia, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FbLogo, {
+                                                src: fbLogo,
+                                                alt: "fb-logo"
+                                            }, void 0, false, {
+                                                fileName: "components/LoginRegistration/index.jsx",
+                                                lineNumber: 54,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Facebook, {
+                                                children: facebook
+                                            }, void 0, false, {
+                                                fileName: "components/LoginRegistration/index.jsx",
+                                                lineNumber: 55,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TwitterIcon, {
+                                                src: twitterIcon,
+                                                alt: "twitter-icon"
+                                            }, void 0, false, {
+                                                fileName: "components/LoginRegistration/index.jsx",
+                                                lineNumber: 56,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Twitter, {
+                                                children: twitter
+                                            }, void 0, false, {
+                                                fileName: "components/LoginRegistration/index.jsx",
+                                                lineNumber: 57,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(InstraLogo, {
+                                                src: instraLogo,
+                                                alt: "instra-logo"
+                                            }, void 0, false, {
+                                                fileName: "components/LoginRegistration/index.jsx",
+                                                lineNumber: 58,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Instagram, {
+                                                children: instagram
+                                            }, void 0, false, {
+                                                fileName: "components/LoginRegistration/index.jsx",
+                                                lineNumber: 59,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/LoginRegistration/index.jsx",
+                                        lineNumber: 53,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/LoginRegistration/index.jsx",
+                                lineNumber: 49,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/LoginRegistration/index.jsx",
+                        lineNumber: 37,
+                        columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "components/Dish1/index.jsx",
-                lineNumber: 10,
-                columnNumber: 7
+                fileName: "components/LoginRegistration/index.jsx",
+                lineNumber: 33,
+                columnNumber: 9
             }, this)
-        ]
-    }, void 0, true, {
-        fileName: "components/Dish1/index.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
+        }, void 0, false, {
+            fileName: "components/LoginRegistration/index.jsx",
+            lineNumber: 32,
+            columnNumber: 7
+        }, this);
+    }
 }
-_c = Dish1;
-exports.default = Dish1;
-var _c;
-$RefreshReg$(_c, "Dish1");
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  width: 50px;
+  height: 50px;
+  margin-top: 1px;
+  cursor: pointer;
+`;
+_c = GoBackButton;
+const FlexCol = (0, _styledComponentsDefault.default).div`
+  width: 1789px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1018px;
+`;
+_c1 = FlexCol;
+const Place = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite27px)}
+  min-height: 34px;
+  margin-right: 8px;
+  min-width: 77px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c2 = Place;
+const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
+  width: 801px;
+  height: 736px;
+  position: relative;
+  margin-top: 82px;
+  margin-right: 8px;
+`;
+_c3 = OverlapGroup1;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  width: 784px;
+  height: 353px;
+  top: 0;
+  left: 3px;
+`;
+_c4 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c5 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 106px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 162px;
+  left: 174px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c7 = Restaurant;
+const SignUpForm = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 801px;
+  height: 712px;
+  top: 24px;
+  left: 0;
+`;
+_c8 = SignUpForm;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  height: 27px;
+  margin-top: 139px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1789px;
+  gap: 1228px;
+`;
+_c9 = FlexRow;
+const AboutUs = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 110px;
+  min-height: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c10 = AboutUs;
+const FooterSocialMedia = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr1)}
+  height: 26px;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  min-width: 451px;
+`;
+_c11 = FooterSocialMedia;
+const FbLogo = (0, _styledComponentsDefault.default).img`
+  width: 19px;
+  height: 20px;
+  margin-top: 2px;
+`;
+_c12 = FbLogo;
+const Facebook = (0, _styledComponentsDefault.default).div`
+  width: 110px;
+  min-height: 22px;
+  align-self: flex-start;
+  margin-left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c13 = Facebook;
+const TwitterIcon = (0, _styledComponentsDefault.default).img`
+  width: 22px;
+  height: 20px;
+  margin-left: 32px;
+  margin-top: 2px;
+`;
+_c14 = TwitterIcon;
+const Twitter = (0, _styledComponentsDefault.default).div`
+  width: 82px;
+  min-height: 25px;
+  align-self: flex-start;
+  margin-left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c15 = Twitter;
+const InstraLogo = (0, _styledComponentsDefault.default).img`
+  width: 19px;
+  height: 20px;
+  margin-left: 29px;
+  margin-top: 2px;
+`;
+_c16 = InstraLogo;
+const Instagram = (0, _styledComponentsDefault.default).div`
+  width: 117px;
+  min-height: 26px;
+  margin-left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c17 = Instagram;
+exports.default = LoginRegistration;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17;
+$RefreshReg$(_c, "GoBackButton");
+$RefreshReg$(_c1, "FlexCol");
+$RefreshReg$(_c2, "Place");
+$RefreshReg$(_c3, "OverlapGroup1");
+$RefreshReg$(_c4, "OverlapGroup");
+$RefreshReg$(_c5, "Ellipse1");
+$RefreshReg$(_c6, "ILBAGLIORE");
+$RefreshReg$(_c7, "Restaurant");
+$RefreshReg$(_c8, "SignUpForm");
+$RefreshReg$(_c9, "FlexRow");
+$RefreshReg$(_c10, "AboutUs");
+$RefreshReg$(_c11, "FooterSocialMedia");
+$RefreshReg$(_c12, "FbLogo");
+$RefreshReg$(_c13, "Facebook");
+$RefreshReg$(_c14, "TwitterIcon");
+$RefreshReg$(_c15, "Twitter");
+$RefreshReg$(_c16, "InstraLogo");
+$RefreshReg$(_c17, "Instagram");
 
-  $parcel$ReactRefreshHelpers$71e5.postlude(module);
+  $parcel$ReactRefreshHelpers$64d6.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Dish1.css":"3r7HS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3r7HS":[function() {},{}],"6X0OS":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$8137 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","styled-components":"1U3k6","../../styledMixins":"dUZFz","./LoginRegistration.css":"cCYy4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cCYy4":[function() {},{}],"kUIfg":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1b54 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$8137.prelude(module);
+$parcel$ReactRefreshHelpers$1b54.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -34622,64 +35710,1534 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _dish3Css = require("./Dish3.css");
-function Dish3(props) {
-    const { dish3 , img3 , className  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `dish-5-1 ${className || ""}`,
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "dish3 valign-text-middle kurale-normal-tobacco-brown-45px",
-                children: dish3
-            }, void 0, false, {
-                fileName: "components/Dish3/index.jsx",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex-row-20",
+var _reactRouterDom = require("react-router-dom");
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _aboutUsCss = require("./AboutUs.css");
+class AboutUs extends (0, _reactDefault.default).Component {
+    render() {
+        const { gobackbutton , place , aboutUs , loremIpsumDolorSi , ellipse1 , ilBagliore , restaurant , fbLogo , facebook , twitterIcon , twitter , instraLogo , instagram , contact  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container-center-horizontal",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "about-us screen",
+                onclick: "window.open('home-page.html', '_self');",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "img3-4",
-                        src: img3,
-                        alt: "Img3"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/home-page",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                            src: gobackbutton,
+                            alt: "GoBackButton"
+                        }, void 0, false, {
+                            fileName: "components/AboutUs/index.jsx",
+                            lineNumber: 37,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
-                        fileName: "components/Dish3/index.jsx",
-                        lineNumber: 11,
-                        columnNumber: 9
+                        fileName: "components/AboutUs/index.jsx",
+                        lineNumber: 36,
+                        columnNumber: 11
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "desc-lorem-9 inter-normal-white-24px",
-                        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-                    }, void 0, false, {
-                        fileName: "components/Dish3/index.jsx",
-                        lineNumber: 12,
-                        columnNumber: 9
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/home-page",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Place, {
+                                    children: place
+                                }, void 0, false, {
+                                    fileName: "components/AboutUs/index.jsx",
+                                    lineNumber: 41,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/AboutUs/index.jsx",
+                                lineNumber: 40,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AboutUsSection, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AboutUs1, {
+                                                children: aboutUs
+                                            }, void 0, false, {
+                                                fileName: "components/AboutUs/index.jsx",
+                                                lineNumber: 45,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LoremIpsumDolorSi, {
+                                                children: loremIpsumDolorSi
+                                            }, void 0, false, {
+                                                fileName: "components/AboutUs/index.jsx",
+                                                lineNumber: 46,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/AboutUs/index.jsx",
+                                        lineNumber: 44,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/home-page",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                                        src: ellipse1,
+                                                        alt: "Ellipse 1"
+                                                    }, void 0, false, {
+                                                        fileName: "components/AboutUs/index.jsx",
+                                                        lineNumber: 51,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                                        children: ilBagliore
+                                                    }, void 0, false, {
+                                                        fileName: "components/AboutUs/index.jsx",
+                                                        lineNumber: 52,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                                        children: restaurant
+                                                    }, void 0, false, {
+                                                        fileName: "components/AboutUs/index.jsx",
+                                                        lineNumber: 53,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/AboutUs/index.jsx",
+                                                lineNumber: 50,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "components/AboutUs/index.jsx",
+                                            lineNumber: 49,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/AboutUs/index.jsx",
+                                        lineNumber: 48,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/AboutUs/index.jsx",
+                                lineNumber: 43,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FooterSocialMedia, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FbLogo, {
+                                        src: fbLogo,
+                                        alt: "fb-logo"
+                                    }, void 0, false, {
+                                        fileName: "components/AboutUs/index.jsx",
+                                        lineNumber: 59,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Facebook, {
+                                        children: facebook
+                                    }, void 0, false, {
+                                        fileName: "components/AboutUs/index.jsx",
+                                        lineNumber: 60,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TwitterIcon, {
+                                        src: twitterIcon,
+                                        alt: "twitter-icon"
+                                    }, void 0, false, {
+                                        fileName: "components/AboutUs/index.jsx",
+                                        lineNumber: 61,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Twitter, {
+                                        children: twitter
+                                    }, void 0, false, {
+                                        fileName: "components/AboutUs/index.jsx",
+                                        lineNumber: 62,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(InstraLogo, {
+                                        src: instraLogo,
+                                        alt: "instra-logo"
+                                    }, void 0, false, {
+                                        fileName: "components/AboutUs/index.jsx",
+                                        lineNumber: 63,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Instagram, {
+                                        children: instagram
+                                    }, void 0, false, {
+                                        fileName: "components/AboutUs/index.jsx",
+                                        lineNumber: 64,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/AboutUs/index.jsx",
+                                lineNumber: 58,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FooterContactAboutUs, {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Contact, {
+                                    children: contact
+                                }, void 0, false, {
+                                    fileName: "components/AboutUs/index.jsx",
+                                    lineNumber: 67,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/AboutUs/index.jsx",
+                                lineNumber: 66,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/AboutUs/index.jsx",
+                        lineNumber: 39,
+                        columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "components/Dish3/index.jsx",
-                lineNumber: 10,
-                columnNumber: 7
+                fileName: "components/AboutUs/index.jsx",
+                lineNumber: 35,
+                columnNumber: 9
             }, this)
-        ]
-    }, void 0, true, {
-        fileName: "components/Dish3/index.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
+        }, void 0, false, {
+            fileName: "components/AboutUs/index.jsx",
+            lineNumber: 34,
+            columnNumber: 7
+        }, this);
+    }
 }
-_c = Dish3;
-exports.default = Dish3;
-var _c;
-$RefreshReg$(_c, "Dish3");
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+`;
+_c = GoBackButton;
+const FlexCol = (0, _styledComponentsDefault.default).div`
+  width: 1012px;
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 992px;
+`;
+_c1 = FlexCol;
+const Place = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.InterNormalWhite27px)}
+  min-height: 33px;
+  margin-right: 4px;
+  min-width: 76px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c2 = Place;
+const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
+  width: 1012px;
+  height: 545px;
+  position: relative;
+  margin-top: 83px;
+`;
+_c3 = OverlapGroup1;
+const AboutUsSection = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite27px1)}
+  position: absolute;
+  width: 1012px;
+  top: 295px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 250px;
+  gap: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+`;
+_c4 = AboutUsSection;
+const AboutUs1 = (0, _styledComponentsDefault.default).div`
+  min-height: 34px;
+  margin-right: 3px;
+  min-width: 115px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = AboutUs1;
+const LoremIpsumDolorSi = (0, _styledComponentsDefault.default).p`
+  width: 1008px;
+  min-height: 206px;
+  margin-right: 4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = LoremIpsumDolorSi;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  height: 353px;
+  top: 0;
+  left: 107px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c7 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 355px;
+  position: relative;
+  margin-top: -1px;
+`;
+_c8 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  top: 0;
+  left: 220px;
+`;
+_c9 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 106px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c10 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 162px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c11 = Restaurant;
+const FooterSocialMedia = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr1)}
+  height: 26px;
+  margin-top: 123px;
+  margin-left: 1px;
+  display: flex;
+  align-items: center;
+  min-width: 451px;
+`;
+_c12 = FooterSocialMedia;
+const FbLogo = (0, _styledComponentsDefault.default).img`
+  width: 19px;
+  height: 20px;
+  margin-top: 2px;
+`;
+_c13 = FbLogo;
+const Facebook = (0, _styledComponentsDefault.default).div`
+  width: 110px;
+  min-height: 22px;
+  align-self: flex-start;
+  margin-left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c14 = Facebook;
+const TwitterIcon = (0, _styledComponentsDefault.default).img`
+  width: 22px;
+  height: 20px;
+  margin-left: 32px;
+  margin-top: 2px;
+`;
+_c15 = TwitterIcon;
+const Twitter = (0, _styledComponentsDefault.default).div`
+  width: 82px;
+  min-height: 25px;
+  align-self: flex-start;
+  margin-left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c16 = Twitter;
+const InstraLogo = (0, _styledComponentsDefault.default).img`
+  width: 19px;
+  height: 20px;
+  margin-left: 29px;
+  margin-top: 2px;
+`;
+_c17 = InstraLogo;
+const Instagram = (0, _styledComponentsDefault.default).div`
+  width: 117px;
+  min-height: 26px;
+  margin-left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c18 = Instagram;
+const FooterContactAboutUs = (0, _styledComponentsDefault.default).div`
+  width: 212px;
+  margin-top: 128px;
+  margin-right: 2px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+`;
+_c19 = FooterContactAboutUs;
+const Contact = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 210px;
+  height: 54px;
+  margin-left: -2px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c20 = Contact;
+exports.default = AboutUs;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20;
+$RefreshReg$(_c, "GoBackButton");
+$RefreshReg$(_c1, "FlexCol");
+$RefreshReg$(_c2, "Place");
+$RefreshReg$(_c3, "OverlapGroup1");
+$RefreshReg$(_c4, "AboutUsSection");
+$RefreshReg$(_c5, "AboutUs1");
+$RefreshReg$(_c6, "LoremIpsumDolorSi");
+$RefreshReg$(_c7, "Logo");
+$RefreshReg$(_c8, "OverlapGroup");
+$RefreshReg$(_c9, "Ellipse1");
+$RefreshReg$(_c10, "ILBAGLIORE");
+$RefreshReg$(_c11, "Restaurant");
+$RefreshReg$(_c12, "FooterSocialMedia");
+$RefreshReg$(_c13, "FbLogo");
+$RefreshReg$(_c14, "Facebook");
+$RefreshReg$(_c15, "TwitterIcon");
+$RefreshReg$(_c16, "Twitter");
+$RefreshReg$(_c17, "InstraLogo");
+$RefreshReg$(_c18, "Instagram");
+$RefreshReg$(_c19, "FooterContactAboutUs");
+$RefreshReg$(_c20, "Contact");
 
-  $parcel$ReactRefreshHelpers$8137.postlude(module);
+  $parcel$ReactRefreshHelpers$1b54.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Dish3.css":"4boQi","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4boQi":[function() {},{}],"dh5jJ":[function() {},{}],"fRCUF":[function() {},{}],"1raOC":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","styled-components":"1U3k6","../../styledMixins":"dUZFz","./AboutUs.css":"g8khz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"g8khz":[function() {},{}],"lt35v":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2c4a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2c4a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _drinksCss = require("./Drinks.css");
+class Drinks extends (0, _reactDefault.default).Component {
+    render() {
+        const { gobackbutton , drinks , ellipse1 , ilBagliore , restaurant , juice , drink1 , smoothies , drink2 , coffee , drink3 , wine , drink4 , cocktails , drink5  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container-center-horizontal",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "drinks screen",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/menu",
+                        className: "align-self-flex-start",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                            src: gobackbutton,
+                            alt: "GoBackButton"
+                        }, void 0, false, {
+                            fileName: "components/Drinks/index.jsx",
+                            lineNumber: 37,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/Drinks/index.jsx",
+                        lineNumber: 36,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drinks1, {
+                                children: drinks
+                            }, void 0, false, {
+                                fileName: "components/Drinks/index.jsx",
+                                lineNumber: 40,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/home-page",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                                src: ellipse1,
+                                                alt: "Ellipse 1"
+                                            }, void 0, false, {
+                                                fileName: "components/Drinks/index.jsx",
+                                                lineNumber: 44,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                                children: ilBagliore
+                                            }, void 0, false, {
+                                                fileName: "components/Drinks/index.jsx",
+                                                lineNumber: 45,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                                children: restaurant
+                                            }, void 0, false, {
+                                                fileName: "components/Drinks/index.jsx",
+                                                lineNumber: 46,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 43,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/Drinks/index.jsx",
+                                    lineNumber: 42,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/Drinks/index.jsx",
+                                lineNumber: 41,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Drinks/index.jsx",
+                        lineNumber: 39,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/juice",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Juice, {
+                                            children: juice
+                                        }, void 0, false, {
+                                            fileName: "components/Drinks/index.jsx",
+                                            lineNumber: 54,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 53,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/juice",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink1, {
+                                            src: drink1,
+                                            alt: "drink1"
+                                        }, void 0, false, {
+                                            fileName: "components/Drinks/index.jsx",
+                                            lineNumber: 57,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Drinks/index.jsx",
+                                lineNumber: 52,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol1, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/smoothies",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Smoothies, {
+                                            children: smoothies
+                                        }, void 0, false, {
+                                            fileName: "components/Drinks/index.jsx",
+                                            lineNumber: 62,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 61,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/smoothies",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink1, {
+                                            src: drink2,
+                                            alt: "drink2"
+                                        }, void 0, false, {
+                                            fileName: "components/Drinks/index.jsx",
+                                            lineNumber: 65,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 64,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Drinks/index.jsx",
+                                lineNumber: 60,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol2, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/coffee",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Coffee, {
+                                            children: coffee
+                                        }, void 0, false, {
+                                            fileName: "components/Drinks/index.jsx",
+                                            lineNumber: 70,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 69,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/coffee",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink1, {
+                                            src: drink3,
+                                            alt: "drink3"
+                                        }, void 0, false, {
+                                            fileName: "components/Drinks/index.jsx",
+                                            lineNumber: 73,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 72,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Drinks/index.jsx",
+                                lineNumber: 68,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol3, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/wine",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Wine, {
+                                            children: wine
+                                        }, void 0, false, {
+                                            fileName: "components/Drinks/index.jsx",
+                                            lineNumber: 78,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 77,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/wine",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink4, {
+                                            src: drink4,
+                                            alt: "drink4"
+                                        }, void 0, false, {
+                                            fileName: "components/Drinks/index.jsx",
+                                            lineNumber: 81,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 80,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Drinks/index.jsx",
+                                lineNumber: 76,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol4, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/cocktails-mixed-drinks",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Cocktails, {
+                                            children: cocktails
+                                        }, void 0, false, {
+                                            fileName: "components/Drinks/index.jsx",
+                                            lineNumber: 86,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 85,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/cocktails-mixed-drinks",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink5, {
+                                            src: drink5,
+                                            alt: "drink5"
+                                        }, void 0, false, {
+                                            fileName: "components/Drinks/index.jsx",
+                                            lineNumber: 89,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Drinks/index.jsx",
+                                        lineNumber: 88,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Drinks/index.jsx",
+                                lineNumber: 84,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Drinks/index.jsx",
+                        lineNumber: 51,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/Drinks/index.jsx",
+                lineNumber: 35,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "components/Drinks/index.jsx",
+            lineNumber: 34,
+            columnNumber: 7
+        }, this);
+    }
+}
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  width: 50px;
+  height: 50px;
+  align-self: flex-start;
+  cursor: pointer;
+`;
+_c = GoBackButton;
+const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
+  width: 788px;
+  height: 410px;
+  position: relative;
+  margin-top: 89px;
+  margin-right: 6px;
+`;
+_c1 = OverlapGroup1;
+const Drinks1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: absolute;
+  width: 182px;
+  height: 87px;
+  top: 323px;
+  left: 306px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c2 = Drinks1;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  height: 353px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c3 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 355px;
+  position: relative;
+  margin-top: -1px;
+`;
+_c4 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  top: 0;
+  left: 220px;
+`;
+_c5 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 106px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 162px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c7 = Restaurant;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  height: 388px;
+  margin-top: 61px;
+  margin-right: 0.54px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1645px;
+`;
+_c8 = FlexRow;
+const FlexCol = (0, _styledComponentsDefault.default).div`
+  width: 223px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 388px;
+  gap: 53px;
+`;
+_c9 = FlexCol;
+const Juice = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 101px;
+  height: 49px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c10 = Juice;
+const Drink1 = (0, _styledComponentsDefault.default).img`
+  width: 223px;
+  height: 286px;
+  object-fit: cover;
+  cursor: pointer;
+`;
+_c11 = Drink1;
+const FlexCol1 = (0, _styledComponentsDefault.default).div`
+  width: 223px;
+  margin-left: 111px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 388px;
+  gap: 53px;
+`;
+_c12 = FlexCol1;
+const Smoothies = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 206px;
+  height: 49px;
+  margin-right: 1px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c13 = Smoothies;
+const FlexCol2 = (0, _styledComponentsDefault.default).div`
+  width: 223px;
+  margin-left: 158px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 388px;
+  gap: 53px;
+`;
+_c14 = FlexCol2;
+const Coffee = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 117px;
+  height: 49px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c15 = Coffee;
+const FlexCol3 = (0, _styledComponentsDefault.default).div`
+  width: 221px;
+  margin-left: 162px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 388px;
+  gap: 53px;
+`;
+_c16 = FlexCol3;
+const Wine = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 107px;
+  height: 49px;
+  margin-left: 0.29px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c17 = Wine;
+const Drink4 = (0, _styledComponentsDefault.default).img`
+  width: 221px;
+  height: 286px;
+  object-fit: cover;
+  cursor: pointer;
+`;
+_c18 = Drink4;
+const FlexCol4 = (0, _styledComponentsDefault.default).div`
+  width: 218px;
+  margin-left: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 388px;
+  gap: 53px;
+`;
+_c19 = FlexCol4;
+const Cocktails = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 178px;
+  height: 49px;
+  margin-right: 0.46px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c20 = Cocktails;
+const Drink5 = (0, _styledComponentsDefault.default).img`
+  width: 218px;
+  height: 286px;
+  object-fit: cover;
+  cursor: pointer;
+`;
+_c21 = Drink5;
+exports.default = Drinks;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21;
+$RefreshReg$(_c, "GoBackButton");
+$RefreshReg$(_c1, "OverlapGroup1");
+$RefreshReg$(_c2, "Drinks1");
+$RefreshReg$(_c3, "Logo");
+$RefreshReg$(_c4, "OverlapGroup");
+$RefreshReg$(_c5, "Ellipse1");
+$RefreshReg$(_c6, "ILBAGLIORE");
+$RefreshReg$(_c7, "Restaurant");
+$RefreshReg$(_c8, "FlexRow");
+$RefreshReg$(_c9, "FlexCol");
+$RefreshReg$(_c10, "Juice");
+$RefreshReg$(_c11, "Drink1");
+$RefreshReg$(_c12, "FlexCol1");
+$RefreshReg$(_c13, "Smoothies");
+$RefreshReg$(_c14, "FlexCol2");
+$RefreshReg$(_c15, "Coffee");
+$RefreshReg$(_c16, "FlexCol3");
+$RefreshReg$(_c17, "Wine");
+$RefreshReg$(_c18, "Drink4");
+$RefreshReg$(_c19, "FlexCol4");
+$RefreshReg$(_c20, "Cocktails");
+$RefreshReg$(_c21, "Drink5");
+
+  $parcel$ReactRefreshHelpers$2c4a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","styled-components":"1U3k6","../../styledMixins":"dUZFz","./Drinks.css":"lljxt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lljxt":[function() {},{}],"3pHFz":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b676 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b676.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _dishesCss = require("./Dishes.css");
+class Dishes extends (0, _reactDefault.default).Component {
+    render() {
+        const { gobackbutton , dishesTitle , ellipse1 , ilBagliore , restaurant , appetizers , pexelsMariaOrlova49464421 , firstCourse , pexelsJankoFerlic5904771 , secondCourse , pexelsSnapwire6759511 , sideDishes , pexelsValeriaBoltneva8425711 , desserts , pexelsAlishaMishra13435041  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container-center-horizontal",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "dishes screen",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/menu",
+                        className: "align-self-flex-start",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                            src: gobackbutton,
+                            alt: "GoBackButton"
+                        }, void 0, false, {
+                            fileName: "components/Dishes/index.jsx",
+                            lineNumber: 37,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/Dishes/index.jsx",
+                        lineNumber: 36,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DishesTitle, {
+                                children: dishesTitle
+                            }, void 0, false, {
+                                fileName: "components/Dishes/index.jsx",
+                                lineNumber: 40,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/home-page",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                                src: ellipse1,
+                                                alt: "Ellipse 1"
+                                            }, void 0, false, {
+                                                fileName: "components/Dishes/index.jsx",
+                                                lineNumber: 44,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                                children: ilBagliore
+                                            }, void 0, false, {
+                                                fileName: "components/Dishes/index.jsx",
+                                                lineNumber: 45,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                                children: restaurant
+                                            }, void 0, false, {
+                                                fileName: "components/Dishes/index.jsx",
+                                                lineNumber: 46,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 43,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "components/Dishes/index.jsx",
+                                    lineNumber: 42,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/Dishes/index.jsx",
+                                lineNumber: 41,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Dishes/index.jsx",
+                        lineNumber: 39,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/appetizers",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Appetizers, {
+                                            children: appetizers
+                                        }, void 0, false, {
+                                            fileName: "components/Dishes/index.jsx",
+                                            lineNumber: 54,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 53,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/appetizers",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PexelsMariaOrlova49464421, {
+                                            src: pexelsMariaOrlova49464421,
+                                            alt: "pexels-maria-orlova-4946442 1"
+                                        }, void 0, false, {
+                                            fileName: "components/Dishes/index.jsx",
+                                            lineNumber: 57,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Dishes/index.jsx",
+                                lineNumber: 52,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol1, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/first-course",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FirstCourse, {
+                                            children: firstCourse
+                                        }, void 0, false, {
+                                            fileName: "components/Dishes/index.jsx",
+                                            lineNumber: 62,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 61,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/first-course",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PexelsJankoFerlic5904771, {
+                                            src: pexelsJankoFerlic5904771,
+                                            alt: "pexels-janko-ferlic-590477 1"
+                                        }, void 0, false, {
+                                            fileName: "components/Dishes/index.jsx",
+                                            lineNumber: 65,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 64,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Dishes/index.jsx",
+                                lineNumber: 60,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol2, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/second-course",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SecondCourse, {
+                                            children: secondCourse
+                                        }, void 0, false, {
+                                            fileName: "components/Dishes/index.jsx",
+                                            lineNumber: 70,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 69,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/second-course",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PexelsSnapwire6759511, {
+                                            src: pexelsSnapwire6759511,
+                                            alt: "pexels-snapwire-675951 1"
+                                        }, void 0, false, {
+                                            fileName: "components/Dishes/index.jsx",
+                                            lineNumber: 73,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 72,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Dishes/index.jsx",
+                                lineNumber: 68,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol3, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/side-dishes",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SideDishes, {
+                                            children: sideDishes
+                                        }, void 0, false, {
+                                            fileName: "components/Dishes/index.jsx",
+                                            lineNumber: 78,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 77,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/side-dishes",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PexelsValeriaBoltneva8425711, {
+                                            src: pexelsValeriaBoltneva8425711,
+                                            alt: "pexels-valeria-boltneva-842571 1"
+                                        }, void 0, false, {
+                                            fileName: "components/Dishes/index.jsx",
+                                            lineNumber: 81,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 80,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Dishes/index.jsx",
+                                lineNumber: 76,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol4, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/desserts",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Desserts, {
+                                            children: desserts
+                                        }, void 0, false, {
+                                            fileName: "components/Dishes/index.jsx",
+                                            lineNumber: 89,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 88,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/desserts",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PexelsMariaOrlova49464421, {
+                                            src: pexelsAlishaMishra13435041,
+                                            alt: "pexels-alisha-mishra-1343504 1"
+                                        }, void 0, false, {
+                                            fileName: "components/Dishes/index.jsx",
+                                            lineNumber: 92,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/Dishes/index.jsx",
+                                        lineNumber: 91,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Dishes/index.jsx",
+                                lineNumber: 87,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Dishes/index.jsx",
+                        lineNumber: 51,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/Dishes/index.jsx",
+                lineNumber: 35,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "components/Dishes/index.jsx",
+            lineNumber: 34,
+            columnNumber: 7
+        }, this);
+    }
+}
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  width: 50px;
+  height: 50px;
+  align-self: flex-start;
+  cursor: pointer;
+`;
+_c = GoBackButton;
+const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
+  width: 788px;
+  height: 410px;
+  position: relative;
+  margin-top: 89px;
+  margin-right: 6px;
+`;
+_c1 = OverlapGroup1;
+const DishesTitle = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: absolute;
+  width: 185px;
+  height: 87px;
+  top: 323px;
+  left: 305px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c2 = DishesTitle;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  height: 353px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c3 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 355px;
+  position: relative;
+  margin-top: -1px;
+`;
+_c4 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  top: 0;
+  left: 220px;
+`;
+_c5 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 106px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 162px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c7 = Restaurant;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  height: 388px;
+  margin-top: 61px;
+  margin-left: 18px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1640px;
+`;
+_c8 = FlexRow;
+const FlexCol = (0, _styledComponentsDefault.default).div`
+  width: 219px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 388px;
+  gap: 53px;
+`;
+_c9 = FlexCol;
+const Appetizers = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 207px;
+  height: 49px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c10 = Appetizers;
+const PexelsMariaOrlova49464421 = (0, _styledComponentsDefault.default).img`
+  width: 219px;
+  height: 286px;
+  object-fit: cover;
+  cursor: pointer;
+`;
+_c11 = PexelsMariaOrlova49464421;
+const FlexCol1 = (0, _styledComponentsDefault.default).div`
+  width: 238px;
+  margin-left: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 388px;
+  gap: 53px;
+`;
+_c12 = FlexCol1;
+const FirstCourse = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 238px;
+  height: 49px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c13 = FirstCourse;
+const PexelsJankoFerlic5904771 = (0, _styledComponentsDefault.default).img`
+  width: 219px;
+  height: 286px;
+  margin-left: 0.85px;
+  object-fit: cover;
+  cursor: pointer;
+`;
+_c14 = PexelsJankoFerlic5904771;
+const FlexCol2 = (0, _styledComponentsDefault.default).div`
+  width: 292px;
+  margin-left: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 388px;
+  gap: 53px;
+`;
+_c15 = FlexCol2;
+const SecondCourse = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 292px;
+  height: 49px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c16 = SecondCourse;
+const PexelsSnapwire6759511 = (0, _styledComponentsDefault.default).img`
+  width: 219px;
+  height: 286px;
+  margin-left: 0.82px;
+  object-fit: cover;
+  cursor: pointer;
+`;
+_c17 = PexelsSnapwire6759511;
+const FlexCol3 = (0, _styledComponentsDefault.default).div`
+  width: 235px;
+  margin-left: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 388px;
+  gap: 53px;
+`;
+_c18 = FlexCol3;
+const SideDishes = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 235px;
+  height: 49px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c19 = SideDishes;
+const PexelsValeriaBoltneva8425711 = (0, _styledComponentsDefault.default).img`
+  width: 219px;
+  height: 286px;
+  margin-right: 0.14px;
+  object-fit: cover;
+  cursor: pointer;
+`;
+_c20 = PexelsValeriaBoltneva8425711;
+const FlexCol4 = (0, _styledComponentsDefault.default).div`
+  width: 219px;
+  margin-left: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 388px;
+  gap: 53px;
+`;
+_c21 = FlexCol4;
+const Desserts = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 168px;
+  height: 49px;
+  margin-right: 0.9px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c22 = Desserts;
+exports.default = Dishes;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22;
+$RefreshReg$(_c, "GoBackButton");
+$RefreshReg$(_c1, "OverlapGroup1");
+$RefreshReg$(_c2, "DishesTitle");
+$RefreshReg$(_c3, "Logo");
+$RefreshReg$(_c4, "OverlapGroup");
+$RefreshReg$(_c5, "Ellipse1");
+$RefreshReg$(_c6, "ILBAGLIORE");
+$RefreshReg$(_c7, "Restaurant");
+$RefreshReg$(_c8, "FlexRow");
+$RefreshReg$(_c9, "FlexCol");
+$RefreshReg$(_c10, "Appetizers");
+$RefreshReg$(_c11, "PexelsMariaOrlova49464421");
+$RefreshReg$(_c12, "FlexCol1");
+$RefreshReg$(_c13, "FirstCourse");
+$RefreshReg$(_c14, "PexelsJankoFerlic5904771");
+$RefreshReg$(_c15, "FlexCol2");
+$RefreshReg$(_c16, "SecondCourse");
+$RefreshReg$(_c17, "PexelsSnapwire6759511");
+$RefreshReg$(_c18, "FlexCol3");
+$RefreshReg$(_c19, "SideDishes");
+$RefreshReg$(_c20, "PexelsValeriaBoltneva8425711");
+$RefreshReg$(_c21, "FlexCol4");
+$RefreshReg$(_c22, "Desserts");
+
+  $parcel$ReactRefreshHelpers$b676.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","styled-components":"1U3k6","../../styledMixins":"dUZFz","./Dishes.css":"abHjJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"abHjJ":[function() {},{}],"1raOC":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$4c64 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34694,87 +37252,88 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
 var _dishesList = require("../DishesList");
 var _dishesListDefault = parcelHelpers.interopDefault(_dishesList);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
 var _secondCourseCss = require("./SecondCourse.css");
-function SecondCourse(props) {
-    const { ilBaglioreNavbar , tableReservation , place1 , dishes , drinks , place2 , menu , firstCourse , ellipse1 , ilBagliore , restaurant , aboutUs , dishesListProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "second-course-2 screen",
+class SecondCourse extends (0, _reactDefault.default).Component {
+    render() {
+        const { secondCourse , ellipse1 , ilBagliore , restaurant , gobackbutton , dishesListProps  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "second-course screen",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "topbar-4"
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesListDefault.default), {
+                    img5: dishesListProps.img5,
+                    className: dishesListProps.className,
+                    dish11Props: dishesListProps.dish11Props,
+                    dish12Props: dishesListProps.dish12Props,
+                    dish31Props: dishesListProps.dish31Props,
+                    dish32Props: dishesListProps.dish32Props
                 }, void 0, false, {
                     fileName: "components/SecondCourse/index.jsx",
-                    lineNumber: 26,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "il-bagliore-navbar-9 inter-semi-bold-white-36px",
-                    children: ilBaglioreNavbar
-                }, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BlackRectangle, {}, void 0, false, {
                     fileName: "components/SecondCourse/index.jsx",
                     lineNumber: 27,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/table-reservation",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "table-reservation-7 inter-normal-white-27px",
-                        children: tableReservation
-                    }, void 0, false, {
-                        fileName: "components/SecondCourse/index.jsx",
-                        lineNumber: 29,
-                        columnNumber: 11
-                    }, this)
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SecondCourse1, {
+                    children: secondCourse
                 }, void 0, false, {
                     fileName: "components/SecondCourse/index.jsx",
                     lineNumber: 28,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "place-14 inter-normal-white-27px",
-                    children: place1
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/home-page",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/SecondCourse/index.jsx",
+                                    lineNumber: 32,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                    children: ilBagliore
+                                }, void 0, false, {
+                                    fileName: "components/SecondCourse/index.jsx",
+                                    lineNumber: 33,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/SecondCourse/index.jsx",
+                                    lineNumber: 34,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/SecondCourse/index.jsx",
+                            lineNumber: 31,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/SecondCourse/index.jsx",
+                        lineNumber: 30,
+                        columnNumber: 11
+                    }, this)
                 }, void 0, false, {
                     fileName: "components/SecondCourse/index.jsx",
-                    lineNumber: 31,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                     to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "dishes-10 inter-normal-tobacco-brown-27px",
-                        children: dishes
-                    }, void 0, false, {
-                        fileName: "components/SecondCourse/index.jsx",
-                        lineNumber: 33,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/SecondCourse/index.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "drinks-8 inter-normal-white-27px",
-                        children: drinks
-                    }, void 0, false, {
-                        fileName: "components/SecondCourse/index.jsx",
-                        lineNumber: 36,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/SecondCourse/index.jsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/landing-page",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "place-15 inter-normal-white-27px",
-                        children: place2
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                        src: gobackbutton,
+                        alt: "GoBackButton"
                     }, void 0, false, {
                         fileName: "components/SecondCourse/index.jsx",
                         lineNumber: 39,
@@ -34784,140 +37343,119 @@ function SecondCourse(props) {
                     fileName: "components/SecondCourse/index.jsx",
                     lineNumber: 38,
                     columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "menu-6 inter-normal-white-27px",
-                        children: menu
-                    }, void 0, false, {
-                        fileName: "components/SecondCourse/index.jsx",
-                        lineNumber: 42,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/SecondCourse/index.jsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2-10",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "first-course-7 valign-text-middle kurale-normal-tobacco-brown-63px",
-                            children: firstCourse
-                        }, void 0, false, {
-                            fileName: "components/SecondCourse/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-10",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-10",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/SecondCourse/index.jsx",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-9 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/SecondCourse/index.jsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-10 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/SecondCourse/index.jsx",
-                                    lineNumber: 49,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/SecondCourse/index.jsx",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/SecondCourse/index.jsx",
-                    lineNumber: 44,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesListDefault.default), {
-                    img5: dishesListProps.img5,
-                    dish11Props: dishesListProps.dish11Props,
-                    dish12Props: dishesListProps.dish12Props,
-                    dish31Props: dishesListProps.dish31Props,
-                    dish32Props: dishesListProps.dish32Props
-                }, void 0, false, {
-                    fileName: "components/SecondCourse/index.jsx",
-                    lineNumber: 52,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "footer-contact-about-us-10",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "overlap-group1-10",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us-11 inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/SecondCourse/index.jsx",
-                                lineNumber: 62,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/SecondCourse/index.jsx",
-                            lineNumber: 61,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/SecondCourse/index.jsx",
-                        lineNumber: 60,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/SecondCourse/index.jsx",
-                    lineNumber: 59,
-                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/SecondCourse/index.jsx",
-            lineNumber: 25,
+            lineNumber: 18,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/SecondCourse/index.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = SecondCourse;
+const BlackRectangle = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+_c = BlackRectangle;
+const SecondCourse1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 201px);
+  width: 402px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = SecondCourse1;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c2 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+_c3 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c4 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = Restaurant;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
+_c7 = GoBackButton;
 exports.default = SecondCourse;
-var _c;
-$RefreshReg$(_c, "SecondCourse");
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7;
+$RefreshReg$(_c, "BlackRectangle");
+$RefreshReg$(_c1, "SecondCourse1");
+$RefreshReg$(_c2, "Logo");
+$RefreshReg$(_c3, "OverlapGroup");
+$RefreshReg$(_c4, "Ellipse1");
+$RefreshReg$(_c5, "ILBAGLIORE");
+$RefreshReg$(_c6, "Restaurant");
+$RefreshReg$(_c7, "GoBackButton");
 
   $parcel$ReactRefreshHelpers$4c64.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../DishesList":"lzKmB","./SecondCourse.css":"4QUGf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4QUGf":[function() {},{}],"1xPEE":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$befa = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../DishesList":"lzKmB","styled-components":"1U3k6","../../styledMixins":"dUZFz","./SecondCourse.css":"4QUGf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4QUGf":[function() {},{}],"59Yo5":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c531 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$befa.prelude(module);
+$parcel$ReactRefreshHelpers$c531.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -34926,220 +37464,2890 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-var _dishesList = require("../DishesList");
-var _dishesListDefault = parcelHelpers.interopDefault(_dishesList);
-var _appetizersCss = require("./Appetizers.css");
-function Appetizers(props) {
-    const { ellipse1 , ilBagliore , restaurant , appetizers , ilBaglioreNavbar , place1 , drinks , menu , dishes , tableReservation , place2 , aboutUs , dishesListProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "appetizers-2 screen",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "logo",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group-11",
+var _drink1 = require("../Drink1");
+var _drink1Default = parcelHelpers.interopDefault(_drink1);
+var _drink4 = require("../Drink4");
+var _drink4Default = parcelHelpers.interopDefault(_drink4);
+var _drink6 = require("../Drink6");
+var _drink6Default = parcelHelpers.interopDefault(_drink6);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _cocktailsMixedDrinksCss = require("./CocktailsMixedDrinks.css");
+class CocktailsMixedDrinks extends (0, _reactDefault.default).Component {
+    render() {
+        const { drink2 , img2 , descLorem2 , drink3 , img3 , descLorem3 , desclorem5 , img5 , drink5 , cocktailsHeader , ellipse1 , ilBagliore , restaurant , gobackbutton , drink1Props , drink4Props , drink6Props  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "cocktails-mixed-drinks screen",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CocktailsList, {
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "ellipse-1-11",
-                            src: ellipse1,
-                            alt: "Ellipse 1"
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink1Default.default), {
+                            image1: drink1Props.image1
                         }, void 0, false, {
-                            fileName: "components/Appetizers/index.jsx",
-                            lineNumber: 27,
+                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "il-bagliore-10 bellefair-normal-white-72px",
-                            children: ilBagliore
-                        }, void 0, false, {
-                            fileName: "components/Appetizers/index.jsx",
-                            lineNumber: 28,
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink2, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink21, {
+                                    children: drink2
+                                }, void 0, false, {
+                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                    lineNumber: 44,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img2, {
+                                            src: img2,
+                                            alt: "img2"
+                                        }, void 0, false, {
+                                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                            lineNumber: 46,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem2, {
+                                            children: descLorem2
+                                        }, void 0, false, {
+                                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                    lineNumber: 45,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "restaurant-11 laomuangkhong-regular-normal-tobacco-brown-51px",
-                            children: restaurant
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink3, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink21, {
+                                    children: drink3
+                                }, void 0, false, {
+                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow1, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img2, {
+                                            src: img3,
+                                            alt: "Img3"
+                                        }, void 0, false, {
+                                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                            lineNumber: 53,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem3, {
+                                            children: descLorem3
+                                        }, void 0, false, {
+                                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                            lineNumber: 54,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                    lineNumber: 52,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                            lineNumber: 50,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink4Default.default), {
+                            img4: drink4Props.img4,
+                            drink4: drink4Props.drink4
                         }, void 0, false, {
-                            fileName: "components/Appetizers/index.jsx",
-                            lineNumber: 29,
+                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                            lineNumber: 57,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink5, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem5, {
+                                    children: desclorem5
+                                }, void 0, false, {
+                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                    lineNumber: 59,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img5, {
+                                    src: img5,
+                                    alt: "Img5"
+                                }, void 0, false, {
+                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                    lineNumber: 60,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink51, {
+                                    children: drink5
+                                }, void 0, false, {
+                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                    lineNumber: 61,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                            lineNumber: 58,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink6Default.default), {
+                            drink6: drink6Props.drink6,
+                            img6: drink6Props.img6
+                        }, void 0, false, {
+                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                            lineNumber: 63,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "components/Appetizers/index.jsx",
-                    lineNumber: 26,
+                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                    lineNumber: 41,
                     columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 25,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "appetizers-3 valign-text-middle kurale-normal-tobacco-brown-63px",
-                children: appetizers
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 32,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesListDefault.default), {
-                img5: dishesListProps.img5,
-                className: dishesListProps.className,
-                dish11Props: dishesListProps.dish11Props,
-                dish12Props: dishesListProps.dish12Props,
-                dish31Props: dishesListProps.dish31Props,
-                dish32Props: dishesListProps.dish32Props
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 33,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "topbar-5"
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 41,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "il-bagliore-navbar-10 inter-semi-bold-white-36px",
-                children: ilBaglioreNavbar
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 42,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                to: "/landing-page",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "place-16 inter-normal-white-27px",
-                    children: place1
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BlackRectangle, {}, void 0, false, {
+                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                    lineNumber: 65,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CocktailsHeader, {
+                    children: cocktailsHeader
                 }, void 0, false, {
-                    fileName: "components/Appetizers/index.jsx",
-                    lineNumber: 44,
+                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                    lineNumber: 66,
                     columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 43,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                to: "/drinks",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "drinks-9 inter-normal-white-27px",
-                    children: drinks
-                }, void 0, false, {
-                    fileName: "components/Appetizers/index.jsx",
-                    lineNumber: 47,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 46,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                to: "/menu",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "menu-7 inter-normal-white-27px",
-                    children: menu
-                }, void 0, false, {
-                    fileName: "components/Appetizers/index.jsx",
-                    lineNumber: 50,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 49,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                to: "/dishes",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "dishes-11 inter-normal-tobacco-brown-27px",
-                    children: dishes
-                }, void 0, false, {
-                    fileName: "components/Appetizers/index.jsx",
-                    lineNumber: 53,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 52,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                to: "/table-reservation",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "table-reservation-8 inter-normal-white-27px",
-                    children: tableReservation
-                }, void 0, false, {
-                    fileName: "components/Appetizers/index.jsx",
-                    lineNumber: 56,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 55,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "place-17 inter-normal-white-27px",
-                children: place2
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 58,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "footer-contact-about-us-11",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group1-11",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/about-us",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "about-us-12 inter-bold-white-24px",
-                            children: aboutUs
-                        }, void 0, false, {
-                            fileName: "components/Appetizers/index.jsx",
-                            lineNumber: 62,
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/home-page",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                    lineNumber: 70,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                    children: ilBagliore
+                                }, void 0, false, {
+                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                    lineNumber: 71,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                                    lineNumber: 72,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/CocktailsMixedDrinks/index.jsx",
+                            lineNumber: 69,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
-                        fileName: "components/Appetizers/index.jsx",
-                        lineNumber: 61,
+                        fileName: "components/CocktailsMixedDrinks/index.jsx",
+                        lineNumber: 68,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "components/Appetizers/index.jsx",
-                    lineNumber: 60,
+                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                    lineNumber: 67,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/drinks",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                        src: gobackbutton,
+                        alt: "GoBackButton"
+                    }, void 0, false, {
+                        fileName: "components/CocktailsMixedDrinks/index.jsx",
+                        lineNumber: 77,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/CocktailsMixedDrinks/index.jsx",
+                    lineNumber: 76,
                     columnNumber: 9
                 }, this)
-            }, void 0, false, {
-                fileName: "components/Appetizers/index.jsx",
-                lineNumber: 59,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "components/Appetizers/index.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
+            ]
+        }, void 0, true, {
+            fileName: "components/CocktailsMixedDrinks/index.jsx",
+            lineNumber: 40,
+            columnNumber: 7
+        }, this);
+    }
 }
-_c = Appetizers;
-exports.default = Appetizers;
-var _c;
-$RefreshReg$(_c, "Appetizers");
+const CocktailsList = (0, _styledComponentsDefault.default).div`
+  z-index: 1;
+  margin-top: 613px;
+  width: 1170px;
+  height: 1940.75830078125px;
+  margin-left: 70px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+`;
+_c = CocktailsList;
+const Drink2 = (0, _styledComponentsDefault.default).div`
+  width: 1174px;
+  margin-top: 23.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 308.516357421875px;
+  gap: 7px;
+`;
+_c1 = Drink2;
+const Drink21 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 841px;
+  height: 72px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c2 = Drink21;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1170px;
+  gap: 59px;
+`;
+_c3 = FlexRow;
+const Img2 = (0, _styledComponentsDefault.default).img`
+  width: 215px;
+  height: 230px;
+  object-fit: cover;
+`;
+_c4 = Img2;
+const DescLorem2 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 101px;
+  margin-top: 0;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = DescLorem2;
+const Drink3 = (0, _styledComponentsDefault.default).div`
+  width: 1157px;
+  margin-top: 23.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 308.517333984375px;
+  gap: 7px;
+`;
+_c6 = Drink3;
+const FlexRow1 = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1153px;
+  gap: 42px;
+`;
+_c7 = FlexRow1;
+const DescLorem3 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 101px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c8 = DescLorem3;
+const Drink5 = (0, _styledComponentsDefault.default).div`
+  margin-left: 5px;
+  width: 1152px;
+  height: 301.7581787109375px;
+  position: relative;
+  margin-top: 23.2px;
+`;
+_c9 = Drink5;
+const DescLorem5 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  position: absolute;
+  width: 896px;
+  top: 136px;
+  left: 252px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c10 = DescLorem5;
+const Img5 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 215px;
+  height: 230px;
+  top: 72px;
+  left: 0;
+  object-fit: cover;
+`;
+_c11 = Img5;
+const Drink51 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            position: absolute;
+  width: 836px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c12 = Drink51;
+const BlackRectangle = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+_c13 = BlackRectangle;
+const CocktailsHeader = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 350px);
+  width: 700px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c14 = CocktailsHeader;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c15 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+_c16 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c17 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c18 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c19 = Restaurant;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
+_c20 = GoBackButton;
+exports.default = CocktailsMixedDrinks;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20;
+$RefreshReg$(_c, "CocktailsList");
+$RefreshReg$(_c1, "Drink2");
+$RefreshReg$(_c2, "Drink21");
+$RefreshReg$(_c3, "FlexRow");
+$RefreshReg$(_c4, "Img2");
+$RefreshReg$(_c5, "DescLorem2");
+$RefreshReg$(_c6, "Drink3");
+$RefreshReg$(_c7, "FlexRow1");
+$RefreshReg$(_c8, "DescLorem3");
+$RefreshReg$(_c9, "Drink5");
+$RefreshReg$(_c10, "DescLorem5");
+$RefreshReg$(_c11, "Img5");
+$RefreshReg$(_c12, "Drink51");
+$RefreshReg$(_c13, "BlackRectangle");
+$RefreshReg$(_c14, "CocktailsHeader");
+$RefreshReg$(_c15, "Logo");
+$RefreshReg$(_c16, "OverlapGroup");
+$RefreshReg$(_c17, "Ellipse1");
+$RefreshReg$(_c18, "ILBAGLIORE");
+$RefreshReg$(_c19, "Restaurant");
+$RefreshReg$(_c20, "GoBackButton");
 
-  $parcel$ReactRefreshHelpers$befa.postlude(module);
+  $parcel$ReactRefreshHelpers$c531.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../DishesList":"lzKmB","./Appetizers.css":"1ymgI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1ymgI":[function() {},{}],"euWZn":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../Drink1":"91SGb","../Drink4":"iK6Xa","../Drink6":"gbDUz","styled-components":"1U3k6","../../styledMixins":"dUZFz","./CocktailsMixedDrinks.css":"1sCc2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"91SGb":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7c9a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7c9a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+class Drink1 extends (0, _reactDefault.default).Component {
+    render() {
+        const { image1 , className  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink11, {
+            className: `drink-1 ${className || ""}`,
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem1, {
+                    className: "desc-lorem1-1",
+                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+                }, void 0, false, {
+                    fileName: "components/Drink1/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Image1, {
+                    className: "image1-1",
+                    src: image1,
+                    alt: "image1"
+                }, void 0, false, {
+                    fileName: "components/Drink1/index.jsx",
+                    lineNumber: 20,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink12, {
+                    className: "drink-1-1",
+                    children: "Lorem ipsum dolor sit"
+                }, void 0, false, {
+                    fileName: "components/Drink1/index.jsx",
+                    lineNumber: 21,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Drink1/index.jsx",
+            lineNumber: 15,
+            columnNumber: 7
+        }, this);
+    }
+}
+const Drink11 = (0, _styledComponentsDefault.default).div`
+  width: 1174px;
+  height: 301.7582092285156px;
+  position: relative;
+
+  &.drink-1.drink-1-2 {
+    margin-left: 5px;
+  }
+`;
+_c = Drink11;
+const DescLorem1 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  position: absolute;
+  width: 896px;
+  top: 136px;
+  left: 274px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = DescLorem1;
+const Image1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 215px;
+  height: 230px;
+  top: 72px;
+  left: 0;
+  object-fit: cover;
+`;
+_c2 = Image1;
+const Drink12 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            position: absolute;
+  width: 546px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c3 = Drink12;
+exports.default = Drink1;
+var _c, _c1, _c2, _c3;
+$RefreshReg$(_c, "Drink11");
+$RefreshReg$(_c1, "DescLorem1");
+$RefreshReg$(_c2, "Image1");
+$RefreshReg$(_c3, "Drink12");
+
+  $parcel$ReactRefreshHelpers$7c9a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iK6Xa":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3c33 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3c33.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+class Drink4 extends (0, _reactDefault.default).Component {
+    render() {
+        const { img4 , drink4 , className  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink41, {
+            className: `drink-4 ${className || ""}`,
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem4, {
+                    className: "desc-lorem4",
+                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+                }, void 0, false, {
+                    fileName: "components/Drink4/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img4, {
+                    className: "img4",
+                    src: img4,
+                    alt: "img4"
+                }, void 0, false, {
+                    fileName: "components/Drink4/index.jsx",
+                    lineNumber: 20,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink42, {
+                    className: "drink-4-1",
+                    children: drink4
+                }, void 0, false, {
+                    fileName: "components/Drink4/index.jsx",
+                    lineNumber: 21,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Drink4/index.jsx",
+            lineNumber: 15,
+            columnNumber: 7
+        }, this);
+    }
+}
+const Drink41 = (0, _styledComponentsDefault.default).div`
+  width: 1157px;
+  height: 301.7579345703125px;
+  position: relative;
+  margin-top: 23.5px;
+
+  &.drink-4.drink-4-2 {
+    margin-left: 5px;
+    margin-top: 26.5px;
+  }
+
+  &.drink-4.drink-4-3 {
+    height: 301.7582092285156px;
+    margin-top: 26.5px;
+  }
+`;
+_c = Drink41;
+const DescLorem4 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  position: absolute;
+  width: 896px;
+  top: 136px;
+  left: 257px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = DescLorem4;
+const Img4 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 215px;
+  height: 230px;
+  top: 72px;
+  left: 0;
+  object-fit: cover;
+`;
+_c2 = Img4;
+const Drink42 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            position: absolute;
+  width: 841px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c3 = Drink42;
+const Drink43 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .drink-4.drink-4-3  & {
+    text-shadow: unset;
+  }
+`;
+exports.default = Drink4;
+var _c, _c1, _c2, _c3;
+$RefreshReg$(_c, "Drink41");
+$RefreshReg$(_c1, "DescLorem4");
+$RefreshReg$(_c2, "Img4");
+$RefreshReg$(_c3, "Drink42");
+
+  $parcel$ReactRefreshHelpers$3c33.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gbDUz":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8a66 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8a66.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+class Drink6 extends (0, _reactDefault.default).Component {
+    render() {
+        const { drink6 , img6 , className  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink61, {
+            className: `drink-6 ${className || ""}`,
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink62, {
+                    className: "drink-6-1",
+                    children: drink6
+                }, void 0, false, {
+                    fileName: "components/Drink6/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                    className: "flex-row-13",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img6, {
+                            className: "img6",
+                            src: img6,
+                            alt: "Img6"
+                        }, void 0, false, {
+                            fileName: "components/Drink6/index.jsx",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem6, {
+                            className: "desc-lorem6",
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+                        }, void 0, false, {
+                            fileName: "components/Drink6/index.jsx",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Drink6/index.jsx",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Drink6/index.jsx",
+            lineNumber: 15,
+            columnNumber: 7
+        }, this);
+    }
+}
+const Drink61 = (0, _styledComponentsDefault.default).div`
+  margin-left: 5px;
+  width: 1152px;
+  margin-top: 23.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 301.7582092285156px;
+
+  &.drink-6.drink-5-2 {
+    margin-left: 10px;
+    margin-top: 26.2px;
+  }
+
+  &.drink-6.drink-6-2 {
+    margin-left: 10px;
+    margin-top: 26.2px;
+  }
+
+  &.drink-6.drink-6-3 {
+    margin-top: 26.2px;
+    min-height: 301.75830078125px;
+  }
+`;
+_c = Drink61;
+const Drink62 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 836px;
+  height: 72px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = Drink62;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1148px;
+  gap: 37px;
+`;
+_c2 = FlexRow;
+const Img6 = (0, _styledComponentsDefault.default).img`
+  width: 215px;
+  height: 230px;
+  object-fit: cover;
+`;
+_c3 = Img6;
+const DescLorem6 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 101px;
+  margin-top: 0;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c4 = DescLorem6;
+const DescLorem5 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+
+  .drink-6.drink-5-2  & {
+    margin-bottom: 0;
+    margin-top: unset;
+  }
+`;
+const Drink63 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .drink-6.drink-6-3  & {
+    text-shadow: unset;
+  }
+`;
+exports.default = Drink6;
+var _c, _c1, _c2, _c3, _c4;
+$RefreshReg$(_c, "Drink61");
+$RefreshReg$(_c1, "Drink62");
+$RefreshReg$(_c2, "FlexRow");
+$RefreshReg$(_c3, "Img6");
+$RefreshReg$(_c4, "DescLorem6");
+
+  $parcel$ReactRefreshHelpers$8a66.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1sCc2":[function() {},{}],"9gFzF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3856 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3856.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _wineCss = require("./Wine.css");
+class Wine extends (0, _reactDefault.default).Component {
+    render() {
+        const { drink1 , image1 , descLorem1 , drink2 , img2 , descLorem2 , drink3 , img3 , descLorem3 , wineHeader , ellipse1 , ilBagliore , restaurant , gobackbutton  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "wine screen",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(WineList, {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink1, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink11, {
+                                    children: drink1
+                                }, void 0, false, {
+                                    fileName: "components/Wine/index.jsx",
+                                    lineNumber: 37,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Image1, {
+                                            src: image1,
+                                            alt: "image1"
+                                        }, void 0, false, {
+                                            fileName: "components/Wine/index.jsx",
+                                            lineNumber: 39,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem1, {
+                                            children: descLorem1
+                                        }, void 0, false, {
+                                            fileName: "components/Wine/index.jsx",
+                                            lineNumber: 40,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Wine/index.jsx",
+                                    lineNumber: 38,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Wine/index.jsx",
+                            lineNumber: 36,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink2, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink21, {
+                                    children: drink2
+                                }, void 0, false, {
+                                    fileName: "components/Wine/index.jsx",
+                                    lineNumber: 44,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow1, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Image1, {
+                                            src: img2,
+                                            alt: "img2"
+                                        }, void 0, false, {
+                                            fileName: "components/Wine/index.jsx",
+                                            lineNumber: 46,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem1, {
+                                            children: descLorem2
+                                        }, void 0, false, {
+                                            fileName: "components/Wine/index.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Wine/index.jsx",
+                                    lineNumber: 45,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Wine/index.jsx",
+                            lineNumber: 43,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink3, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink31, {
+                                    children: drink3
+                                }, void 0, false, {
+                                    fileName: "components/Wine/index.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow2, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Image1, {
+                                            src: img3,
+                                            alt: "Img3"
+                                        }, void 0, false, {
+                                            fileName: "components/Wine/index.jsx",
+                                            lineNumber: 53,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem3, {
+                                            children: descLorem3
+                                        }, void 0, false, {
+                                            fileName: "components/Wine/index.jsx",
+                                            lineNumber: 54,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Wine/index.jsx",
+                                    lineNumber: 52,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Wine/index.jsx",
+                            lineNumber: 50,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Wine/index.jsx",
+                    lineNumber: 35,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BlackRectangle, {}, void 0, false, {
+                    fileName: "components/Wine/index.jsx",
+                    lineNumber: 58,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(WineHeader, {
+                    children: wineHeader
+                }, void 0, false, {
+                    fileName: "components/Wine/index.jsx",
+                    lineNumber: 59,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/home-page",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/Wine/index.jsx",
+                                    lineNumber: 63,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                    children: ilBagliore
+                                }, void 0, false, {
+                                    fileName: "components/Wine/index.jsx",
+                                    lineNumber: 64,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/Wine/index.jsx",
+                                    lineNumber: 65,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Wine/index.jsx",
+                            lineNumber: 62,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/Wine/index.jsx",
+                        lineNumber: 61,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/Wine/index.jsx",
+                    lineNumber: 60,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/drinks",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                        src: gobackbutton,
+                        alt: "GoBackButton"
+                    }, void 0, false, {
+                        fileName: "components/Wine/index.jsx",
+                        lineNumber: 70,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/Wine/index.jsx",
+                    lineNumber: 69,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Wine/index.jsx",
+            lineNumber: 34,
+            columnNumber: 7
+        }, this);
+    }
+}
+const WineList = (0, _styledComponentsDefault.default).div`
+  z-index: 1;
+  margin-top: 622px;
+  width: 1175px;
+  height: 1837.232666015625px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+`;
+_c = WineList;
+const Drink1 = (0, _styledComponentsDefault.default).div`
+  margin-left: 5px;
+  width: 1174px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 539.0704956054688px;
+  gap: 23px;
+`;
+_c1 = Drink1;
+const Drink11 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 444px;
+  height: 40px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c2 = Drink11;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1170px;
+  gap: 59px;
+`;
+_c3 = FlexRow;
+const Image1 = (0, _styledComponentsDefault.default).img`
+  width: 215px;
+  height: 476px;
+  object-fit: cover;
+`;
+_c4 = Image1;
+const DescLorem1 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 209px;
+  margin-top: 0;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = DescLorem1;
+const Drink2 = (0, _styledComponentsDefault.default).div`
+  width: 1179px;
+  margin-top: 109.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 539.1516723632812px;
+  gap: 24px;
+`;
+_c6 = Drink2;
+const Drink21 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 549px;
+  height: 39px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c7 = Drink21;
+const FlexRow1 = (0, _styledComponentsDefault.default).div`
+  align-self: flex-end;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  min-width: 1170px;
+  gap: 59px;
+`;
+_c8 = FlexRow1;
+const Drink3 = (0, _styledComponentsDefault.default).div`
+  width: 1162px;
+  margin-top: 110.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 538.2327270507812px;
+  gap: 25px;
+`;
+_c9 = Drink3;
+const Drink31 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 633px;
+  height: 37px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c10 = Drink31;
+const FlexRow2 = (0, _styledComponentsDefault.default).div`
+  align-self: flex-end;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  min-width: 1153px;
+  gap: 42px;
+`;
+_c11 = FlexRow2;
+const DescLorem3 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 209px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c12 = DescLorem3;
+const BlackRectangle = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+_c13 = BlackRectangle;
+const WineHeader = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 76px);
+  width: 152px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c14 = WineHeader;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c15 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+_c16 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c17 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c18 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c19 = Restaurant;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
+_c20 = GoBackButton;
+exports.default = Wine;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20;
+$RefreshReg$(_c, "WineList");
+$RefreshReg$(_c1, "Drink1");
+$RefreshReg$(_c2, "Drink11");
+$RefreshReg$(_c3, "FlexRow");
+$RefreshReg$(_c4, "Image1");
+$RefreshReg$(_c5, "DescLorem1");
+$RefreshReg$(_c6, "Drink2");
+$RefreshReg$(_c7, "Drink21");
+$RefreshReg$(_c8, "FlexRow1");
+$RefreshReg$(_c9, "Drink3");
+$RefreshReg$(_c10, "Drink31");
+$RefreshReg$(_c11, "FlexRow2");
+$RefreshReg$(_c12, "DescLorem3");
+$RefreshReg$(_c13, "BlackRectangle");
+$RefreshReg$(_c14, "WineHeader");
+$RefreshReg$(_c15, "Logo");
+$RefreshReg$(_c16, "OverlapGroup");
+$RefreshReg$(_c17, "Ellipse1");
+$RefreshReg$(_c18, "ILBAGLIORE");
+$RefreshReg$(_c19, "Restaurant");
+$RefreshReg$(_c20, "GoBackButton");
+
+  $parcel$ReactRefreshHelpers$3856.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","styled-components":"1U3k6","../../styledMixins":"dUZFz","./Wine.css":"cS3yN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cS3yN":[function() {},{}],"68soG":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4a59 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4a59.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _drink12 = require("../Drink12");
+var _drink12Default = parcelHelpers.interopDefault(_drink12);
+var _drink3 = require("../Drink3");
+var _drink3Default = parcelHelpers.interopDefault(_drink3);
+var _drink5 = require("../Drink5");
+var _drink5Default = parcelHelpers.interopDefault(_drink5);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _coffeeCss = require("./Coffee.css");
+class Coffee extends (0, _reactDefault.default).Component {
+    render() {
+        const { coffeeHeader , ellipse1 , ilBagliore , restaurant , gobackbutton , drink121Props , drink122Props , drink31Props , drink32Props , drink51Props , drink52Props  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "coffee screen",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CoffeeList, {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink12Default.default), {
+                            drink1: drink121Props.drink1,
+                            image1: drink121Props.image1
+                        }, void 0, false, {
+                            fileName: "components/Coffee/index.jsx",
+                            lineNumber: 34,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink12Default.default), {
+                            drink1: drink122Props.drink1,
+                            image1: drink122Props.image1,
+                            className: drink122Props.className
+                        }, void 0, false, {
+                            fileName: "components/Coffee/index.jsx",
+                            lineNumber: 35,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink3Default.default), {
+                            img3: drink31Props.img3
+                        }, void 0, false, {
+                            fileName: "components/Coffee/index.jsx",
+                            lineNumber: 36,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink3Default.default), {
+                            img3: drink32Props.img3,
+                            className: drink32Props.className
+                        }, void 0, false, {
+                            fileName: "components/Coffee/index.jsx",
+                            lineNumber: 37,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink5Default.default), {
+                            img5: drink51Props.img5
+                        }, void 0, false, {
+                            fileName: "components/Coffee/index.jsx",
+                            lineNumber: 38,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink5Default.default), {
+                            img5: drink52Props.img5,
+                            className: drink52Props.className
+                        }, void 0, false, {
+                            fileName: "components/Coffee/index.jsx",
+                            lineNumber: 39,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Coffee/index.jsx",
+                    lineNumber: 33,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BlackRectangle, {}, void 0, false, {
+                    fileName: "components/Coffee/index.jsx",
+                    lineNumber: 41,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CoffeeHeader, {
+                    children: coffeeHeader
+                }, void 0, false, {
+                    fileName: "components/Coffee/index.jsx",
+                    lineNumber: 42,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/home-page",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/Coffee/index.jsx",
+                                    lineNumber: 46,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                    children: ilBagliore
+                                }, void 0, false, {
+                                    fileName: "components/Coffee/index.jsx",
+                                    lineNumber: 47,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/Coffee/index.jsx",
+                                    lineNumber: 48,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Coffee/index.jsx",
+                            lineNumber: 45,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/Coffee/index.jsx",
+                        lineNumber: 44,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/Coffee/index.jsx",
+                    lineNumber: 43,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/drinks",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                        src: gobackbutton,
+                        alt: "GoBackButton"
+                    }, void 0, false, {
+                        fileName: "components/Coffee/index.jsx",
+                        lineNumber: 53,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/Coffee/index.jsx",
+                    lineNumber: 52,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Coffee/index.jsx",
+            lineNumber: 32,
+            columnNumber: 7
+        }, this);
+    }
+}
+const CoffeeList = (0, _styledComponentsDefault.default).div`
+  z-index: 1;
+  margin-top: 613px;
+  width: 1170px;
+  height: 1932.7584228515625px;
+  margin-left: 70px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+`;
+_c = CoffeeList;
+const BlackRectangle = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+_c1 = BlackRectangle;
+const CoffeeHeader = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 82px);
+  width: 165px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c2 = CoffeeHeader;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c3 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+_c4 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c5 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c7 = Restaurant;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
+_c8 = GoBackButton;
+exports.default = Coffee;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8;
+$RefreshReg$(_c, "CoffeeList");
+$RefreshReg$(_c1, "BlackRectangle");
+$RefreshReg$(_c2, "CoffeeHeader");
+$RefreshReg$(_c3, "Logo");
+$RefreshReg$(_c4, "OverlapGroup");
+$RefreshReg$(_c5, "Ellipse1");
+$RefreshReg$(_c6, "ILBAGLIORE");
+$RefreshReg$(_c7, "Restaurant");
+$RefreshReg$(_c8, "GoBackButton");
+
+  $parcel$ReactRefreshHelpers$4a59.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../Drink12":"8zFKe","../Drink3":"bWXir","../Drink5":"fUcYf","styled-components":"1U3k6","../../styledMixins":"dUZFz","./Coffee.css":"bsV8q","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8zFKe":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ba88 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ba88.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+class Drink12 extends (0, _reactDefault.default).Component {
+    render() {
+        const { drink1 , image1 , className  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink1, {
+            className: `drink-1-6 ${className || ""}`,
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink11, {
+                    className: "drink-1-7",
+                    children: drink1
+                }, void 0, false, {
+                    fileName: "components/Drink12/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                    className: "flex-row-17",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Image1, {
+                            className: "image1-3",
+                            src: image1,
+                            alt: "image1"
+                        }, void 0, false, {
+                            fileName: "components/Drink12/index.jsx",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem1, {
+                            className: "desc-lorem1-3",
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+                        }, void 0, false, {
+                            fileName: "components/Drink12/index.jsx",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Drink12/index.jsx",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Drink12/index.jsx",
+            lineNumber: 15,
+            columnNumber: 7
+        }, this);
+    }
+}
+const Drink1 = (0, _styledComponentsDefault.default).div`
+  width: 1174px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 292.7582092285156px;
+  gap: 23px;
+
+  &.drink-1-6.drink-2-4 {
+    margin-top: 35.2px;
+    min-height: 292.516357421875px;
+  }
+`;
+_c = Drink1;
+const Drink11 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 444px;
+  height: 40px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = Drink11;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1170px;
+  gap: 59px;
+`;
+_c2 = FlexRow;
+const Image1 = (0, _styledComponentsDefault.default).img`
+  width: 215px;
+  height: 230px;
+  object-fit: cover;
+`;
+_c3 = Image1;
+const DescLorem1 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 101px;
+  margin-top: 0;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c4 = DescLorem1;
+const Drink2 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            
+            
+           .drink-1-6.drink-2-4  & {
+    width: 841px;
+  }
+`;
+exports.default = Drink12;
+var _c, _c1, _c2, _c3, _c4;
+$RefreshReg$(_c, "Drink1");
+$RefreshReg$(_c1, "Drink11");
+$RefreshReg$(_c2, "FlexRow");
+$RefreshReg$(_c3, "Image1");
+$RefreshReg$(_c4, "DescLorem1");
+
+  $parcel$ReactRefreshHelpers$ba88.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bWXir":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5f66 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5f66.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+class Drink3 extends (0, _reactDefault.default).Component {
+    render() {
+        const { img3 , className  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink31, {
+            className: `drink-3-4 ${className || ""}`,
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink32, {
+                    className: "drink-3-5",
+                    children: "Lorem ipsum dolor sit amet consectetur"
+                }, void 0, false, {
+                    fileName: "components/Drink3/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                    className: "flex-row-18",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img3, {
+                            className: "img3-3",
+                            src: img3,
+                            alt: "Img3"
+                        }, void 0, false, {
+                            fileName: "components/Drink3/index.jsx",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem3, {
+                            className: "desc-lorem3-3",
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+                        }, void 0, false, {
+                            fileName: "components/Drink3/index.jsx",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Drink3/index.jsx",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Drink3/index.jsx",
+            lineNumber: 15,
+            columnNumber: 7
+        }, this);
+    }
+}
+const Drink31 = (0, _styledComponentsDefault.default).div`
+  width: 1157px;
+  margin-top: 35.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 292.517333984375px;
+  gap: 23px;
+
+  &.drink-3-4.drink-4-4 {
+    min-height: 292.75830078125px;
+  }
+`;
+_c = Drink31;
+const Drink32 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 841px;
+  height: 40px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = Drink32;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1153px;
+  gap: 42px;
+`;
+_c2 = FlexRow;
+const Img3 = (0, _styledComponentsDefault.default).img`
+  width: 215px;
+  height: 230px;
+  object-fit: cover;
+`;
+_c3 = Img3;
+const DescLorem3 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 101px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c4 = DescLorem3;
+const DescLorem4 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+
+  .drink-3-4.drink-4-4  & {
+    margin-top: 0;
+    margin-bottom: unset;
+  }
+`;
+exports.default = Drink3;
+var _c, _c1, _c2, _c3, _c4;
+$RefreshReg$(_c, "Drink31");
+$RefreshReg$(_c1, "Drink32");
+$RefreshReg$(_c2, "FlexRow");
+$RefreshReg$(_c3, "Img3");
+$RefreshReg$(_c4, "DescLorem3");
+
+  $parcel$ReactRefreshHelpers$5f66.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fUcYf":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$903c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$903c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+class Drink5 extends (0, _reactDefault.default).Component {
+    render() {
+        const { img5 , className  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink51, {
+            className: `drink-5-3 ${className || ""}`,
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink52, {
+                    className: "drink-5-4",
+                    children: "Lorem ipsum dolor sit amet consectetur"
+                }, void 0, false, {
+                    fileName: "components/Drink5/index.jsx",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                    className: "flex-row-19",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img5, {
+                            className: "img5-2",
+                            src: img5,
+                            alt: "Img5"
+                        }, void 0, false, {
+                            fileName: "components/Drink5/index.jsx",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem5, {
+                            className: "desc-lorem5-2",
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+                        }, void 0, false, {
+                            fileName: "components/Drink5/index.jsx",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Drink5/index.jsx",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Drink5/index.jsx",
+            lineNumber: 15,
+            columnNumber: 7
+        }, this);
+    }
+}
+const Drink51 = (0, _styledComponentsDefault.default).div`
+  margin-left: 5px;
+  width: 1152px;
+  margin-top: 35.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 292.7581787109375px;
+  gap: 23px;
+
+  &.drink-5-3.drink-6-4 {
+    min-height: 292.75830078125px;
+  }
+`;
+_c = Drink51;
+const Drink52 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 836px;
+  height: 40px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = Drink52;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1148px;
+  gap: 37px;
+`;
+_c2 = FlexRow;
+const Img5 = (0, _styledComponentsDefault.default).img`
+  width: 215px;
+  height: 230px;
+  object-fit: cover;
+`;
+_c3 = Img5;
+const DescLorem5 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 101px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c4 = DescLorem5;
+const DescLorem6 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+
+  .drink-5-3.drink-6-4  & {
+    margin-top: 0;
+    margin-bottom: unset;
+  }
+`;
+exports.default = Drink5;
+var _c, _c1, _c2, _c3, _c4;
+$RefreshReg$(_c, "Drink51");
+$RefreshReg$(_c1, "Drink52");
+$RefreshReg$(_c2, "FlexRow");
+$RefreshReg$(_c3, "Img5");
+$RefreshReg$(_c4, "DescLorem5");
+
+  $parcel$ReactRefreshHelpers$903c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bsV8q":[function() {},{}],"f5MrQ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9913 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9913.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _drink1 = require("../Drink1");
+var _drink1Default = parcelHelpers.interopDefault(_drink1);
+var _drink4 = require("../Drink4");
+var _drink4Default = parcelHelpers.interopDefault(_drink4);
+var _drink6 = require("../Drink6");
+var _drink6Default = parcelHelpers.interopDefault(_drink6);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _smoothiesCss = require("./Smoothies.css");
+class Smoothies extends (0, _reactDefault.default).Component {
+    render() {
+        const { descLorem2 , img2 , drink2 , descLorem3 , img3 , drink3 , smoothies , ellipse1 , ilBagliore , restaurant , gobackbutton , drink1Props , drink4Props , drink61Props , drink62Props  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "smoothies screen",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SmoothiesList, {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink1Default.default), {
+                            image1: drink1Props.image1,
+                            className: drink1Props.className
+                        }, void 0, false, {
+                            fileName: "components/Smoothies/index.jsx",
+                            lineNumber: 40,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink2, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem2, {
+                                    children: descLorem2
+                                }, void 0, false, {
+                                    fileName: "components/Smoothies/index.jsx",
+                                    lineNumber: 42,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img2, {
+                                            src: img2,
+                                            alt: "img2"
+                                        }, void 0, false, {
+                                            fileName: "components/Smoothies/index.jsx",
+                                            lineNumber: 44,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink21, {
+                                            children: drink2
+                                        }, void 0, false, {
+                                            fileName: "components/Smoothies/index.jsx",
+                                            lineNumber: 45,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Smoothies/index.jsx",
+                                    lineNumber: 43,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Smoothies/index.jsx",
+                            lineNumber: 41,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink3, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem3, {
+                                    children: descLorem3
+                                }, void 0, false, {
+                                    fileName: "components/Smoothies/index.jsx",
+                                    lineNumber: 49,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img3, {
+                                            src: img3,
+                                            alt: "Img3"
+                                        }, void 0, false, {
+                                            fileName: "components/Smoothies/index.jsx",
+                                            lineNumber: 51,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink21, {
+                                            children: drink3
+                                        }, void 0, false, {
+                                            fileName: "components/Smoothies/index.jsx",
+                                            lineNumber: 52,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Smoothies/index.jsx",
+                                    lineNumber: 50,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Smoothies/index.jsx",
+                            lineNumber: 48,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink4Default.default), {
+                            img4: drink4Props.img4,
+                            drink4: drink4Props.drink4,
+                            className: drink4Props.className
+                        }, void 0, false, {
+                            fileName: "components/Smoothies/index.jsx",
+                            lineNumber: 55,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink6Default.default), {
+                            drink6: drink61Props.drink6,
+                            img6: drink61Props.img6,
+                            className: drink61Props.className
+                        }, void 0, false, {
+                            fileName: "components/Smoothies/index.jsx",
+                            lineNumber: 56,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink6Default.default), {
+                            drink6: drink62Props.drink6,
+                            img6: drink62Props.img6,
+                            className: drink62Props.className
+                        }, void 0, false, {
+                            fileName: "components/Smoothies/index.jsx",
+                            lineNumber: 57,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Smoothies/index.jsx",
+                    lineNumber: 39,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BlackRectangle, {}, void 0, false, {
+                    fileName: "components/Smoothies/index.jsx",
+                    lineNumber: 59,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Smoothies1, {
+                    children: smoothies
+                }, void 0, false, {
+                    fileName: "components/Smoothies/index.jsx",
+                    lineNumber: 60,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/home-page",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup2, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/Smoothies/index.jsx",
+                                    lineNumber: 64,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                    children: ilBagliore
+                                }, void 0, false, {
+                                    fileName: "components/Smoothies/index.jsx",
+                                    lineNumber: 65,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/Smoothies/index.jsx",
+                                    lineNumber: 66,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Smoothies/index.jsx",
+                            lineNumber: 63,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/Smoothies/index.jsx",
+                        lineNumber: 62,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/Smoothies/index.jsx",
+                    lineNumber: 61,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/drinks",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                        src: gobackbutton,
+                        alt: "GoBackButton"
+                    }, void 0, false, {
+                        fileName: "components/Smoothies/index.jsx",
+                        lineNumber: 71,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/Smoothies/index.jsx",
+                    lineNumber: 70,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Smoothies/index.jsx",
+            lineNumber: 38,
+            columnNumber: 7
+        }, this);
+    }
+}
+const SmoothiesList = (0, _styledComponentsDefault.default).div`
+  z-index: 1;
+  margin-top: 613px;
+  width: 1175px;
+  height: 1941.75830078125px;
+  margin-left: 70px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+`;
+_c = SmoothiesList;
+const Drink2 = (0, _styledComponentsDefault.default).div`
+  width: 1179px;
+  height: 301.516357421875px;
+  position: relative;
+  margin-top: 26.2px;
+`;
+_c1 = Drink2;
+const DescLorem2 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  position: absolute;
+  width: 896px;
+  top: 136px;
+  left: 279px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c2 = DescLorem2;
+const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  width: 841px;
+  height: 302px;
+  top: 0;
+  left: 0;
+`;
+_c3 = OverlapGroup1;
+const Img2 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 215px;
+  height: 230px;
+  top: 72px;
+  left: 5px;
+  object-fit: cover;
+`;
+_c4 = Img2;
+const Drink21 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            position: absolute;
+  width: 841px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = Drink21;
+const Drink3 = (0, _styledComponentsDefault.default).div`
+  margin-left: 5px;
+  width: 1157px;
+  height: 301.517333984375px;
+  position: relative;
+  margin-top: 26.5px;
+`;
+_c6 = Drink3;
+const DescLorem3 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  position: absolute;
+  width: 896px;
+  top: 136px;
+  left: 257px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c7 = DescLorem3;
+const Img3 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 215px;
+  height: 230px;
+  top: 72px;
+  left: 0;
+  object-fit: cover;
+`;
+_c8 = Img3;
+const BlackRectangle = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+_c9 = BlackRectangle;
+const Smoothies1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 144px);
+  width: 288px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c10 = Smoothies1;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c11 = Logo;
+const OverlapGroup2 = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+_c12 = OverlapGroup2;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c13 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c14 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c15 = Restaurant;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
+_c16 = GoBackButton;
+exports.default = Smoothies;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16;
+$RefreshReg$(_c, "SmoothiesList");
+$RefreshReg$(_c1, "Drink2");
+$RefreshReg$(_c2, "DescLorem2");
+$RefreshReg$(_c3, "OverlapGroup1");
+$RefreshReg$(_c4, "Img2");
+$RefreshReg$(_c5, "Drink21");
+$RefreshReg$(_c6, "Drink3");
+$RefreshReg$(_c7, "DescLorem3");
+$RefreshReg$(_c8, "Img3");
+$RefreshReg$(_c9, "BlackRectangle");
+$RefreshReg$(_c10, "Smoothies1");
+$RefreshReg$(_c11, "Logo");
+$RefreshReg$(_c12, "OverlapGroup2");
+$RefreshReg$(_c13, "Ellipse1");
+$RefreshReg$(_c14, "ILBAGLIORE");
+$RefreshReg$(_c15, "Restaurant");
+$RefreshReg$(_c16, "GoBackButton");
+
+  $parcel$ReactRefreshHelpers$9913.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../Drink1":"91SGb","../Drink4":"iK6Xa","../Drink6":"gbDUz","styled-components":"1U3k6","../../styledMixins":"dUZFz","./Smoothies.css":"ehsbT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ehsbT":[function() {},{}],"6Ihzs":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$87bc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$87bc.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _drink1 = require("../Drink1");
+var _drink1Default = parcelHelpers.interopDefault(_drink1);
+var _drink4 = require("../Drink4");
+var _drink4Default = parcelHelpers.interopDefault(_drink4);
+var _drink6 = require("../Drink6");
+var _drink6Default = parcelHelpers.interopDefault(_drink6);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
+var _juiceCss = require("./Juice.css");
+class Juice extends (0, _reactDefault.default).Component {
+    render() {
+        const { descLorem2 , img2 , drink2 , descLorem3 , img3 , drink3 , drink5 , img5 , desclorem5 , juice , ellipse1 , ilBagliore , restaurant , gobackbutton , drink1Props , drink4Props , drink6Props  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "juice screen",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(JuiceList, {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink1Default.default), {
+                            image1: drink1Props.image1
+                        }, void 0, false, {
+                            fileName: "components/Juice/index.jsx",
+                            lineNumber: 42,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink2, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem2, {
+                                    children: descLorem2
+                                }, void 0, false, {
+                                    fileName: "components/Juice/index.jsx",
+                                    lineNumber: 44,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img2, {
+                                            src: img2,
+                                            alt: "img2"
+                                        }, void 0, false, {
+                                            fileName: "components/Juice/index.jsx",
+                                            lineNumber: 46,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink21, {
+                                            children: drink2
+                                        }, void 0, false, {
+                                            fileName: "components/Juice/index.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Juice/index.jsx",
+                                    lineNumber: 45,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Juice/index.jsx",
+                            lineNumber: 43,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink3, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem3, {
+                                    children: descLorem3
+                                }, void 0, false, {
+                                    fileName: "components/Juice/index.jsx",
+                                    lineNumber: 51,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img3, {
+                                            src: img3,
+                                            alt: "Img3"
+                                        }, void 0, false, {
+                                            fileName: "components/Juice/index.jsx",
+                                            lineNumber: 53,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink21, {
+                                            children: drink3
+                                        }, void 0, false, {
+                                            fileName: "components/Juice/index.jsx",
+                                            lineNumber: 54,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Juice/index.jsx",
+                                    lineNumber: 52,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Juice/index.jsx",
+                            lineNumber: 50,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink4Default.default), {
+                            img4: drink4Props.img4,
+                            drink4: drink4Props.drink4,
+                            className: drink4Props.className
+                        }, void 0, false, {
+                            fileName: "components/Juice/index.jsx",
+                            lineNumber: 57,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink5, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Drink51, {
+                                    children: drink5
+                                }, void 0, false, {
+                                    fileName: "components/Juice/index.jsx",
+                                    lineNumber: 59,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Img5, {
+                                            src: img5,
+                                            alt: "Img5"
+                                        }, void 0, false, {
+                                            fileName: "components/Juice/index.jsx",
+                                            lineNumber: 61,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescLorem5, {
+                                            children: desclorem5
+                                        }, void 0, false, {
+                                            fileName: "components/Juice/index.jsx",
+                                            lineNumber: 62,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Juice/index.jsx",
+                                    lineNumber: 60,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Juice/index.jsx",
+                            lineNumber: 58,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _drink6Default.default), {
+                            drink6: drink6Props.drink6,
+                            img6: drink6Props.img6,
+                            className: drink6Props.className
+                        }, void 0, false, {
+                            fileName: "components/Juice/index.jsx",
+                            lineNumber: 65,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/Juice/index.jsx",
+                    lineNumber: 41,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BlackRectangle, {}, void 0, false, {
+                    fileName: "components/Juice/index.jsx",
+                    lineNumber: 67,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Juice1, {
+                    children: juice
+                }, void 0, false, {
+                    fileName: "components/Juice/index.jsx",
+                    lineNumber: 68,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/home-page",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup2, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/Juice/index.jsx",
+                                    lineNumber: 72,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                    children: ilBagliore
+                                }, void 0, false, {
+                                    fileName: "components/Juice/index.jsx",
+                                    lineNumber: 73,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/Juice/index.jsx",
+                                    lineNumber: 74,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Juice/index.jsx",
+                            lineNumber: 71,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/Juice/index.jsx",
+                        lineNumber: 70,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/Juice/index.jsx",
+                    lineNumber: 69,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/drinks",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                        src: gobackbutton,
+                        alt: "GoBackButton"
+                    }, void 0, false, {
+                        fileName: "components/Juice/index.jsx",
+                        lineNumber: 79,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/Juice/index.jsx",
+                    lineNumber: 78,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/Juice/index.jsx",
+            lineNumber: 40,
+            columnNumber: 7
+        }, this);
+    }
+}
+const JuiceList = (0, _styledComponentsDefault.default).div`
+  z-index: 1;
+  margin-top: 613px;
+  width: 1170px;
+  height: 1943.7584228515625px;
+  margin-left: 70px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+`;
+_c = JuiceList;
+const Drink2 = (0, _styledComponentsDefault.default).div`
+  width: 1174px;
+  height: 294.516357421875px;
+  position: relative;
+  margin-top: 26.2px;
+`;
+_c1 = Drink2;
+const DescLorem2 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  position: absolute;
+  width: 896px;
+  top: 129px;
+  left: 274px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c2 = DescLorem2;
+const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  width: 836px;
+  height: 295px;
+  top: 0;
+  left: 0;
+`;
+_c3 = OverlapGroup1;
+const Img2 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 215px;
+  height: 230px;
+  top: 65px;
+  left: 0;
+  object-fit: cover;
+`;
+_c4 = Img2;
+const Drink21 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            position: absolute;
+  width: 836px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = Drink21;
+const Drink3 = (0, _styledComponentsDefault.default).div`
+  width: 1157px;
+  height: 301.517333984375px;
+  position: relative;
+  margin-top: 26.5px;
+`;
+_c6 = Drink3;
+const DescLorem3 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  position: absolute;
+  width: 896px;
+  top: 136px;
+  left: 257px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c7 = DescLorem3;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  position: absolute;
+  width: 836px;
+  height: 302px;
+  top: 0;
+  left: 0;
+`;
+_c8 = OverlapGroup;
+const Img3 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 215px;
+  height: 230px;
+  top: 72px;
+  left: 0;
+  object-fit: cover;
+`;
+_c9 = Img3;
+const Drink5 = (0, _styledComponentsDefault.default).div`
+  margin-left: 5px;
+  width: 1152px;
+  margin-top: 26.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 310.759033203125px;
+  gap: 9px;
+`;
+_c10 = Drink5;
+const Drink51 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+            width: 836px;
+  height: 72px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c11 = Drink51;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  display: flex;
+  align-items: center;
+  min-width: 1148px;
+  gap: 37px;
+`;
+_c12 = FlexRow;
+const Img5 = (0, _styledComponentsDefault.default).img`
+  width: 215px;
+  height: 230px;
+  object-fit: cover;
+`;
+_c13 = Img5;
+const DescLorem5 = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalWhite24px)}
+  width: 896px;
+  min-height: 101px;
+  margin-top: 0;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c14 = DescLorem5;
+const BlackRectangle = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+_c15 = BlackRectangle;
+const Juice1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 74px);
+  width: 148px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c16 = Juice1;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c17 = Logo;
+const OverlapGroup2 = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+_c18 = OverlapGroup2;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c19 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c20 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c21 = Restaurant;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
+_c22 = GoBackButton;
+exports.default = Juice;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22;
+$RefreshReg$(_c, "JuiceList");
+$RefreshReg$(_c1, "Drink2");
+$RefreshReg$(_c2, "DescLorem2");
+$RefreshReg$(_c3, "OverlapGroup1");
+$RefreshReg$(_c4, "Img2");
+$RefreshReg$(_c5, "Drink21");
+$RefreshReg$(_c6, "Drink3");
+$RefreshReg$(_c7, "DescLorem3");
+$RefreshReg$(_c8, "OverlapGroup");
+$RefreshReg$(_c9, "Img3");
+$RefreshReg$(_c10, "Drink5");
+$RefreshReg$(_c11, "Drink51");
+$RefreshReg$(_c12, "FlexRow");
+$RefreshReg$(_c13, "Img5");
+$RefreshReg$(_c14, "DescLorem5");
+$RefreshReg$(_c15, "BlackRectangle");
+$RefreshReg$(_c16, "Juice1");
+$RefreshReg$(_c17, "Logo");
+$RefreshReg$(_c18, "OverlapGroup2");
+$RefreshReg$(_c19, "Ellipse1");
+$RefreshReg$(_c20, "ILBAGLIORE");
+$RefreshReg$(_c21, "Restaurant");
+$RefreshReg$(_c22, "GoBackButton");
+
+  $parcel$ReactRefreshHelpers$87bc.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../Drink1":"91SGb","../Drink4":"iK6Xa","../Drink6":"gbDUz","styled-components":"1U3k6","../../styledMixins":"dUZFz","./Juice.css":"i52Ey","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"i52Ey":[function() {},{}],"euWZn":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$222a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35154,777 +40362,206 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
 var _dishesList = require("../DishesList");
 var _dishesListDefault = parcelHelpers.interopDefault(_dishesList);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
 var _dessertsCss = require("./Desserts.css");
-function Desserts(props) {
-    const { ilBaglioreNavbar , tableReservation , place1 , dishes , drinks , place2 , menu , firstCourse , ellipse1 , ilBagliore , restaurant , aboutUs , dishesListProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "desserts-2 screen",
+class Desserts extends (0, _reactDefault.default).Component {
+    render() {
+        const { desserts , ellipse1 , ilBagliore , restaurant , gobackbutton , dishesListProps  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "desserts screen",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "topbar-6"
-                }, void 0, false, {
-                    fileName: "components/Desserts/index.jsx",
-                    lineNumber: 26,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "il-bagliore-navbar-11 inter-semi-bold-white-36px",
-                    children: ilBaglioreNavbar
-                }, void 0, false, {
-                    fileName: "components/Desserts/index.jsx",
-                    lineNumber: 27,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/table-reservation",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "table-reservation-9 inter-normal-white-27px",
-                        children: tableReservation
-                    }, void 0, false, {
-                        fileName: "components/Desserts/index.jsx",
-                        lineNumber: 29,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Desserts/index.jsx",
-                    lineNumber: 28,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "place-18 inter-normal-white-27px",
-                    children: place1
-                }, void 0, false, {
-                    fileName: "components/Desserts/index.jsx",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "dishes-12 inter-normal-tobacco-brown-27px",
-                        children: dishes
-                    }, void 0, false, {
-                        fileName: "components/Desserts/index.jsx",
-                        lineNumber: 33,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Desserts/index.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "drinks-10 inter-normal-white-27px",
-                        children: drinks
-                    }, void 0, false, {
-                        fileName: "components/Desserts/index.jsx",
-                        lineNumber: 36,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Desserts/index.jsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/landing-page",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "place-19 inter-normal-white-27px",
-                        children: place2
-                    }, void 0, false, {
-                        fileName: "components/Desserts/index.jsx",
-                        lineNumber: 39,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Desserts/index.jsx",
-                    lineNumber: 38,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "menu-8 inter-normal-white-27px",
-                        children: menu
-                    }, void 0, false, {
-                        fileName: "components/Desserts/index.jsx",
-                        lineNumber: 42,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Desserts/index.jsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2-11",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "first-course-8 valign-text-middle kurale-normal-tobacco-brown-63px",
-                            children: firstCourse
-                        }, void 0, false, {
-                            fileName: "components/Desserts/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-12",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-12",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/Desserts/index.jsx",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-11 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/Desserts/index.jsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-12 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/Desserts/index.jsx",
-                                    lineNumber: 49,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Desserts/index.jsx",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Desserts/index.jsx",
-                    lineNumber: 44,
-                    columnNumber: 9
-                }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesListDefault.default), {
                     img5: dishesListProps.img5,
+                    className: dishesListProps.className,
                     dish11Props: dishesListProps.dish11Props,
                     dish12Props: dishesListProps.dish12Props,
                     dish31Props: dishesListProps.dish31Props,
                     dish32Props: dishesListProps.dish32Props
                 }, void 0, false, {
                     fileName: "components/Desserts/index.jsx",
-                    lineNumber: 52,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "footer-contact-about-us-12",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "overlap-group1-12",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us-13 inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/Desserts/index.jsx",
-                                lineNumber: 62,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BlackRectangle, {}, void 0, false, {
+                    fileName: "components/Desserts/index.jsx",
+                    lineNumber: 27,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Desserts1, {
+                    children: desserts
+                }, void 0, false, {
+                    fileName: "components/Desserts/index.jsx",
+                    lineNumber: 28,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/home-page",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/Desserts/index.jsx",
+                                    lineNumber: 32,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                    children: ilBagliore
+                                }, void 0, false, {
+                                    fileName: "components/Desserts/index.jsx",
+                                    lineNumber: 33,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/Desserts/index.jsx",
+                                    lineNumber: 34,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "components/Desserts/index.jsx",
-                            lineNumber: 61,
+                            lineNumber: 31,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "components/Desserts/index.jsx",
-                        lineNumber: 60,
+                        lineNumber: 30,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "components/Desserts/index.jsx",
-                    lineNumber: 59,
+                    lineNumber: 29,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/dishes",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                        src: gobackbutton,
+                        alt: "GoBackButton"
+                    }, void 0, false, {
+                        fileName: "components/Desserts/index.jsx",
+                        lineNumber: 39,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/Desserts/index.jsx",
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/Desserts/index.jsx",
-            lineNumber: 25,
+            lineNumber: 18,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Desserts/index.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = Desserts;
+const BlackRectangle = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+_c = BlackRectangle;
+const Desserts1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 115px);
+  width: 230px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = Desserts1;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c2 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+_c3 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c4 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = Restaurant;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
+_c7 = GoBackButton;
 exports.default = Desserts;
-var _c;
-$RefreshReg$(_c, "Desserts");
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7;
+$RefreshReg$(_c, "BlackRectangle");
+$RefreshReg$(_c1, "Desserts1");
+$RefreshReg$(_c2, "Logo");
+$RefreshReg$(_c3, "OverlapGroup");
+$RefreshReg$(_c4, "Ellipse1");
+$RefreshReg$(_c5, "ILBAGLIORE");
+$RefreshReg$(_c6, "Restaurant");
+$RefreshReg$(_c7, "GoBackButton");
 
   $parcel$ReactRefreshHelpers$222a.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../DishesList":"lzKmB","./Desserts.css":"kCxVA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kCxVA":[function() {},{}],"59Yo5":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c531 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c531.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _cocktailsList = require("../CocktailsList");
-var _cocktailsListDefault = parcelHelpers.interopDefault(_cocktailsList);
-var _cocktailsMixedDrinksCss = require("./CocktailsMixedDrinks.css");
-function CocktailsMixedDrinks(props) {
-    const { ilBaglioreNavbar , tableReservation , place1 , dishes , drinks , place2 , menu , firstCourse , ellipse1 , ilBagliore , restaurant , aboutUs , cocktailsListProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "cocktails-mixed-drinks screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "topbar-7"
-                }, void 0, false, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 26,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "il-bagliore-navbar-12 inter-semi-bold-white-36px",
-                    children: ilBaglioreNavbar
-                }, void 0, false, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 27,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/table-reservation",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "table-reservation-10 inter-normal-white-27px",
-                        children: tableReservation
-                    }, void 0, false, {
-                        fileName: "components/CocktailsMixedDrinks/index.jsx",
-                        lineNumber: 29,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 28,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "place-20 inter-normal-white-27px",
-                    children: place1
-                }, void 0, false, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "dishes-13 inter-normal-white-27px",
-                        children: dishes
-                    }, void 0, false, {
-                        fileName: "components/CocktailsMixedDrinks/index.jsx",
-                        lineNumber: 33,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "drinks-11 inter-normal-tobacco-brown-27px",
-                        children: drinks
-                    }, void 0, false, {
-                        fileName: "components/CocktailsMixedDrinks/index.jsx",
-                        lineNumber: 36,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/landing-page",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "place-21 inter-normal-white-27px",
-                        children: place2
-                    }, void 0, false, {
-                        fileName: "components/CocktailsMixedDrinks/index.jsx",
-                        lineNumber: 39,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 38,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "menu-9 inter-normal-white-27px",
-                        children: menu
-                    }, void 0, false, {
-                        fileName: "components/CocktailsMixedDrinks/index.jsx",
-                        lineNumber: 42,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2-12",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "first-course-9 valign-text-middle kurale-normal-tobacco-brown-63px",
-                            children: firstCourse
-                        }, void 0, false, {
-                            fileName: "components/CocktailsMixedDrinks/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-13",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-13",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-12 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-13 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                                    lineNumber: 49,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/CocktailsMixedDrinks/index.jsx",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 44,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cocktailsListDefault.default), {
-                    image1: cocktailsListProps.image1,
-                    img2: cocktailsListProps.img2,
-                    img3: cocktailsListProps.img3,
-                    img4: cocktailsListProps.img4,
-                    drink51Props: cocktailsListProps.drink51Props,
-                    drink52Props: cocktailsListProps.drink52Props
-                }, void 0, false, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 52,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "footer-contact-about-us-13",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "overlap-group1-13",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us-14 inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/CocktailsMixedDrinks/index.jsx",
-                                lineNumber: 63,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/CocktailsMixedDrinks/index.jsx",
-                            lineNumber: 62,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/CocktailsMixedDrinks/index.jsx",
-                        lineNumber: 61,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/CocktailsMixedDrinks/index.jsx",
-                    lineNumber: 60,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/CocktailsMixedDrinks/index.jsx",
-            lineNumber: 25,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/CocktailsMixedDrinks/index.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
-}
-_c = CocktailsMixedDrinks;
-exports.default = CocktailsMixedDrinks;
-var _c;
-$RefreshReg$(_c, "CocktailsMixedDrinks");
-
-  $parcel$ReactRefreshHelpers$c531.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../CocktailsList":"infPW","./CocktailsMixedDrinks.css":"1sCc2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1sCc2":[function() {},{}],"9gFzF":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$3856 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$3856.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _wineCss = require("./Wine.css");
-function Wine(props) {
-    const { ilBaglioreNavbar , tableReservation , place1 , dishes , drinks , place2 , menu , firstCourse , ellipse1 , ilBagliore , restaurant , descLorem1 , image1 , drink1 , img2 , descLorem2 , img3 , descLorem3 , aboutUs  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "wine screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "topbar-8"
-                }, void 0, false, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "il-bagliore-navbar-13 inter-semi-bold-white-36px",
-                    children: ilBaglioreNavbar
-                }, void 0, false, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/table-reservation",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "table-reservation-11 inter-normal-white-27px",
-                        children: tableReservation
-                    }, void 0, false, {
-                        fileName: "components/Wine/index.jsx",
-                        lineNumber: 34,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 33,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "place-22 inter-normal-white-27px",
-                    children: place1
-                }, void 0, false, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 36,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "dishes-14 inter-normal-white-27px",
-                        children: dishes
-                    }, void 0, false, {
-                        fileName: "components/Wine/index.jsx",
-                        lineNumber: 38,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 37,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "drinks-12 inter-normal-tobacco-brown-27px",
-                        children: drinks
-                    }, void 0, false, {
-                        fileName: "components/Wine/index.jsx",
-                        lineNumber: 41,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 40,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/landing-page",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "place-23 inter-normal-white-27px",
-                        children: place2
-                    }, void 0, false, {
-                        fileName: "components/Wine/index.jsx",
-                        lineNumber: 44,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 43,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "menu-10 inter-normal-white-27px",
-                        children: menu
-                    }, void 0, false, {
-                        fileName: "components/Wine/index.jsx",
-                        lineNumber: 47,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 46,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2-13",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "first-course-10 valign-text-middle kurale-normal-tobacco-brown-63px",
-                            children: firstCourse
-                        }, void 0, false, {
-                            fileName: "components/Wine/index.jsx",
-                            lineNumber: 50,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-14",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-14",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/Wine/index.jsx",
-                                    lineNumber: 52,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-13 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/Wine/index.jsx",
-                                    lineNumber: 53,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-14 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/Wine/index.jsx",
-                                    lineNumber: 54,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Wine/index.jsx",
-                            lineNumber: 51,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 49,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "juice-list-1",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "drink-1-8",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "desc-lorem1-4 inter-normal-white-24px",
-                                    children: descLorem1
-                                }, void 0, false, {
-                                    fileName: "components/Wine/index.jsx",
-                                    lineNumber: 59,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "image1-9",
-                                    src: image1,
-                                    alt: "image1"
-                                }, void 0, false, {
-                                    fileName: "components/Wine/index.jsx",
-                                    lineNumber: 60,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "drink-1-9 valign-text-middle kurale-normal-tobacco-brown-45px",
-                                    children: drink1
-                                }, void 0, false, {
-                                    fileName: "components/Wine/index.jsx",
-                                    lineNumber: 61,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Wine/index.jsx",
-                            lineNumber: 58,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "drink-2-4",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "img2-9",
-                                    src: img2,
-                                    alt: "img2"
-                                }, void 0, false, {
-                                    fileName: "components/Wine/index.jsx",
-                                    lineNumber: 64,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "desc-lorem-14 inter-normal-white-24px",
-                                    children: descLorem2
-                                }, void 0, false, {
-                                    fileName: "components/Wine/index.jsx",
-                                    lineNumber: 65,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Wine/index.jsx",
-                            lineNumber: 63,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "drink-3-4",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "img3-9",
-                                    src: img3,
-                                    alt: "Img3"
-                                }, void 0, false, {
-                                    fileName: "components/Wine/index.jsx",
-                                    lineNumber: 68,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "desc-lorem-14 inter-normal-white-24px",
-                                    children: descLorem3
-                                }, void 0, false, {
-                                    fileName: "components/Wine/index.jsx",
-                                    lineNumber: 69,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/Wine/index.jsx",
-                            lineNumber: 67,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 57,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "footer-contact-about-us-14",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "overlap-group1-14",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us-15 inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/Wine/index.jsx",
-                                lineNumber: 75,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/Wine/index.jsx",
-                            lineNumber: 74,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/Wine/index.jsx",
-                        lineNumber: 73,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/Wine/index.jsx",
-                    lineNumber: 72,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/Wine/index.jsx",
-            lineNumber: 30,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Wine/index.jsx",
-        lineNumber: 29,
-        columnNumber: 5
-    }, this);
-}
-_c = Wine;
-exports.default = Wine;
-var _c;
-$RefreshReg$(_c, "Wine");
-
-  $parcel$ReactRefreshHelpers$3856.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./Wine.css":"cS3yN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cS3yN":[function() {},{}],"3mfFG":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../DishesList":"lzKmB","styled-components":"1U3k6","../../styledMixins":"dUZFz","./Desserts.css":"kCxVA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kCxVA":[function() {},{}],"3mfFG":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$a812 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35939,87 +40576,88 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
 var _dishesList = require("../DishesList");
 var _dishesListDefault = parcelHelpers.interopDefault(_dishesList);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
 var _sideDishesCss = require("./SideDishes.css");
-function SideDishes(props) {
-    const { ilBaglioreNavbar , tableReservation , place1 , dishes , drinks , place2 , menu , firstCourse , ellipse1 , ilBagliore , restaurant , aboutUs , dishesListProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "side-dishes-2 screen",
+class SideDishes extends (0, _reactDefault.default).Component {
+    render() {
+        const { sideDishes , ellipse1 , ilBagliore , restaurant , gobackbutton , dishesListProps  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "side-dishes screen",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "topbar-9"
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesListDefault.default), {
+                    img5: dishesListProps.img5,
+                    className: dishesListProps.className,
+                    dish11Props: dishesListProps.dish11Props,
+                    dish12Props: dishesListProps.dish12Props,
+                    dish31Props: dishesListProps.dish31Props,
+                    dish32Props: dishesListProps.dish32Props
                 }, void 0, false, {
                     fileName: "components/SideDishes/index.jsx",
-                    lineNumber: 26,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "il-bagliore-navbar-14 inter-semi-bold-white-36px",
-                    children: ilBaglioreNavbar
-                }, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BlackRectangle, {}, void 0, false, {
                     fileName: "components/SideDishes/index.jsx",
                     lineNumber: 27,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/table-reservation",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "table-reservation-12 inter-normal-white-27px",
-                        children: tableReservation
-                    }, void 0, false, {
-                        fileName: "components/SideDishes/index.jsx",
-                        lineNumber: 29,
-                        columnNumber: 11
-                    }, this)
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SideDishes1, {
+                    children: sideDishes
                 }, void 0, false, {
                     fileName: "components/SideDishes/index.jsx",
                     lineNumber: 28,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "place-24 inter-normal-white-27px",
-                    children: place1
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/home-page",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                    src: ellipse1,
+                                    alt: "Ellipse 1"
+                                }, void 0, false, {
+                                    fileName: "components/SideDishes/index.jsx",
+                                    lineNumber: 32,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                    children: ilBagliore
+                                }, void 0, false, {
+                                    fileName: "components/SideDishes/index.jsx",
+                                    lineNumber: 33,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                    children: restaurant
+                                }, void 0, false, {
+                                    fileName: "components/SideDishes/index.jsx",
+                                    lineNumber: 34,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/SideDishes/index.jsx",
+                            lineNumber: 31,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/SideDishes/index.jsx",
+                        lineNumber: 30,
+                        columnNumber: 11
+                    }, this)
                 }, void 0, false, {
                     fileName: "components/SideDishes/index.jsx",
-                    lineNumber: 31,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                     to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "dishes-15 inter-normal-tobacco-brown-27px",
-                        children: dishes
-                    }, void 0, false, {
-                        fileName: "components/SideDishes/index.jsx",
-                        lineNumber: 33,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/SideDishes/index.jsx",
-                    lineNumber: 32,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/drinks",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "drinks-13 inter-normal-white-27px",
-                        children: drinks
-                    }, void 0, false, {
-                        fileName: "components/SideDishes/index.jsx",
-                        lineNumber: 36,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/SideDishes/index.jsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/landing-page",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "place-25 inter-normal-white-27px",
-                        children: place2
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(GoBackButton, {
+                        src: gobackbutton,
+                        alt: "GoBackButton"
                     }, void 0, false, {
                         fileName: "components/SideDishes/index.jsx",
                         lineNumber: 39,
@@ -36029,136 +40667,115 @@ function SideDishes(props) {
                     fileName: "components/SideDishes/index.jsx",
                     lineNumber: 38,
                     columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/dishes",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "menu-11 inter-normal-white-27px",
-                        children: menu
-                    }, void 0, false, {
-                        fileName: "components/SideDishes/index.jsx",
-                        lineNumber: 42,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/SideDishes/index.jsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-group2-14",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "first-course-11 valign-text-middle kurale-normal-tobacco-brown-63px",
-                            children: firstCourse
-                        }, void 0, false, {
-                            fileName: "components/SideDishes/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-15",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-15",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/SideDishes/index.jsx",
-                                    lineNumber: 47,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-14 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/SideDishes/index.jsx",
-                                    lineNumber: 48,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-15 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/SideDishes/index.jsx",
-                                    lineNumber: 49,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/SideDishes/index.jsx",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/SideDishes/index.jsx",
-                    lineNumber: 44,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dishesListDefault.default), {
-                    img5: dishesListProps.img5,
-                    dish11Props: dishesListProps.dish11Props,
-                    dish12Props: dishesListProps.dish12Props,
-                    dish31Props: dishesListProps.dish31Props,
-                    dish32Props: dishesListProps.dish32Props
-                }, void 0, false, {
-                    fileName: "components/SideDishes/index.jsx",
-                    lineNumber: 52,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "footer-contact-about-us-15",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "overlap-group1-15",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about-us",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "about-us-16 inter-bold-white-24px",
-                                children: aboutUs
-                            }, void 0, false, {
-                                fileName: "components/SideDishes/index.jsx",
-                                lineNumber: 62,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "components/SideDishes/index.jsx",
-                            lineNumber: 61,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "components/SideDishes/index.jsx",
-                        lineNumber: 60,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/SideDishes/index.jsx",
-                    lineNumber: 59,
-                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "components/SideDishes/index.jsx",
-            lineNumber: 25,
+            lineNumber: 18,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/SideDishes/index.jsx",
-        lineNumber: 24,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = SideDishes;
+const BlackRectangle = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+_c = BlackRectangle;
+const SideDishes1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown63px)}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 158px);
+  width: 317px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = SideDishes1;
+const Logo = (0, _styledComponentsDefault.default).div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+_c2 = Logo;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+_c3 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+_c4 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c5 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c6 = Restaurant;
+const GoBackButton = (0, _styledComponentsDefault.default).img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
+_c7 = GoBackButton;
 exports.default = SideDishes;
-var _c;
-$RefreshReg$(_c, "SideDishes");
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7;
+$RefreshReg$(_c, "BlackRectangle");
+$RefreshReg$(_c1, "SideDishes1");
+$RefreshReg$(_c2, "Logo");
+$RefreshReg$(_c3, "OverlapGroup");
+$RefreshReg$(_c4, "Ellipse1");
+$RefreshReg$(_c5, "ILBAGLIORE");
+$RefreshReg$(_c6, "Restaurant");
+$RefreshReg$(_c7, "GoBackButton");
 
   $parcel$ReactRefreshHelpers$a812.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../DishesList":"lzKmB","./SideDishes.css":"f0rnx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"f0rnx":[function() {},{}],"fecnP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../DishesList":"lzKmB","styled-components":"1U3k6","../../styledMixins":"dUZFz","./SideDishes.css":"f0rnx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"f0rnx":[function() {},{}],"fecnP":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$526f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -36171,247 +40788,469 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledMixins = require("../../styledMixins");
 var _landingPageCss = require("./LandingPage.css");
-function LandingPage(props) {
-    const { ilBaglioreNavbar , loginRegistration , tableReservation , menu , ellipse1 , ilBagliore , restaurant , traditionalTaste , text1 , fineDinning , loremSentence , pexelsLumn6049691 , aboutUs  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "landing-page screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-row-25",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "il-bagliore-navbar-15 inter-semi-bold-white-36px",
-                            children: ilBaglioreNavbar
-                        }, void 0, false, {
-                            fileName: "components/LandingPage/index.jsx",
-                            lineNumber: 26,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex-col-2",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/login-registration",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "login-registration-4 inter-normal-white-27px",
-                                        children: loginRegistration
-                                    }, void 0, false, {
-                                        fileName: "components/LandingPage/index.jsx",
-                                        lineNumber: 29,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/LandingPage/index.jsx",
-                                    lineNumber: 28,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/table-reservation",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "table-reservation-13 inter-normal-white-27px",
-                                        children: tableReservation
-                                    }, void 0, false, {
-                                        fileName: "components/LandingPage/index.jsx",
-                                        lineNumber: 32,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/LandingPage/index.jsx",
-                                    lineNumber: 31,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/menu",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "menu-12 inter-normal-white-27px",
-                                        children: menu
-                                    }, void 0, false, {
-                                        fileName: "components/LandingPage/index.jsx",
-                                        lineNumber: 35,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/LandingPage/index.jsx",
-                                    lineNumber: 34,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/LandingPage/index.jsx",
-                            lineNumber: 27,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/LandingPage/index.jsx",
-                    lineNumber: 25,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex-col-3",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-16",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "ellipse-1-16",
-                                    src: ellipse1,
-                                    alt: "Ellipse 1"
-                                }, void 0, false, {
-                                    fileName: "components/LandingPage/index.jsx",
-                                    lineNumber: 41,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "il-bagliore-15 bellefair-normal-white-72px",
-                                    children: ilBagliore
-                                }, void 0, false, {
-                                    fileName: "components/LandingPage/index.jsx",
-                                    lineNumber: 42,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "restaurant-16 laomuangkhong-regular-normal-tobacco-brown-51px",
-                                    children: restaurant
-                                }, void 0, false, {
-                                    fileName: "components/LandingPage/index.jsx",
-                                    lineNumber: 43,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/LandingPage/index.jsx",
-                            lineNumber: 40,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex-row-26",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "slogan-and-sentence-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "overlap-group1-16 kurale-normal-tobacco-brown-45px",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "traditional-taste valign-text-middle",
-                                                    children: traditionalTaste
-                                                }, void 0, false, {
-                                                    fileName: "components/LandingPage/index.jsx",
-                                                    lineNumber: 48,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "text-1 valign-text-middle",
-                                                    children: text1
-                                                }, void 0, false, {
-                                                    fileName: "components/LandingPage/index.jsx",
-                                                    lineNumber: 49,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                    className: "fine-dinning valign-text-middle",
-                                                    children: fineDinning
-                                                }, void 0, false, {
-                                                    fileName: "components/LandingPage/index.jsx",
-                                                    lineNumber: 50,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/LandingPage/index.jsx",
-                                            lineNumber: 47,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            className: "lorem-sentence",
-                                            children: loremSentence
+class LandingPage extends (0, _reactDefault.default).Component {
+    render() {
+        const { ilBaglioreNavbar , loginRegistration , tableReservation , menu , ellipse1 , ilBagliore , restaurant , traditionalTaste , text2 , fineDinning , loremSentence , pexelsLumn6049691 , aboutUs  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container-center-horizontal",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "landing-page screen",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IlBaglioreNavbar, {
+                                children: ilBaglioreNavbar
+                            }, void 0, false, {
+                                fileName: "components/LandingPage/index.jsx",
+                                lineNumber: 35,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/login-registration",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LoginRegistration, {
+                                            children: loginRegistration
                                         }, void 0, false, {
                                             fileName: "components/LandingPage/index.jsx",
-                                            lineNumber: 52,
-                                            columnNumber: 15
+                                            lineNumber: 38,
+                                            columnNumber: 17
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/LandingPage/index.jsx",
-                                    lineNumber: 46,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "pexels-lumn-604969-1",
-                                    src: pexelsLumn6049691,
-                                    alt: "pexels-lumn-604969 1"
-                                }, void 0, false, {
-                                    fileName: "components/LandingPage/index.jsx",
-                                    lineNumber: 54,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/LandingPage/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group2-15",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/about-us",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "footer",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "about-us-17 inter-bold-white-24px",
-                                        children: aboutUs
                                     }, void 0, false, {
                                         fileName: "components/LandingPage/index.jsx",
-                                        lineNumber: 59,
+                                        lineNumber: 37,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/table-reservation",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TableReservation, {
+                                            children: tableReservation
+                                        }, void 0, false, {
+                                            fileName: "components/LandingPage/index.jsx",
+                                            lineNumber: 41,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/LandingPage/index.jsx",
+                                        lineNumber: 40,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/menu",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Menu, {
+                                            children: menu
+                                        }, void 0, false, {
+                                            fileName: "components/LandingPage/index.jsx",
+                                            lineNumber: 44,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/LandingPage/index.jsx",
+                                        lineNumber: 43,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/LandingPage/index.jsx",
+                                lineNumber: 36,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/LandingPage/index.jsx",
+                        lineNumber: 34,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol1, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse1, {
+                                        src: ellipse1,
+                                        alt: "Ellipse 1"
+                                    }, void 0, false, {
+                                        fileName: "components/LandingPage/index.jsx",
+                                        lineNumber: 50,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ILBAGLIORE, {
+                                        children: ilBagliore
+                                    }, void 0, false, {
+                                        fileName: "components/LandingPage/index.jsx",
+                                        lineNumber: 51,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Restaurant, {
+                                        children: restaurant
+                                    }, void 0, false, {
+                                        fileName: "components/LandingPage/index.jsx",
+                                        lineNumber: 52,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/LandingPage/index.jsx",
+                                lineNumber: 49,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow1, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SloganAndSentence, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TraditionalTaste, {
+                                                        children: traditionalTaste
+                                                    }, void 0, false, {
+                                                        fileName: "components/LandingPage/index.jsx",
+                                                        lineNumber: 57,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Text2, {
+                                                        children: text2
+                                                    }, void 0, false, {
+                                                        fileName: "components/LandingPage/index.jsx",
+                                                        lineNumber: 58,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FineDinning, {
+                                                        children: fineDinning
+                                                    }, void 0, false, {
+                                                        fileName: "components/LandingPage/index.jsx",
+                                                        lineNumber: 59,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/LandingPage/index.jsx",
+                                                lineNumber: 56,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LoremSentence, {
+                                                children: loremSentence
+                                            }, void 0, false, {
+                                                fileName: "components/LandingPage/index.jsx",
+                                                lineNumber: 61,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/LandingPage/index.jsx",
+                                        lineNumber: 55,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PexelsLumn6049691, {
+                                        src: pexelsLumn6049691,
+                                        alt: "pexels-lumn-604969 1"
+                                    }, void 0, false, {
+                                        fileName: "components/LandingPage/index.jsx",
+                                        lineNumber: 63,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/LandingPage/index.jsx",
+                                lineNumber: 54,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup2, {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/about-us",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AboutUs, {
+                                            children: aboutUs
+                                        }, void 0, false, {
+                                            fileName: "components/LandingPage/index.jsx",
+                                            lineNumber: 68,
+                                            columnNumber: 19
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "components/LandingPage/index.jsx",
+                                        lineNumber: 67,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "components/LandingPage/index.jsx",
-                                    lineNumber: 58,
+                                    lineNumber: 66,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "components/LandingPage/index.jsx",
-                                lineNumber: 57,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, this)
-                        }, void 0, false, {
-                            fileName: "components/LandingPage/index.jsx",
-                            lineNumber: 56,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/LandingPage/index.jsx",
-                    lineNumber: 39,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/LandingPage/index.jsx",
+                        lineNumber: 48,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/LandingPage/index.jsx",
+                lineNumber: 33,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "components/LandingPage/index.jsx",
-            lineNumber: 24,
+            lineNumber: 32,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/LandingPage/index.jsx",
-        lineNumber: 23,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = LandingPage;
+const FlexRow = (0, _styledComponentsDefault.default).div`
+  height: 112px;
+  margin-top: 4px;
+  margin-left: -58px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1952px;
+  gap: 1361px;
+`;
+_c = FlexRow;
+const IlBaglioreNavbar = (0, _styledComponentsDefault.default).div`
+  width: 333px;
+  min-height: 87px;
+  font-family: var(--font-family-inter-semibold);
+  font-weight: 600;
+  color: var(--white-2);
+  font-size: var(--font-size-xl);
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c1 = IlBaglioreNavbar;
+const FlexCol = (0, _styledComponentsDefault.default).div`
+  width: 258px;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-height: 101px;
+  gap: 1px;
+`;
+_c2 = FlexCol;
+const LoginRegistration = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.InterNormalWhite27px)}
+  min-height: 33px;
+  margin-right: 1px;
+  min-width: 257px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c3 = LoginRegistration;
+const TableReservation = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.InterNormalWhite27px)}
+  min-height: 33px;
+  margin-right: 1px;
+  min-width: 229px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c4 = TableReservation;
+const Menu = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.InterNormalWhite27px)}
+  min-height: 33px;
+  min-width: 72px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+`;
+_c5 = Menu;
+const FlexCol1 = (0, _styledComponentsDefault.default).div`
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 909px;
+`;
+_c6 = FlexCol1;
+const OverlapGroup = (0, _styledComponentsDefault.default).div`
+  width: 784px;
+  height: 351px;
+  position: relative;
+  margin-right: 10px;
+`;
+_c7 = OverlapGroup;
+const Ellipse1 = (0, _styledComponentsDefault.default).img`
+  position: absolute;
+  width: 353px;
+  height: 351px;
+  top: 0;
+  left: 221px;
+`;
+_c8 = Ellipse1;
+const ILBAGLIORE = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.BellefairNormalWhite72px)}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c9 = ILBAGLIORE;
+const Restaurant = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.LaomuangkhongRegularNormalTobaccoBr)}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #00000040;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c10 = Restaurant;
+const FlexRow1 = (0, _styledComponentsDefault.default).div`
+  margin-top: 27px;
+  margin-left: 91px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1693px;
+  gap: 20px;
+`;
+_c11 = FlexRow1;
+const SloganAndSentence = (0, _styledComponentsDefault.default).div`
+  width: 951px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 283px;
+  gap: 29px;
+  box-shadow: 0px 4px 4px #00000040;
+`;
+_c12 = SloganAndSentence;
+const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.KuraleNormalTobaccoBrown45px)}
+  width: 679px;
+  height: 167px;
+  position: relative;
+  margin-left: 1px;
+`;
+_c13 = OverlapGroup1;
+const TraditionalTaste = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  position: absolute;
+  width: 357px;
+  height: 87px;
+  top: 80px;
+  left: 322px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c14 = TraditionalTaste;
+const Text2 = (0, _styledComponentsDefault.default).div`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  position: absolute;
+  width: 60px;
+  height: 87px;
+  top: 40px;
+  left: 367px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c15 = Text2;
+const FineDinning = (0, _styledComponentsDefault.default).p`
+  ${(0, _styledMixins.ValignTextMiddle)}
+  position: absolute;
+  width: 482px;
+  height: 87px;
+  top: 0;
+  left: 0;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c16 = FineDinning;
+const LoremSentence = (0, _styledComponentsDefault.default).p`
+  width: 943px;
+  min-height: 87px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-weight: 400;
+  color: var(--mist-gray);
+  font-size: var(--font-size-xl);
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c17 = LoremSentence;
+const PexelsLumn6049691 = (0, _styledComponentsDefault.default).img`
+  width: 722px;
+  height: 390px;
+  object-fit: cover;
+`;
+_c18 = PexelsLumn6049691;
+const OverlapGroup2 = (0, _styledComponentsDefault.default).div`
+  height: 45px;
+  margin-top: 96px;
+  display: flex;
+  padding: 5px 904px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-width: 1920px;
+  background-color: var(--cod-gray);
+`;
+_c19 = OverlapGroup2;
+const Footer = (0, _styledComponentsDefault.default).div`
+  width: 111px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+`;
+_c20 = Footer;
+const AboutUs = (0, _styledComponentsDefault.default).div`
+  width: 109px;
+  height: 31px;
+  margin-left: -2px;
+  font-family: var(--font-family-inter-bold);
+  font-weight: 700;
+  color: var(--white);
+  font-size: var(--font-size-m);
+  letter-spacing: 0;
+  line-height: normal;
+`;
+_c21 = AboutUs;
 exports.default = LandingPage;
-var _c;
-$RefreshReg$(_c, "LandingPage");
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21;
+$RefreshReg$(_c, "FlexRow");
+$RefreshReg$(_c1, "IlBaglioreNavbar");
+$RefreshReg$(_c2, "FlexCol");
+$RefreshReg$(_c3, "LoginRegistration");
+$RefreshReg$(_c4, "TableReservation");
+$RefreshReg$(_c5, "Menu");
+$RefreshReg$(_c6, "FlexCol1");
+$RefreshReg$(_c7, "OverlapGroup");
+$RefreshReg$(_c8, "Ellipse1");
+$RefreshReg$(_c9, "ILBAGLIORE");
+$RefreshReg$(_c10, "Restaurant");
+$RefreshReg$(_c11, "FlexRow1");
+$RefreshReg$(_c12, "SloganAndSentence");
+$RefreshReg$(_c13, "OverlapGroup1");
+$RefreshReg$(_c14, "TraditionalTaste");
+$RefreshReg$(_c15, "Text2");
+$RefreshReg$(_c16, "FineDinning");
+$RefreshReg$(_c17, "LoremSentence");
+$RefreshReg$(_c18, "PexelsLumn6049691");
+$RefreshReg$(_c19, "OverlapGroup2");
+$RefreshReg$(_c20, "Footer");
+$RefreshReg$(_c21, "AboutUs");
 
   $parcel$ReactRefreshHelpers$526f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","./LandingPage.css":"7iFCK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7iFCK":[function() {},{}]},["1xC6H","awEvQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","styled-components":"1U3k6","../../styledMixins":"dUZFz","./LandingPage.css":"7iFCK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7iFCK":[function() {},{}]},["1xC6H","awEvQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
 
 //# sourceMappingURL=index.3d214d75.js.map

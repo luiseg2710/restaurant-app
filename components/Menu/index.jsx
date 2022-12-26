@@ -1,77 +1,208 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
+import {
+  KuraleNormalTobaccoBrown60px,
+  LaomuangkhongRegularNormalTobaccoBr,
+  BellefairNormalWhite72px,
+  ValignTextMiddle,
+} from "../../styledMixins";
 import "./Menu.css";
 
-function Menu(props) {
-  const {
-    ilBaglioreNavbar,
-    loginRegistration,
-    booktable,
-    menu,
-    place,
-    ellipse1,
-    ilBagliore,
-    restaurant,
-    pexelsMariaOrlova49464421,
-    pexelsMariaOrlova49464422,
-    dishes,
-    drinks,
-    aboutUs,
-  } = props;
+class Menu extends React.Component {
+  render() {
+    const {
+      gobackbutton,
+      place,
+      dishes,
+      ellipse1,
+      ilBagliore,
+      restaurant,
+      drinks,
+      pexelsMariaOrlova49464421,
+      pexelsMariaOrlova49464422,
+      men,
+    } = this.props;
 
-  return (
-    <div className="container-center-horizontal">
-      <div className="menu-2 screen" onclick="window.open('landing-page.html', '_self');">
-        <div className="flex-row-5">
-          <div className="il-bagliore-navbar-3 inter-semi-bold-white-36px">{ilBaglioreNavbar}</div>
-          <div className="login-registration inter-normal-white-27px">{loginRegistration}</div>
-          <div className="flex-col-1">
-            <Link to="/table-reservation">
-              <div className="booktable inter-normal-white-27px">{booktable}</div>
-            </Link>
-            <div className="menu-3 inter-normal-tobacco-brown-27px">{menu}</div>
-            <Link to="/landing-page">
-              <div className="place-5 inter-normal-white-27px">{place}</div>
-            </Link>
-          </div>
-        </div>
-        <div className="overlap-group-container">
-          <div className="overlap-group3-2 kurale-normal-tobacco-brown-63px">
-            <div className="overlap-group2-4">
-              <div className="overlap-group-3">
-                <img className="ellipse-1-3" src={ellipse1} alt="Ellipse 1" />
-                <div className="il-bagliore-2 bellefair-normal-white-72px">{ilBagliore}</div>
-                <div className="restaurant-3 laomuangkhong-regular-normal-tobacco-brown-51px">{restaurant}</div>
-              </div>
+    return (
+      <div className="container-center-horizontal">
+        <div className="menu screen" onclick="window.open('home-page.html', '_self');">
+          <Link to="/home-page">
+            <GoBackButton src={gobackbutton} alt="GoBackButton" />
+          </Link>
+          <FlexCol>
+            <Place>{place}</Place>
+            <FlexRow>
+              <OverlapGroup1>
+                <Dishes>{dishes}</Dishes>
+                <Link to="/home-page">
+                  <Logo>
+                    <OverlapGroup>
+                      <Ellipse1 src={ellipse1} alt="Ellipse 1" />
+                      <ILBAGLIORE>{ilBagliore}</ILBAGLIORE>
+                      <Restaurant>{restaurant}</Restaurant>
+                    </OverlapGroup>
+                  </Logo>
+                </Link>
+              </OverlapGroup1>
+              <Drinks>{drinks}</Drinks>
+            </FlexRow>
+            <PexelsMariaOrlovaContainer>
               <Link to="/dishes">
-                <img
-                  className="pexels-maria-orlova-4946442-1"
-                  src={pexelsMariaOrlova49464421}
-                  alt="pexels-maria-orlova-4946442 1"
-                />
+                <PexelsMariaOrlova49464421 src={pexelsMariaOrlova49464421} alt="pexels-maria-orlova-4946442 1" />
               </Link>
               <Link to="/drinks">
-                <img
-                  className="pexels-maria-orlova-4946442-2"
-                  src={pexelsMariaOrlova49464422}
-                  alt="pexels-maria-orlova-4946442 2"
-                />
+                <PexelsMariaOrlova49464421 src={pexelsMariaOrlova49464422} alt="pexels-maria-orlova-4946442 2" />
               </Link>
-            </div>
-            <div className="dishes-2 valign-text-middle">{dishes}</div>
-            <div className="drinks-2 valign-text-middle">{drinks}</div>
-          </div>
-          <div className="overlap-group1-3">
-            <Link to="/about-us">
-              <div className="footer-contact-about-us-3">
-                <div className="about-us-3 inter-bold-white-24px">{aboutUs}</div>
-              </div>
-            </Link>
-          </div>
+            </PexelsMariaOrlovaContainer>
+          </FlexCol>
+          <Men>{men}</Men>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
+
+const GoBackButton = styled.img`
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+`;
+
+const FlexCol = styled.div`
+  width: 1609px;
+  margin-left: 88px;
+  margin-top: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 919px;
+`;
+
+const Place = styled.div`
+  min-height: 38px;
+  margin-right: 5px;
+  min-width: 130px;
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-weight: 400;
+  color: var(--white-2);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const FlexRow = styled.div`
+  margin-top: 82px;
+  margin-left: 1px;
+  display: flex;
+  align-items: flex-end;
+  min-width: 1166px;
+  gap: 4px;
+`;
+
+const OverlapGroup1 = styled.div`
+  width: 971px;
+  height: 414px;
+  position: relative;
+`;
+
+const Dishes = styled.div`
+  ${ValignTextMiddle}
+  ${KuraleNormalTobaccoBrown60px}
+            position: absolute;
+  width: 191px;
+  height: 87px;
+  top: 327px;
+  left: 0;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const Logo = styled.div`
+  position: absolute;
+  height: 353px;
+  top: 0;
+  left: 183px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+
+const OverlapGroup = styled.div`
+  width: 784px;
+  height: 355px;
+  position: relative;
+  margin-top: -1px;
+`;
+
+const Ellipse1 = styled.img`
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  top: 0;
+  left: 220px;
+`;
+
+const ILBAGLIORE = styled.div`
+  ${BellefairNormalWhite72px}
+  position: absolute;
+  width: 784px;
+  top: 106px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const Restaurant = styled.div`
+  ${LaomuangkhongRegularNormalTobaccoBr}
+  position: absolute;
+  width: 436px;
+  top: 162px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const Drinks = styled.div`
+  ${ValignTextMiddle}
+  ${KuraleNormalTobaccoBrown60px}
+            width: 191px;
+  height: 87px;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const PexelsMariaOrlovaContainer = styled.div`
+  margin-top: 7px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 1609px;
+  gap: 341px;
+`;
+
+const PexelsMariaOrlova49464421 = styled.img`
+  width: 634px;
+  height: 378px;
+  object-fit: cover;
+  cursor: pointer;
+`;
+
+const Men = styled.div`
+  min-height: 38px;
+  margin-left: 10px;
+  margin-top: 16px;
+  font-family: var(--font-family-lao_muang_khong-regular);
+  font-weight: 400;
+  color: var(--tobacco-brown);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+`;
 
 export default Menu;

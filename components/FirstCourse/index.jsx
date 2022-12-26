@@ -1,71 +1,129 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import DishesList from "../DishesList";
+import styled from "styled-components";
+import {
+  KuraleNormalTobaccoBrown63px,
+  LaomuangkhongRegularNormalTobaccoBr,
+  BellefairNormalWhite72px,
+  ValignTextMiddle,
+} from "../../styledMixins";
 import "./FirstCourse.css";
 
-function FirstCourse(props) {
-  const {
-    ilBaglioreNavbar,
-    tableReservation,
-    place1,
-    dishes,
-    drinks,
-    place2,
-    menu,
-    firstCourse,
-    ellipse1,
-    ilBagliore,
-    restaurant,
-    aboutUs,
-    dishesListProps,
-  } = props;
+class FirstCourse extends React.Component {
+  render() {
+    const { firstCourse, ellipse1, ilBagliore, restaurant, gobackbutton, dishesListProps } = this.props;
 
-  return (
-    <div className="container-center-horizontal">
-      <div className="first-course-5 screen">
-        <div className="topbar-3"></div>
-        <div className="il-bagliore-navbar-8 inter-semi-bold-white-36px">{ilBaglioreNavbar}</div>
-        <Link to="/table-reservation">
-          <div className="table-reservation-6 inter-normal-white-27px">{tableReservation}</div>
-        </Link>
-        <div className="place-12 inter-normal-white-27px">{place1}</div>
-        <Link to="/dishes">
-          <div className="dishes-9 inter-normal-tobacco-brown-27px">{dishes}</div>
-        </Link>
-        <Link to="/drinks">
-          <div className="drinks-7 inter-normal-white-27px">{drinks}</div>
-        </Link>
-        <Link to="/landing-page">
-          <div className="place-13 inter-normal-white-27px">{place2}</div>
-        </Link>
-        <Link to="/dishes">
-          <div className="menu-5 inter-normal-white-27px">{menu}</div>
-        </Link>
-        <div className="overlap-group2-9">
-          <div className="first-course-6 valign-text-middle kurale-normal-tobacco-brown-63px">{firstCourse}</div>
-          <div className="overlap-group-9">
-            <img className="ellipse-1-9" src={ellipse1} alt="Ellipse 1" />
-            <div className="il-bagliore-8 bellefair-normal-white-72px">{ilBagliore}</div>
-            <div className="restaurant-9 laomuangkhong-regular-normal-tobacco-brown-51px">{restaurant}</div>
-          </div>
-        </div>
+    return (
+      <div className="first-course screen">
         <DishesList
           img5={dishesListProps.img5}
+          className={dishesListProps.className}
           dish11Props={dishesListProps.dish11Props}
           dish12Props={dishesListProps.dish12Props}
           dish31Props={dishesListProps.dish31Props}
           dish32Props={dishesListProps.dish32Props}
         />
-        <div className="footer-contact-about-us-9">
-          <div className="overlap-group1-9">
-            <Link to="/about-us">
-              <div className="about-us-10 inter-bold-white-24px">{aboutUs}</div>
-            </Link>
-          </div>
-        </div>
+        <BlackRectangle></BlackRectangle>
+        <FirstCourse1>{firstCourse}</FirstCourse1>
+        <Link to="/home-page">
+          <Logo>
+            <OverlapGroup>
+              <Ellipse1 src={ellipse1} alt="Ellipse 1" />
+              <ILBAGLIORE>{ilBagliore}</ILBAGLIORE>
+              <Restaurant>{restaurant}</Restaurant>
+            </OverlapGroup>
+          </Logo>
+        </Link>
+        <Link to="/dishes">
+          <GoBackButton src={gobackbutton} alt="GoBackButton" />
+        </Link>
       </div>
-    </div>
-  );
+    );
+  }
 }
+
+const BlackRectangle = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+
+const FirstCourse1 = styled.div`
+  ${ValignTextMiddle}
+  ${KuraleNormalTobaccoBrown63px}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 168px);
+  width: 336px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const Logo = styled.div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+
+const OverlapGroup = styled.div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+
+const Ellipse1 = styled.img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+
+const ILBAGLIORE = styled.div`
+  ${BellefairNormalWhite72px}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const Restaurant = styled.div`
+  ${LaomuangkhongRegularNormalTobaccoBr}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const GoBackButton = styled.img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
 
 export default FirstCourse;

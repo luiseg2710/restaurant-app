@@ -1,70 +1,128 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import DishesList from "../DishesList";
+import styled from "styled-components";
+import {
+  KuraleNormalTobaccoBrown63px,
+  LaomuangkhongRegularNormalTobaccoBr,
+  BellefairNormalWhite72px,
+  ValignTextMiddle,
+} from "../../styledMixins";
 import "./Appetizers.css";
 
-function Appetizers(props) {
-  const {
-    ellipse1,
-    ilBagliore,
-    restaurant,
-    appetizers,
-    ilBaglioreNavbar,
-    place1,
-    drinks,
-    menu,
-    dishes,
-    tableReservation,
-    place2,
-    aboutUs,
-    dishesListProps,
-  } = props;
+class Appetizers extends React.Component {
+  render() {
+    const { appetizers, ellipse1, title, restaurant, gobackbutton, dishesListProps } = this.props;
 
-  return (
-    <div className="appetizers-2 screen">
-      <div className="logo">
-        <div className="overlap-group-11">
-          <img className="ellipse-1-11" src={ellipse1} alt="Ellipse 1" />
-          <div className="il-bagliore-10 bellefair-normal-white-72px">{ilBagliore}</div>
-          <div className="restaurant-11 laomuangkhong-regular-normal-tobacco-brown-51px">{restaurant}</div>
-        </div>
+    return (
+      <div className="appetizers screen">
+        <DishesList
+          img5={dishesListProps.img5}
+          dish11Props={dishesListProps.dish11Props}
+          dish12Props={dishesListProps.dish12Props}
+          dish31Props={dishesListProps.dish31Props}
+          dish32Props={dishesListProps.dish32Props}
+        />
+        <BlackRectangle></BlackRectangle>
+        <Appetizers1>{appetizers}</Appetizers1>
+        <Link to="/home-page">
+          <Logo>
+            <OverlapGroup>
+              <Ellipse1 src={ellipse1} alt="Ellipse 1" />
+              <Title>{title}</Title>
+              <Restaurant>{restaurant}</Restaurant>
+            </OverlapGroup>
+          </Logo>
+        </Link>
+        <Link to="/dishes">
+          <GoBackButton src={gobackbutton} alt="GoBackButton" />
+        </Link>
       </div>
-      <div className="appetizers-3 valign-text-middle kurale-normal-tobacco-brown-63px">{appetizers}</div>
-      <DishesList
-        img5={dishesListProps.img5}
-        className={dishesListProps.className}
-        dish11Props={dishesListProps.dish11Props}
-        dish12Props={dishesListProps.dish12Props}
-        dish31Props={dishesListProps.dish31Props}
-        dish32Props={dishesListProps.dish32Props}
-      />
-      <div className="topbar-5"></div>
-      <div className="il-bagliore-navbar-10 inter-semi-bold-white-36px">{ilBaglioreNavbar}</div>
-      <Link to="/landing-page">
-        <div className="place-16 inter-normal-white-27px">{place1}</div>
-      </Link>
-      <Link to="/drinks">
-        <div className="drinks-9 inter-normal-white-27px">{drinks}</div>
-      </Link>
-      <Link to="/menu">
-        <div className="menu-7 inter-normal-white-27px">{menu}</div>
-      </Link>
-      <Link to="/dishes">
-        <div className="dishes-11 inter-normal-tobacco-brown-27px">{dishes}</div>
-      </Link>
-      <Link to="/table-reservation">
-        <div className="table-reservation-8 inter-normal-white-27px">{tableReservation}</div>
-      </Link>
-      <div className="place-17 inter-normal-white-27px">{place2}</div>
-      <div className="footer-contact-about-us-11">
-        <div className="overlap-group1-11">
-          <Link to="/about-us">
-            <div className="about-us-12 inter-bold-white-24px">{aboutUs}</div>
-          </Link>
-        </div>
-      </div>
-    </div>
-  );
+    );
+  }
 }
+
+const BlackRectangle = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  z-index: 2;
+  background-color: var(--cod-gray);
+`;
+
+const Appetizers1 = styled.div`
+  ${ValignTextMiddle}
+  ${KuraleNormalTobaccoBrown63px}
+            position: fixed;
+  top: calc(50% - 57px);
+  left: calc(50% - 143px);
+  width: 286px;
+  height: 87px;
+  z-index: 3;
+  text-shadow: 0px 4px 4px #00000040;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const Logo = styled.div`
+  position: fixed;
+  top: calc(50% - 381px);
+  left: calc(50% - 397px);
+  height: 353px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-start;
+  min-width: 788px;
+  cursor: pointer;
+`;
+
+const OverlapGroup = styled.div`
+  width: 784px;
+  height: 353px;
+  position: relative;
+`;
+
+const Ellipse1 = styled.img`
+  position: absolute;
+  width: 353px;
+  height: 353px;
+  top: 0;
+  left: 221px;
+`;
+
+const Title = styled.h1`
+  ${BellefairNormalWhite72px}
+  position: absolute;
+  width: 784px;
+  top: 105px;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const Restaurant = styled.div`
+  ${LaomuangkhongRegularNormalTobaccoBr}
+  position: absolute;
+  width: 436px;
+  top: 161px;
+  left: 174px;
+  text-shadow: 0px 4px 4px #705d3e21;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+`;
+
+const GoBackButton = styled.img`
+  position: fixed;
+  width: 2.6%;
+  height: 4.63%;
+  top: 1.85%;
+  left: 1.04%;
+  z-index: 5;
+  cursor: pointer;
+`;
 
 export default Appetizers;
